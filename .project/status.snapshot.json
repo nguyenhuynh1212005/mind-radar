@@ -1,0 +1,2778 @@
+{
+  "schemaVersion": 1,
+  "scannedAt": "2026-05-22T14:59:13.573Z",
+  "tree": {
+    "name": ".",
+    "path": ".",
+    "type": "directory",
+    "children": [
+      {
+        "name": ".agents",
+        "path": ".agents",
+        "type": "directory",
+        "children": [
+          {
+            "name": "rules",
+            "path": ".agents/rules",
+            "type": "directory",
+            "children": [
+              {
+                "name": "design-guard.md",
+                "path": ".agents/rules/design-guard.md",
+                "type": "file",
+                "children": [],
+                "checkIds": [],
+                "missingCheckIds": [],
+                "existsInProjectMap": false,
+                "missingRequiredCheck": false,
+                "gitChanged": false,
+                "excluded": false
+              },
+              {
+                "name": "strict-architecture.md",
+                "path": ".agents/rules/strict-architecture.md",
+                "type": "file",
+                "children": [],
+                "checkIds": [],
+                "missingCheckIds": [],
+                "existsInProjectMap": false,
+                "missingRequiredCheck": false,
+                "gitChanged": false,
+                "excluded": false
+              }
+            ],
+            "checkIds": [],
+            "missingCheckIds": [],
+            "existsInProjectMap": false,
+            "missingRequiredCheck": false,
+            "gitChanged": false,
+            "excluded": false
+          },
+          {
+            "name": "skills",
+            "path": ".agents/skills",
+            "type": "directory",
+            "children": [
+              {
+                "name": "assessment-architecture-guard",
+                "path": ".agents/skills/assessment-architecture-guard",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "SKILL.md",
+                    "path": ".agents/skills/assessment-architecture-guard/SKILL.md",
+                    "type": "file",
+                    "children": [],
+                    "checkIds": [
+                      "p0-skill-architecture"
+                    ],
+                    "missingCheckIds": [],
+                    "existsInProjectMap": true,
+                    "missingRequiredCheck": false,
+                    "gitChanged": false,
+                    "excluded": false
+                  }
+                ],
+                "checkIds": [],
+                "missingCheckIds": [],
+                "existsInProjectMap": false,
+                "missingRequiredCheck": false,
+                "gitChanged": false,
+                "excluded": false
+              },
+              {
+                "name": "assessment-module-builder",
+                "path": ".agents/skills/assessment-module-builder",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "SKILL.md",
+                    "path": ".agents/skills/assessment-module-builder/SKILL.md",
+                    "type": "file",
+                    "children": [],
+                    "checkIds": [
+                      "p0-skill-module-builder"
+                    ],
+                    "missingCheckIds": [],
+                    "existsInProjectMap": true,
+                    "missingRequiredCheck": false,
+                    "gitChanged": false,
+                    "excluded": false
+                  }
+                ],
+                "checkIds": [],
+                "missingCheckIds": [],
+                "existsInProjectMap": false,
+                "missingRequiredCheck": false,
+                "gitChanged": false,
+                "excluded": false
+              },
+              {
+                "name": "project-control-center-builder",
+                "path": ".agents/skills/project-control-center-builder",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "SKILL.md",
+                    "path": ".agents/skills/project-control-center-builder/SKILL.md",
+                    "type": "file",
+                    "children": [],
+                    "checkIds": [
+                      "p05-skill"
+                    ],
+                    "missingCheckIds": [],
+                    "existsInProjectMap": true,
+                    "missingRequiredCheck": false,
+                    "gitChanged": false,
+                    "excluded": false
+                  }
+                ],
+                "checkIds": [],
+                "missingCheckIds": [],
+                "existsInProjectMap": false,
+                "missingRequiredCheck": false,
+                "gitChanged": false,
+                "excluded": false
+              },
+              {
+                "name": "scoring-adapter-builder",
+                "path": ".agents/skills/scoring-adapter-builder",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "SKILL.md",
+                    "path": ".agents/skills/scoring-adapter-builder/SKILL.md",
+                    "type": "file",
+                    "children": [],
+                    "checkIds": [
+                      "p0-skill-scoring-adapter"
+                    ],
+                    "missingCheckIds": [],
+                    "existsInProjectMap": true,
+                    "missingRequiredCheck": false,
+                    "gitChanged": false,
+                    "excluded": false
+                  }
+                ],
+                "checkIds": [],
+                "missingCheckIds": [],
+                "existsInProjectMap": false,
+                "missingRequiredCheck": false,
+                "gitChanged": false,
+                "excluded": false
+              }
+            ],
+            "checkIds": [],
+            "missingCheckIds": [],
+            "existsInProjectMap": false,
+            "missingRequiredCheck": false,
+            "gitChanged": false,
+            "excluded": false
+          },
+          {
+            "name": "workflows",
+            "path": ".agents/workflows",
+            "type": "directory",
+            "children": [
+              {
+                "name": "scaffold-module.md",
+                "path": ".agents/workflows/scaffold-module.md",
+                "type": "file",
+                "children": [],
+                "checkIds": [],
+                "missingCheckIds": [],
+                "existsInProjectMap": false,
+                "missingRequiredCheck": false,
+                "gitChanged": false,
+                "excluded": false
+              }
+            ],
+            "checkIds": [],
+            "missingCheckIds": [],
+            "existsInProjectMap": false,
+            "missingRequiredCheck": false,
+            "gitChanged": false,
+            "excluded": false
+          },
+          {
+            "name": "hooks.json",
+            "path": ".agents/hooks.json",
+            "type": "file",
+            "children": [],
+            "checkIds": [],
+            "missingCheckIds": [],
+            "existsInProjectMap": false,
+            "missingRequiredCheck": false,
+            "gitChanged": false,
+            "excluded": false
+          }
+        ],
+        "checkIds": [],
+        "missingCheckIds": [],
+        "existsInProjectMap": false,
+        "missingRequiredCheck": false,
+        "gitChanged": false,
+        "excluded": false
+      },
+      {
+        "name": ".ai",
+        "path": ".ai",
+        "type": "directory",
+        "children": [
+          {
+            "name": "code-index.json",
+            "path": ".ai/code-index.json",
+            "type": "file",
+            "children": [],
+            "checkIds": [],
+            "missingCheckIds": [],
+            "existsInProjectMap": false,
+            "missingRequiredCheck": false,
+            "gitChanged": false,
+            "excluded": false
+          },
+          {
+            "name": "context-bundle.md",
+            "path": ".ai/context-bundle.md",
+            "type": "file",
+            "children": [],
+            "checkIds": [],
+            "missingCheckIds": [],
+            "existsInProjectMap": false,
+            "missingRequiredCheck": false,
+            "gitChanged": false,
+            "excluded": false
+          },
+          {
+            "name": "handoff.md",
+            "path": ".ai/handoff.md",
+            "type": "file",
+            "children": [],
+            "checkIds": [],
+            "missingCheckIds": [],
+            "existsInProjectMap": false,
+            "missingRequiredCheck": false,
+            "gitChanged": false,
+            "excluded": false
+          }
+        ],
+        "checkIds": [
+          "p05-ai-root"
+        ],
+        "missingCheckIds": [],
+        "existsInProjectMap": true,
+        "missingRequiredCheck": false,
+        "gitChanged": true,
+        "excluded": false
+      },
+      {
+        "name": ".codex",
+        "path": ".codex",
+        "type": "directory",
+        "children": [
+          {
+            "name": "rules",
+            "path": ".codex/rules",
+            "type": "directory",
+            "children": [
+              {
+                "name": "dependency.rules",
+                "path": ".codex/rules/dependency.rules",
+                "type": "file",
+                "children": [],
+                "checkIds": [],
+                "missingCheckIds": [],
+                "existsInProjectMap": false,
+                "missingRequiredCheck": false,
+                "gitChanged": false,
+                "excluded": false
+              }
+            ],
+            "checkIds": [],
+            "missingCheckIds": [],
+            "existsInProjectMap": false,
+            "missingRequiredCheck": false,
+            "gitChanged": false,
+            "excluded": false
+          },
+          {
+            "name": "config.toml",
+            "path": ".codex/config.toml",
+            "type": "file",
+            "children": [],
+            "checkIds": [
+              "p0-codex-config"
+            ],
+            "missingCheckIds": [],
+            "existsInProjectMap": true,
+            "missingRequiredCheck": false,
+            "gitChanged": false,
+            "excluded": false
+          },
+          {
+            "name": "hooks.json",
+            "path": ".codex/hooks.json",
+            "type": "file",
+            "children": [],
+            "checkIds": [],
+            "missingCheckIds": [],
+            "existsInProjectMap": false,
+            "missingRequiredCheck": false,
+            "gitChanged": false,
+            "excluded": false
+          }
+        ],
+        "checkIds": [],
+        "missingCheckIds": [],
+        "existsInProjectMap": false,
+        "missingRequiredCheck": false,
+        "gitChanged": false,
+        "excluded": false
+      },
+      {
+        "name": ".git",
+        "path": ".git",
+        "type": "directory",
+        "children": [],
+        "checkIds": [],
+        "missingCheckIds": [],
+        "existsInProjectMap": false,
+        "missingRequiredCheck": false,
+        "gitChanged": false,
+        "excluded": true
+      },
+      {
+        "name": ".project",
+        "path": ".project",
+        "type": "directory",
+        "children": [
+          {
+            "name": "project-control-center",
+            "path": ".project/project-control-center",
+            "type": "directory",
+            "children": [
+              {
+                "name": "history.jsonl",
+                "path": ".project/project-control-center/history.jsonl",
+                "type": "file",
+                "children": [],
+                "checkIds": [],
+                "missingCheckIds": [],
+                "existsInProjectMap": false,
+                "missingRequiredCheck": false,
+                "gitChanged": false,
+                "excluded": false
+              },
+              {
+                "name": "snapshot.json",
+                "path": ".project/project-control-center/snapshot.json",
+                "type": "file",
+                "children": [],
+                "checkIds": [],
+                "missingCheckIds": [],
+                "existsInProjectMap": false,
+                "missingRequiredCheck": false,
+                "gitChanged": false,
+                "excluded": false
+              }
+            ],
+            "checkIds": [],
+            "missingCheckIds": [],
+            "existsInProjectMap": false,
+            "missingRequiredCheck": false,
+            "gitChanged": false,
+            "excluded": false
+          },
+          {
+            "name": "git-history.snapshot.json",
+            "path": ".project/git-history.snapshot.json",
+            "type": "file",
+            "children": [],
+            "checkIds": [],
+            "missingCheckIds": [],
+            "existsInProjectMap": false,
+            "missingRequiredCheck": false,
+            "gitChanged": false,
+            "excluded": false
+          },
+          {
+            "name": "scan-history.ndjson",
+            "path": ".project/scan-history.ndjson",
+            "type": "file",
+            "children": [],
+            "checkIds": [],
+            "missingCheckIds": [],
+            "existsInProjectMap": false,
+            "missingRequiredCheck": false,
+            "gitChanged": false,
+            "excluded": false
+          },
+          {
+            "name": "status.md",
+            "path": ".project/status.md",
+            "type": "file",
+            "children": [],
+            "checkIds": [],
+            "missingCheckIds": [],
+            "existsInProjectMap": false,
+            "missingRequiredCheck": false,
+            "gitChanged": false,
+            "excluded": false
+          },
+          {
+            "name": "status.snapshot.json",
+            "path": ".project/status.snapshot.json",
+            "type": "file",
+            "children": [],
+            "checkIds": [],
+            "missingCheckIds": [],
+            "existsInProjectMap": false,
+            "missingRequiredCheck": false,
+            "gitChanged": false,
+            "excluded": false
+          },
+          {
+            "name": "tool-errors.ndjson",
+            "path": ".project/tool-errors.ndjson",
+            "type": "file",
+            "children": [],
+            "checkIds": [],
+            "missingCheckIds": [],
+            "existsInProjectMap": false,
+            "missingRequiredCheck": false,
+            "gitChanged": false,
+            "excluded": false
+          }
+        ],
+        "checkIds": [
+          "p05-project-root"
+        ],
+        "missingCheckIds": [],
+        "existsInProjectMap": true,
+        "missingRequiredCheck": false,
+        "gitChanged": true,
+        "excluded": false
+      },
+      {
+        "name": "docs",
+        "path": "docs",
+        "type": "directory",
+        "children": [
+          {
+            "name": "ARCHITECTURE.md",
+            "path": "docs/ARCHITECTURE.md",
+            "type": "file",
+            "children": [],
+            "checkIds": [
+              "p0-docs-architecture"
+            ],
+            "missingCheckIds": [],
+            "existsInProjectMap": true,
+            "missingRequiredCheck": false,
+            "gitChanged": false,
+            "excluded": false
+          },
+          {
+            "name": "CHATBOT_HANDOFF.md",
+            "path": "docs/CHATBOT_HANDOFF.md",
+            "type": "file",
+            "children": [],
+            "checkIds": [
+              "p7-chatbot-handoff"
+            ],
+            "missingCheckIds": [],
+            "existsInProjectMap": true,
+            "missingRequiredCheck": false,
+            "gitChanged": true,
+            "excluded": false
+          },
+          {
+            "name": "CODEX_TASKS.md",
+            "path": "docs/CODEX_TASKS.md",
+            "type": "file",
+            "children": [],
+            "checkIds": [
+              "p0-docs-codex-tasks"
+            ],
+            "missingCheckIds": [
+              "p0-docs-codex-tasks"
+            ],
+            "existsInProjectMap": true,
+            "missingRequiredCheck": true,
+            "gitChanged": false,
+            "excluded": false
+          },
+          {
+            "name": "dataSchema.md",
+            "path": "docs/dataSchema.md",
+            "type": "file",
+            "children": [],
+            "checkIds": [
+              "p0-docs-data-schema"
+            ],
+            "missingCheckIds": [],
+            "existsInProjectMap": true,
+            "missingRequiredCheck": false,
+            "gitChanged": false,
+            "excluded": false
+          },
+          {
+            "name": "eventTrackingSpec.md",
+            "path": "docs/eventTrackingSpec.md",
+            "type": "file",
+            "children": [],
+            "checkIds": [
+              "p0-docs-event-tracking"
+            ],
+            "missingCheckIds": [],
+            "existsInProjectMap": true,
+            "missingRequiredCheck": false,
+            "gitChanged": false,
+            "excluded": false
+          },
+          {
+            "name": "itemBankGuidelines.md",
+            "path": "docs/itemBankGuidelines.md",
+            "type": "file",
+            "children": [],
+            "checkIds": [
+              "p0-docs-item-bank-guidelines"
+            ],
+            "missingCheckIds": [],
+            "existsInProjectMap": true,
+            "missingRequiredCheck": false,
+            "gitChanged": false,
+            "excluded": false
+          },
+          {
+            "name": "moduleContracts.md",
+            "path": "docs/moduleContracts.md",
+            "type": "file",
+            "children": [],
+            "checkIds": [
+              "p0-docs-module-contracts"
+            ],
+            "missingCheckIds": [],
+            "existsInProjectMap": true,
+            "missingRequiredCheck": false,
+            "gitChanged": false,
+            "excluded": false
+          },
+          {
+            "name": "mvpScope.md",
+            "path": "docs/mvpScope.md",
+            "type": "file",
+            "children": [],
+            "checkIds": [
+              "p0-docs-mvp-scope"
+            ],
+            "missingCheckIds": [],
+            "existsInProjectMap": true,
+            "missingRequiredCheck": false,
+            "gitChanged": false,
+            "excluded": false
+          },
+          {
+            "name": "projectStatus.md",
+            "path": "docs/projectStatus.md",
+            "type": "file",
+            "children": [],
+            "checkIds": [
+              "p7-project-status"
+            ],
+            "missingCheckIds": [],
+            "existsInProjectMap": true,
+            "missingRequiredCheck": false,
+            "gitChanged": true,
+            "excluded": false
+          },
+          {
+            "name": "TDD.md",
+            "path": "docs/TDD.md",
+            "type": "file",
+            "children": [],
+            "checkIds": [
+              "p0-docs-tdd"
+            ],
+            "missingCheckIds": [],
+            "existsInProjectMap": true,
+            "missingRequiredCheck": false,
+            "gitChanged": false,
+            "excluded": false
+          },
+          {
+            "name": "testingStrategy.md",
+            "path": "docs/testingStrategy.md",
+            "type": "file",
+            "children": [],
+            "checkIds": [
+              "p0-docs-testing-strategy"
+            ],
+            "missingCheckIds": [],
+            "existsInProjectMap": true,
+            "missingRequiredCheck": false,
+            "gitChanged": false,
+            "excluded": false
+          },
+          {
+            "name": "ThuatToan.md",
+            "path": "docs/ThuatToan.md",
+            "type": "file",
+            "children": [],
+            "checkIds": [
+              "p0-docs-thuat-toan"
+            ],
+            "missingCheckIds": [],
+            "existsInProjectMap": true,
+            "missingRequiredCheck": false,
+            "gitChanged": false,
+            "excluded": false
+          }
+        ],
+        "checkIds": [],
+        "missingCheckIds": [],
+        "existsInProjectMap": false,
+        "missingRequiredCheck": false,
+        "gitChanged": true,
+        "excluded": false
+      },
+      {
+        "name": "src",
+        "path": "src",
+        "type": "directory",
+        "children": [
+          {
+            "name": "core",
+            "path": "src/core",
+            "type": "directory",
+            "children": [
+              {
+                "name": "contracts",
+                "path": "src/core/contracts",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "assessment.ts",
+                    "path": "src/core/contracts/assessment.ts",
+                    "type": "file",
+                    "children": [],
+                    "checkIds": [
+                      "p2-assessment-contract"
+                    ],
+                    "missingCheckIds": [
+                      "p2-assessment-contract"
+                    ],
+                    "existsInProjectMap": true,
+                    "missingRequiredCheck": true,
+                    "gitChanged": false,
+                    "excluded": false
+                  },
+                  {
+                    "name": "events.ts",
+                    "path": "src/core/contracts/events.ts",
+                    "type": "file",
+                    "children": [],
+                    "checkIds": [
+                      "p2-events-contract"
+                    ],
+                    "missingCheckIds": [
+                      "p2-events-contract"
+                    ],
+                    "existsInProjectMap": true,
+                    "missingRequiredCheck": true,
+                    "gitChanged": false,
+                    "excluded": false
+                  },
+                  {
+                    "name": "report.ts",
+                    "path": "src/core/contracts/report.ts",
+                    "type": "file",
+                    "children": [],
+                    "checkIds": [
+                      "p2-report-contract"
+                    ],
+                    "missingCheckIds": [
+                      "p2-report-contract"
+                    ],
+                    "existsInProjectMap": true,
+                    "missingRequiredCheck": true,
+                    "gitChanged": false,
+                    "excluded": false
+                  },
+                  {
+                    "name": "scoring.ts",
+                    "path": "src/core/contracts/scoring.ts",
+                    "type": "file",
+                    "children": [],
+                    "checkIds": [
+                      "p2-scoring-contract"
+                    ],
+                    "missingCheckIds": [
+                      "p2-scoring-contract"
+                    ],
+                    "existsInProjectMap": true,
+                    "missingRequiredCheck": true,
+                    "gitChanged": false,
+                    "excluded": false
+                  }
+                ],
+                "checkIds": [
+                  "p2-contracts-root"
+                ],
+                "missingCheckIds": [
+                  "p2-contracts-root"
+                ],
+                "existsInProjectMap": true,
+                "missingRequiredCheck": true,
+                "gitChanged": false,
+                "excluded": false
+              },
+              {
+                "name": "orchestrator",
+                "path": "src/core/orchestrator",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "moduleRegistry.ts",
+                    "path": "src/core/orchestrator/moduleRegistry.ts",
+                    "type": "file",
+                    "children": [],
+                    "checkIds": [
+                      "p4-module-registry"
+                    ],
+                    "missingCheckIds": [
+                      "p4-module-registry"
+                    ],
+                    "existsInProjectMap": true,
+                    "missingRequiredCheck": true,
+                    "gitChanged": false,
+                    "excluded": false
+                  },
+                  {
+                    "name": "stateMachine.ts",
+                    "path": "src/core/orchestrator/stateMachine.ts",
+                    "type": "file",
+                    "children": [],
+                    "checkIds": [
+                      "p4-state-machine"
+                    ],
+                    "missingCheckIds": [
+                      "p4-state-machine"
+                    ],
+                    "existsInProjectMap": true,
+                    "missingRequiredCheck": true,
+                    "gitChanged": false,
+                    "excluded": false
+                  },
+                  {
+                    "name": "TestOrchestrator.ts",
+                    "path": "src/core/orchestrator/TestOrchestrator.ts",
+                    "type": "file",
+                    "children": [],
+                    "checkIds": [
+                      "p4-test-orchestrator"
+                    ],
+                    "missingCheckIds": [
+                      "p4-test-orchestrator"
+                    ],
+                    "existsInProjectMap": true,
+                    "missingRequiredCheck": true,
+                    "gitChanged": false,
+                    "excluded": false
+                  }
+                ],
+                "checkIds": [
+                  "p4-orchestrator-root"
+                ],
+                "missingCheckIds": [
+                  "p4-orchestrator-root"
+                ],
+                "existsInProjectMap": true,
+                "missingRequiredCheck": true,
+                "gitChanged": false,
+                "excluded": false
+              },
+              {
+                "name": "scoring",
+                "path": "src/core/scoring",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "dataQuality.ts",
+                    "path": "src/core/scoring/dataQuality.ts",
+                    "type": "file",
+                    "children": [],
+                    "checkIds": [
+                      "p5-data-quality"
+                    ],
+                    "missingCheckIds": [
+                      "p5-data-quality"
+                    ],
+                    "existsInProjectMap": true,
+                    "missingRequiredCheck": true,
+                    "gitChanged": false,
+                    "excluded": false
+                  },
+                  {
+                    "name": "normalization.ts",
+                    "path": "src/core/scoring/normalization.ts",
+                    "type": "file",
+                    "children": [],
+                    "checkIds": [
+                      "p5-normalization"
+                    ],
+                    "missingCheckIds": [
+                      "p5-normalization"
+                    ],
+                    "existsInProjectMap": true,
+                    "missingRequiredCheck": true,
+                    "gitChanged": false,
+                    "excluded": false
+                  },
+                  {
+                    "name": "profileAggregator.ts",
+                    "path": "src/core/scoring/profileAggregator.ts",
+                    "type": "file",
+                    "children": [],
+                    "checkIds": [
+                      "p5-profile-aggregator"
+                    ],
+                    "missingCheckIds": [
+                      "p5-profile-aggregator"
+                    ],
+                    "existsInProjectMap": true,
+                    "missingRequiredCheck": true,
+                    "gitChanged": false,
+                    "excluded": false
+                  },
+                  {
+                    "name": "ScoringEngine.ts",
+                    "path": "src/core/scoring/ScoringEngine.ts",
+                    "type": "file",
+                    "children": [],
+                    "checkIds": [
+                      "p5-scoring-engine"
+                    ],
+                    "missingCheckIds": [
+                      "p5-scoring-engine"
+                    ],
+                    "existsInProjectMap": true,
+                    "missingRequiredCheck": true,
+                    "gitChanged": false,
+                    "excluded": false
+                  }
+                ],
+                "checkIds": [
+                  "p5-scoring-root"
+                ],
+                "missingCheckIds": [
+                  "p5-scoring-root"
+                ],
+                "existsInProjectMap": true,
+                "missingRequiredCheck": true,
+                "gitChanged": false,
+                "excluded": false
+              },
+              {
+                "name": "tracking",
+                "path": "src/core/tracking",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "EventTracker.ts",
+                    "path": "src/core/tracking/EventTracker.ts",
+                    "type": "file",
+                    "children": [],
+                    "checkIds": [
+                      "p3-event-tracker"
+                    ],
+                    "missingCheckIds": [
+                      "p3-event-tracker"
+                    ],
+                    "existsInProjectMap": true,
+                    "missingRequiredCheck": true,
+                    "gitChanged": false,
+                    "excluded": false
+                  },
+                  {
+                    "name": "eventValidation.ts",
+                    "path": "src/core/tracking/eventValidation.ts",
+                    "type": "file",
+                    "children": [],
+                    "checkIds": [
+                      "p3-event-validation"
+                    ],
+                    "missingCheckIds": [
+                      "p3-event-validation"
+                    ],
+                    "existsInProjectMap": true,
+                    "missingRequiredCheck": true,
+                    "gitChanged": false,
+                    "excluded": false
+                  },
+                  {
+                    "name": "focusTracking.ts",
+                    "path": "src/core/tracking/focusTracking.ts",
+                    "type": "file",
+                    "children": [],
+                    "checkIds": [
+                      "p3-focus-tracking"
+                    ],
+                    "missingCheckIds": [
+                      "p3-focus-tracking"
+                    ],
+                    "existsInProjectMap": true,
+                    "missingRequiredCheck": true,
+                    "gitChanged": false,
+                    "excluded": false
+                  }
+                ],
+                "checkIds": [
+                  "p3-tracking-root"
+                ],
+                "missingCheckIds": [
+                  "p3-tracking-root"
+                ],
+                "existsInProjectMap": true,
+                "missingRequiredCheck": true,
+                "gitChanged": false,
+                "excluded": false
+              }
+            ],
+            "checkIds": [],
+            "missingCheckIds": [],
+            "existsInProjectMap": false,
+            "missingRequiredCheck": false,
+            "gitChanged": false,
+            "excluded": false
+          },
+          {
+            "name": "export",
+            "path": "src/export",
+            "type": "directory",
+            "children": [
+              {
+                "name": "exportCsv.ts",
+                "path": "src/export/exportCsv.ts",
+                "type": "file",
+                "children": [],
+                "checkIds": [
+                  "p7-export-csv"
+                ],
+                "missingCheckIds": [
+                  "p7-export-csv"
+                ],
+                "existsInProjectMap": true,
+                "missingRequiredCheck": true,
+                "gitChanged": false,
+                "excluded": false
+              },
+              {
+                "name": "exportJson.ts",
+                "path": "src/export/exportJson.ts",
+                "type": "file",
+                "children": [],
+                "checkIds": [
+                  "p7-export-json"
+                ],
+                "missingCheckIds": [
+                  "p7-export-json"
+                ],
+                "existsInProjectMap": true,
+                "missingRequiredCheck": true,
+                "gitChanged": false,
+                "excluded": false
+              }
+            ],
+            "checkIds": [
+              "p7-export-root"
+            ],
+            "missingCheckIds": [
+              "p7-export-root"
+            ],
+            "existsInProjectMap": true,
+            "missingRequiredCheck": true,
+            "gitChanged": false,
+            "excluded": false
+          },
+          {
+            "name": "modules",
+            "path": "src/modules",
+            "type": "directory",
+            "children": [
+              {
+                "name": "m2-inhibitory-control",
+                "path": "src/modules/m2-inhibitory-control",
+                "type": "directory",
+                "children": [],
+                "checkIds": [
+                  "p6-m2-module"
+                ],
+                "missingCheckIds": [
+                  "p6-m2-module"
+                ],
+                "existsInProjectMap": true,
+                "missingRequiredCheck": true,
+                "gitChanged": false,
+                "excluded": false
+              },
+              {
+                "name": "m3-working-memory",
+                "path": "src/modules/m3-working-memory",
+                "type": "directory",
+                "children": [],
+                "checkIds": [
+                  "p6-m3-module"
+                ],
+                "missingCheckIds": [
+                  "p6-m3-module"
+                ],
+                "existsInProjectMap": true,
+                "missingRequiredCheck": true,
+                "gitChanged": false,
+                "excluded": false
+              },
+              {
+                "name": "m5-procedural-reasoning",
+                "path": "src/modules/m5-procedural-reasoning",
+                "type": "directory",
+                "children": [],
+                "checkIds": [
+                  "p6-m5-module"
+                ],
+                "missingCheckIds": [
+                  "p6-m5-module"
+                ],
+                "existsInProjectMap": true,
+                "missingRequiredCheck": true,
+                "gitChanged": false,
+                "excluded": false
+              },
+              {
+                "name": "m9-metacognition",
+                "path": "src/modules/m9-metacognition",
+                "type": "directory",
+                "children": [],
+                "checkIds": [
+                  "p6-m9-module"
+                ],
+                "missingCheckIds": [
+                  "p6-m9-module"
+                ],
+                "existsInProjectMap": true,
+                "missingRequiredCheck": true,
+                "gitChanged": false,
+                "excluded": false
+              }
+            ],
+            "checkIds": [],
+            "missingCheckIds": [],
+            "existsInProjectMap": false,
+            "missingRequiredCheck": false,
+            "gitChanged": false,
+            "excluded": false
+          },
+          {
+            "name": "report",
+            "path": "src/report",
+            "type": "directory",
+            "children": [
+              {
+                "name": "RadarProfile.ts",
+                "path": "src/report/RadarProfile.ts",
+                "type": "file",
+                "children": [],
+                "checkIds": [
+                  "p7-radar-profile"
+                ],
+                "missingCheckIds": [
+                  "p7-radar-profile"
+                ],
+                "existsInProjectMap": true,
+                "missingRequiredCheck": true,
+                "gitChanged": false,
+                "excluded": false
+              }
+            ],
+            "checkIds": [
+              "p7-report-root"
+            ],
+            "missingCheckIds": [
+              "p7-report-root"
+            ],
+            "existsInProjectMap": true,
+            "missingRequiredCheck": true,
+            "gitChanged": false,
+            "excluded": false
+          }
+        ],
+        "checkIds": [
+          "p1-src"
+        ],
+        "missingCheckIds": [
+          "p1-src"
+        ],
+        "existsInProjectMap": true,
+        "missingRequiredCheck": true,
+        "gitChanged": false,
+        "excluded": false
+      },
+      {
+        "name": "tests",
+        "path": "tests",
+        "type": "directory",
+        "children": [],
+        "checkIds": [
+          "p1-tests"
+        ],
+        "missingCheckIds": [
+          "p1-tests"
+        ],
+        "existsInProjectMap": true,
+        "missingRequiredCheck": true,
+        "gitChanged": false,
+        "excluded": false
+      },
+      {
+        "name": "tools",
+        "path": "tools",
+        "type": "directory",
+        "children": [
+          {
+            "name": "project-control-center",
+            "path": "tools/project-control-center",
+            "type": "directory",
+            "children": [
+              {
+                "name": "dist",
+                "path": "tools/project-control-center/dist",
+                "type": "directory",
+                "children": [],
+                "checkIds": [],
+                "missingCheckIds": [],
+                "existsInProjectMap": false,
+                "missingRequiredCheck": false,
+                "gitChanged": false,
+                "excluded": true
+              },
+              {
+                "name": "node_modules",
+                "path": "tools/project-control-center/node_modules",
+                "type": "directory",
+                "children": [],
+                "checkIds": [],
+                "missingCheckIds": [],
+                "existsInProjectMap": false,
+                "missingRequiredCheck": false,
+                "gitChanged": false,
+                "excluded": true
+              },
+              {
+                "name": "src",
+                "path": "tools/project-control-center/src",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "cli",
+                    "path": "tools/project-control-center/src/cli",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "scan.ts",
+                        "path": "tools/project-control-center/src/cli/scan.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      }
+                    ],
+                    "checkIds": [],
+                    "missingCheckIds": [],
+                    "existsInProjectMap": false,
+                    "missingRequiredCheck": false,
+                    "gitChanged": false,
+                    "excluded": false
+                  },
+                  {
+                    "name": "core",
+                    "path": "tools/project-control-center/src/core",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "constants.ts",
+                        "path": "tools/project-control-center/src/core/constants.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "contextExport.ts",
+                        "path": "tools/project-control-center/src/core/contextExport.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "errors.ts",
+                        "path": "tools/project-control-center/src/core/errors.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "fileScanner.ts",
+                        "path": "tools/project-control-center/src/core/fileScanner.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "gitStatus.ts",
+                        "path": "tools/project-control-center/src/core/gitStatus.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "historyLogger.ts",
+                        "path": "tools/project-control-center/src/core/historyLogger.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "progressCalculator.ts",
+                        "path": "tools/project-control-center/src/core/progressCalculator.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "projectMap.ts",
+                        "path": "tools/project-control-center/src/core/projectMap.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "repoScanner.ts",
+                        "path": "tools/project-control-center/src/core/repoScanner.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "repoTree.ts",
+                        "path": "tools/project-control-center/src/core/repoTree.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "safePaths.ts",
+                        "path": "tools/project-control-center/src/core/safePaths.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "safetyFilters.ts",
+                        "path": "tools/project-control-center/src/core/safetyFilters.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "snapshots.ts",
+                        "path": "tools/project-control-center/src/core/snapshots.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "types.ts",
+                        "path": "tools/project-control-center/src/core/types.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      }
+                    ],
+                    "checkIds": [],
+                    "missingCheckIds": [],
+                    "existsInProjectMap": false,
+                    "missingRequiredCheck": false,
+                    "gitChanged": false,
+                    "excluded": false
+                  },
+                  {
+                    "name": "server",
+                    "path": "tools/project-control-center/src/server",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "contextService.ts",
+                        "path": "tools/project-control-center/src/server/contextService.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "gitService.ts",
+                        "path": "tools/project-control-center/src/server/gitService.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "index.ts",
+                        "path": "tools/project-control-center/src/server/index.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "routes.ts",
+                        "path": "tools/project-control-center/src/server/routes.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "scanService.ts",
+                        "path": "tools/project-control-center/src/server/scanService.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "server.ts",
+                        "path": "tools/project-control-center/src/server/server.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      }
+                    ],
+                    "checkIds": [],
+                    "missingCheckIds": [],
+                    "existsInProjectMap": false,
+                    "missingRequiredCheck": false,
+                    "gitChanged": false,
+                    "excluded": false
+                  },
+                  {
+                    "name": "tests",
+                    "path": "tools/project-control-center/src/tests",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "contextExport.test.ts",
+                        "path": "tools/project-control-center/src/tests/contextExport.test.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "gitStatus.test.ts",
+                        "path": "tools/project-control-center/src/tests/gitStatus.test.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "projectMap.test.ts",
+                        "path": "tools/project-control-center/src/tests/projectMap.test.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "repoScanner.test.ts",
+                        "path": "tools/project-control-center/src/tests/repoScanner.test.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "safePaths.test.ts",
+                        "path": "tools/project-control-center/src/tests/safePaths.test.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "snapshots.test.ts",
+                        "path": "tools/project-control-center/src/tests/snapshots.test.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      }
+                    ],
+                    "checkIds": [],
+                    "missingCheckIds": [],
+                    "existsInProjectMap": false,
+                    "missingRequiredCheck": false,
+                    "gitChanged": false,
+                    "excluded": false
+                  },
+                  {
+                    "name": "types",
+                    "path": "tools/project-control-center/src/types",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "projectControlCenter.ts",
+                        "path": "tools/project-control-center/src/types/projectControlCenter.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      }
+                    ],
+                    "checkIds": [],
+                    "missingCheckIds": [],
+                    "existsInProjectMap": false,
+                    "missingRequiredCheck": false,
+                    "gitChanged": false,
+                    "excluded": false
+                  },
+                  {
+                    "name": "ui",
+                    "path": "tools/project-control-center/src/ui",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "AiContextExportPanel.ts",
+                        "path": "tools/project-control-center/src/ui/AiContextExportPanel.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "GitHistoryPanel.ts",
+                        "path": "tools/project-control-center/src/ui/GitHistoryPanel.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "i18n.ts",
+                        "path": "tools/project-control-center/src/ui/i18n.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "layout.ts",
+                        "path": "tools/project-control-center/src/ui/layout.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "LogsPanel.ts",
+                        "path": "tools/project-control-center/src/ui/LogsPanel.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "main.ts",
+                        "path": "tools/project-control-center/src/ui/main.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "RepoTreePanel.ts",
+                        "path": "tools/project-control-center/src/ui/RepoTreePanel.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "StatusPanel.ts",
+                        "path": "tools/project-control-center/src/ui/StatusPanel.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "styles.css",
+                        "path": "tools/project-control-center/src/ui/styles.css",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      }
+                    ],
+                    "checkIds": [],
+                    "missingCheckIds": [],
+                    "existsInProjectMap": false,
+                    "missingRequiredCheck": false,
+                    "gitChanged": false,
+                    "excluded": false
+                  },
+                  {
+                    "name": "writers",
+                    "path": "tools/project-control-center/src/writers",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "contextBundleWriter.ts",
+                        "path": "tools/project-control-center/src/writers/contextBundleWriter.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "handoffWriter.ts",
+                        "path": "tools/project-control-center/src/writers/handoffWriter.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "snapshotWriter.ts",
+                        "path": "tools/project-control-center/src/writers/snapshotWriter.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      },
+                      {
+                        "name": "statusWriter.ts",
+                        "path": "tools/project-control-center/src/writers/statusWriter.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": false,
+                        "excluded": false
+                      }
+                    ],
+                    "checkIds": [],
+                    "missingCheckIds": [],
+                    "existsInProjectMap": false,
+                    "missingRequiredCheck": false,
+                    "gitChanged": false,
+                    "excluded": false
+                  },
+                  {
+                    "name": "app.ts",
+                    "path": "tools/project-control-center/src/app.ts",
+                    "type": "file",
+                    "children": [],
+                    "checkIds": [],
+                    "missingCheckIds": [],
+                    "existsInProjectMap": false,
+                    "missingRequiredCheck": false,
+                    "gitChanged": false,
+                    "excluded": false
+                  },
+                  {
+                    "name": "main.ts",
+                    "path": "tools/project-control-center/src/main.ts",
+                    "type": "file",
+                    "children": [],
+                    "checkIds": [],
+                    "missingCheckIds": [],
+                    "existsInProjectMap": false,
+                    "missingRequiredCheck": false,
+                    "gitChanged": false,
+                    "excluded": false
+                  },
+                  {
+                    "name": "styles.css",
+                    "path": "tools/project-control-center/src/styles.css",
+                    "type": "file",
+                    "children": [],
+                    "checkIds": [],
+                    "missingCheckIds": [],
+                    "existsInProjectMap": false,
+                    "missingRequiredCheck": false,
+                    "gitChanged": false,
+                    "excluded": false
+                  }
+                ],
+                "checkIds": [],
+                "missingCheckIds": [],
+                "existsInProjectMap": false,
+                "missingRequiredCheck": false,
+                "gitChanged": true,
+                "excluded": false
+              },
+              {
+                "name": "AGENTS.md",
+                "path": "tools/project-control-center/AGENTS.md",
+                "type": "file",
+                "children": [],
+                "checkIds": [
+                  "p05-agents"
+                ],
+                "missingCheckIds": [],
+                "existsInProjectMap": true,
+                "missingRequiredCheck": false,
+                "gitChanged": false,
+                "excluded": false
+              },
+              {
+                "name": "CODEX_PROMPTS.md",
+                "path": "tools/project-control-center/CODEX_PROMPTS.md",
+                "type": "file",
+                "children": [],
+                "checkIds": [
+                  "p05-codex-prompts"
+                ],
+                "missingCheckIds": [],
+                "existsInProjectMap": true,
+                "missingRequiredCheck": false,
+                "gitChanged": false,
+                "excluded": false
+              },
+              {
+                "name": "controlCenterSpec.md",
+                "path": "tools/project-control-center/controlCenterSpec.md",
+                "type": "file",
+                "children": [],
+                "checkIds": [
+                  "p05-control-center-spec"
+                ],
+                "missingCheckIds": [],
+                "existsInProjectMap": true,
+                "missingRequiredCheck": false,
+                "gitChanged": false,
+                "excluded": false
+              },
+              {
+                "name": "eslint.config.js",
+                "path": "tools/project-control-center/eslint.config.js",
+                "type": "file",
+                "children": [],
+                "checkIds": [],
+                "missingCheckIds": [],
+                "existsInProjectMap": false,
+                "missingRequiredCheck": false,
+                "gitChanged": true,
+                "excluded": false
+              },
+              {
+                "name": "index.html",
+                "path": "tools/project-control-center/index.html",
+                "type": "file",
+                "children": [],
+                "checkIds": [],
+                "missingCheckIds": [],
+                "existsInProjectMap": false,
+                "missingRequiredCheck": false,
+                "gitChanged": true,
+                "excluded": false
+              },
+              {
+                "name": "package-lock.json",
+                "path": "tools/project-control-center/package-lock.json",
+                "type": "file",
+                "children": [],
+                "checkIds": [],
+                "missingCheckIds": [],
+                "existsInProjectMap": false,
+                "missingRequiredCheck": false,
+                "gitChanged": true,
+                "excluded": false
+              },
+              {
+                "name": "package.json",
+                "path": "tools/project-control-center/package.json",
+                "type": "file",
+                "children": [],
+                "checkIds": [],
+                "missingCheckIds": [],
+                "existsInProjectMap": false,
+                "missingRequiredCheck": false,
+                "gitChanged": true,
+                "excluded": false
+              },
+              {
+                "name": "project-map.json",
+                "path": "tools/project-control-center/project-map.json",
+                "type": "file",
+                "children": [],
+                "checkIds": [
+                  "p05-project-map-json"
+                ],
+                "missingCheckIds": [],
+                "existsInProjectMap": true,
+                "missingRequiredCheck": false,
+                "gitChanged": true,
+                "excluded": false
+              },
+              {
+                "name": "projectMap.md",
+                "path": "tools/project-control-center/projectMap.md",
+                "type": "file",
+                "children": [],
+                "checkIds": [
+                  "p05-project-map-md"
+                ],
+                "missingCheckIds": [],
+                "existsInProjectMap": true,
+                "missingRequiredCheck": false,
+                "gitChanged": false,
+                "excluded": false
+              },
+              {
+                "name": "README.md",
+                "path": "tools/project-control-center/README.md",
+                "type": "file",
+                "children": [],
+                "checkIds": [
+                  "p05-readme"
+                ],
+                "missingCheckIds": [],
+                "existsInProjectMap": true,
+                "missingRequiredCheck": false,
+                "gitChanged": true,
+                "excluded": false
+              },
+              {
+                "name": "tsconfig.json",
+                "path": "tools/project-control-center/tsconfig.json",
+                "type": "file",
+                "children": [],
+                "checkIds": [],
+                "missingCheckIds": [],
+                "existsInProjectMap": false,
+                "missingRequiredCheck": false,
+                "gitChanged": true,
+                "excluded": false
+              },
+              {
+                "name": "tsconfig.node.json",
+                "path": "tools/project-control-center/tsconfig.node.json",
+                "type": "file",
+                "children": [],
+                "checkIds": [],
+                "missingCheckIds": [],
+                "existsInProjectMap": false,
+                "missingRequiredCheck": false,
+                "gitChanged": true,
+                "excluded": false
+              },
+              {
+                "name": "vite.config.ts",
+                "path": "tools/project-control-center/vite.config.ts",
+                "type": "file",
+                "children": [],
+                "checkIds": [],
+                "missingCheckIds": [],
+                "existsInProjectMap": false,
+                "missingRequiredCheck": false,
+                "gitChanged": true,
+                "excluded": false
+              }
+            ],
+            "checkIds": [
+              "p05-tool-root"
+            ],
+            "missingCheckIds": [],
+            "existsInProjectMap": true,
+            "missingRequiredCheck": false,
+            "gitChanged": true,
+            "excluded": false
+          }
+        ],
+        "checkIds": [],
+        "missingCheckIds": [],
+        "existsInProjectMap": false,
+        "missingRequiredCheck": false,
+        "gitChanged": true,
+        "excluded": false
+      },
+      {
+        "name": ".gitignore",
+        "path": ".gitignore",
+        "type": "file",
+        "children": [],
+        "checkIds": [],
+        "missingCheckIds": [],
+        "existsInProjectMap": false,
+        "missingRequiredCheck": false,
+        "gitChanged": true,
+        "excluded": false
+      },
+      {
+        "name": "$null",
+        "path": "$null",
+        "type": "file",
+        "children": [],
+        "checkIds": [],
+        "missingCheckIds": [],
+        "existsInProjectMap": false,
+        "missingRequiredCheck": false,
+        "gitChanged": true,
+        "excluded": false
+      },
+      {
+        "name": "AGENTS.md",
+        "path": "AGENTS.md",
+        "type": "file",
+        "children": [],
+        "checkIds": [
+          "p0-agents"
+        ],
+        "missingCheckIds": [],
+        "existsInProjectMap": true,
+        "missingRequiredCheck": false,
+        "gitChanged": false,
+        "excluded": false
+      },
+      {
+        "name": "DESIGN.md",
+        "path": "DESIGN.md",
+        "type": "file",
+        "children": [],
+        "checkIds": [],
+        "missingCheckIds": [],
+        "existsInProjectMap": false,
+        "missingRequiredCheck": false,
+        "gitChanged": false,
+        "excluded": false
+      },
+      {
+        "name": "GEMINI.md",
+        "path": "GEMINI.md",
+        "type": "file",
+        "children": [],
+        "checkIds": [],
+        "missingCheckIds": [],
+        "existsInProjectMap": false,
+        "missingRequiredCheck": false,
+        "gitChanged": false,
+        "excluded": false
+      },
+      {
+        "name": "package.json",
+        "path": "package.json",
+        "type": "file",
+        "children": [],
+        "checkIds": [
+          "p1-package-json"
+        ],
+        "missingCheckIds": [
+          "p1-package-json"
+        ],
+        "existsInProjectMap": true,
+        "missingRequiredCheck": true,
+        "gitChanged": false,
+        "excluded": false
+      },
+      {
+        "name": "README.md",
+        "path": "README.md",
+        "type": "file",
+        "children": [],
+        "checkIds": [],
+        "missingCheckIds": [],
+        "existsInProjectMap": false,
+        "missingRequiredCheck": false,
+        "gitChanged": false,
+        "excluded": false
+      },
+      {
+        "name": "tsconfig.json",
+        "path": "tsconfig.json",
+        "type": "file",
+        "children": [],
+        "checkIds": [
+          "p1-tsconfig"
+        ],
+        "missingCheckIds": [
+          "p1-tsconfig"
+        ],
+        "existsInProjectMap": true,
+        "missingRequiredCheck": true,
+        "gitChanged": false,
+        "excluded": false
+      }
+    ],
+    "checkIds": [],
+    "missingCheckIds": [],
+    "existsInProjectMap": false,
+    "missingRequiredCheck": false,
+    "gitChanged": true,
+    "excluded": false
+  },
+  "checks": [
+    {
+      "id": "p0-agents",
+      "labelVi": "Huong dan AGENTS goc",
+      "path": "AGENTS.md",
+      "type": "file",
+      "required": true,
+      "phaseId": "P0",
+      "exists": true,
+      "missingRequired": false,
+      "excluded": false
+    },
+    {
+      "id": "p0-docs-tdd",
+      "labelVi": "Tai lieu TDD",
+      "path": "docs/TDD.md",
+      "type": "file",
+      "required": true,
+      "phaseId": "P0",
+      "exists": true,
+      "missingRequired": false,
+      "excluded": false
+    },
+    {
+      "id": "p0-docs-thuat-toan",
+      "labelVi": "Tai lieu thuat toan",
+      "path": "docs/ThuatToan.md",
+      "type": "file",
+      "required": true,
+      "phaseId": "P0",
+      "exists": true,
+      "missingRequired": false,
+      "excluded": false
+    },
+    {
+      "id": "p0-docs-mvp-scope",
+      "labelVi": "Pham vi MVP",
+      "path": "docs/mvpScope.md",
+      "type": "file",
+      "required": true,
+      "phaseId": "P0",
+      "exists": true,
+      "missingRequired": false,
+      "excluded": false
+    },
+    {
+      "id": "p0-docs-architecture",
+      "labelVi": "Tai lieu kien truc",
+      "path": "docs/ARCHITECTURE.md",
+      "type": "file",
+      "required": true,
+      "phaseId": "P0",
+      "exists": true,
+      "missingRequired": false,
+      "excluded": false
+    },
+    {
+      "id": "p0-docs-module-contracts",
+      "labelVi": "Hop dong module",
+      "path": "docs/moduleContracts.md",
+      "type": "file",
+      "required": true,
+      "phaseId": "P0",
+      "exists": true,
+      "missingRequired": false,
+      "excluded": false
+    },
+    {
+      "id": "p0-docs-data-schema",
+      "labelVi": "Schema du lieu",
+      "path": "docs/dataSchema.md",
+      "type": "file",
+      "required": true,
+      "phaseId": "P0",
+      "exists": true,
+      "missingRequired": false,
+      "excluded": false
+    },
+    {
+      "id": "p0-docs-event-tracking",
+      "labelVi": "Dac ta event tracking",
+      "path": "docs/eventTrackingSpec.md",
+      "type": "file",
+      "required": true,
+      "phaseId": "P0",
+      "exists": true,
+      "missingRequired": false,
+      "excluded": false
+    },
+    {
+      "id": "p0-docs-testing-strategy",
+      "labelVi": "Chien luoc kiem thu",
+      "path": "docs/testingStrategy.md",
+      "type": "file",
+      "required": true,
+      "phaseId": "P0",
+      "exists": true,
+      "missingRequired": false,
+      "excluded": false
+    },
+    {
+      "id": "p0-docs-item-bank-guidelines",
+      "labelVi": "Huong dan item bank",
+      "path": "docs/itemBankGuidelines.md",
+      "type": "file",
+      "required": true,
+      "phaseId": "P0",
+      "exists": true,
+      "missingRequired": false,
+      "excluded": false
+    },
+    {
+      "id": "p0-docs-codex-tasks",
+      "labelVi": "Danh sach tac vu Codex",
+      "path": "docs/CODEX_TASKS.md",
+      "type": "file",
+      "required": true,
+      "phaseId": "P0",
+      "exists": false,
+      "missingRequired": true,
+      "excluded": false
+    },
+    {
+      "id": "p0-codex-config",
+      "labelVi": "Cau hinh Codex",
+      "path": ".codex/config.toml",
+      "type": "file",
+      "required": true,
+      "phaseId": "P0",
+      "exists": true,
+      "missingRequired": false,
+      "excluded": false
+    },
+    {
+      "id": "p0-skill-architecture",
+      "labelVi": "Skill guard kien truc danh gia",
+      "path": ".agents/skills/assessment-architecture-guard/SKILL.md",
+      "type": "file",
+      "required": true,
+      "phaseId": "P0",
+      "exists": true,
+      "missingRequired": false,
+      "excluded": false
+    },
+    {
+      "id": "p0-skill-module-builder",
+      "labelVi": "Skill build module danh gia",
+      "path": ".agents/skills/assessment-module-builder/SKILL.md",
+      "type": "file",
+      "required": true,
+      "phaseId": "P0",
+      "exists": true,
+      "missingRequired": false,
+      "excluded": false
+    },
+    {
+      "id": "p0-skill-scoring-adapter",
+      "labelVi": "Skill build scoring adapter",
+      "path": ".agents/skills/scoring-adapter-builder/SKILL.md",
+      "type": "file",
+      "required": true,
+      "phaseId": "P0",
+      "exists": true,
+      "missingRequired": false,
+      "excluded": false
+    },
+    {
+      "id": "p05-tool-root",
+      "labelVi": "Thu muc Project Control Center",
+      "path": "tools/project-control-center",
+      "type": "directory",
+      "required": true,
+      "phaseId": "P0.5",
+      "exists": true,
+      "missingRequired": false,
+      "excluded": false
+    },
+    {
+      "id": "p05-ai-root",
+      "labelVi": "Thu muc ngu canh AI",
+      "path": ".ai",
+      "type": "directory",
+      "required": true,
+      "phaseId": "P0.5",
+      "exists": true,
+      "missingRequired": false,
+      "excluded": false
+    },
+    {
+      "id": "p05-project-root",
+      "labelVi": "Thu muc snapshot du an",
+      "path": ".project",
+      "type": "directory",
+      "required": true,
+      "phaseId": "P0.5",
+      "exists": true,
+      "missingRequired": false,
+      "excluded": false
+    },
+    {
+      "id": "p05-agents",
+      "labelVi": "Huong dan cuc bo cua tool",
+      "path": "tools/project-control-center/AGENTS.md",
+      "type": "file",
+      "required": true,
+      "phaseId": "P0.5",
+      "exists": true,
+      "missingRequired": false,
+      "excluded": false
+    },
+    {
+      "id": "p05-readme",
+      "labelVi": "Huong dan su dung dashboard",
+      "path": "tools/project-control-center/README.md",
+      "type": "file",
+      "required": true,
+      "phaseId": "P0.5",
+      "exists": true,
+      "missingRequired": false,
+      "excluded": false
+    },
+    {
+      "id": "p05-control-center-spec",
+      "labelVi": "Dac ta Project Control Center",
+      "path": "tools/project-control-center/controlCenterSpec.md",
+      "type": "file",
+      "required": true,
+      "phaseId": "P0.5",
+      "exists": true,
+      "missingRequired": false,
+      "excluded": false
+    },
+    {
+      "id": "p05-project-map-md",
+      "labelVi": "Tai lieu mo hinh tien do",
+      "path": "tools/project-control-center/projectMap.md",
+      "type": "file",
+      "required": true,
+      "phaseId": "P0.5",
+      "exists": true,
+      "missingRequired": false,
+      "excluded": false
+    },
+    {
+      "id": "p05-project-map-json",
+      "labelVi": "Project map may doc duoc",
+      "path": "tools/project-control-center/project-map.json",
+      "type": "file",
+      "required": true,
+      "phaseId": "P0.5",
+      "exists": true,
+      "missingRequired": false,
+      "excluded": false
+    },
+    {
+      "id": "p05-codex-prompts",
+      "labelVi": "Mau prompt Codex",
+      "path": "tools/project-control-center/CODEX_PROMPTS.md",
+      "type": "file",
+      "required": true,
+      "phaseId": "P0.5",
+      "exists": true,
+      "missingRequired": false,
+      "excluded": false
+    },
+    {
+      "id": "p05-skill",
+      "labelVi": "Skill Project Control Center",
+      "path": ".agents/skills/project-control-center-builder/SKILL.md",
+      "type": "file",
+      "required": true,
+      "phaseId": "P0.5",
+      "exists": true,
+      "missingRequired": false,
+      "excluded": false
+    },
+    {
+      "id": "p1-package-json",
+      "labelVi": "Cau hinh package app",
+      "path": "package.json",
+      "type": "file",
+      "required": true,
+      "phaseId": "P1",
+      "exists": false,
+      "missingRequired": true,
+      "excluded": false
+    },
+    {
+      "id": "p1-tsconfig",
+      "labelVi": "Cau hinh TypeScript",
+      "path": "tsconfig.json",
+      "type": "file",
+      "required": true,
+      "phaseId": "P1",
+      "exists": false,
+      "missingRequired": true,
+      "excluded": false
+    },
+    {
+      "id": "p1-src",
+      "labelVi": "Thu muc nguon app",
+      "path": "src",
+      "type": "directory",
+      "required": true,
+      "phaseId": "P1",
+      "exists": false,
+      "missingRequired": true,
+      "excluded": false
+    },
+    {
+      "id": "p1-tests",
+      "labelVi": "Thu muc kiem thu",
+      "path": "tests",
+      "type": "directory",
+      "required": true,
+      "phaseId": "P1",
+      "exists": false,
+      "missingRequired": true,
+      "excluded": false
+    },
+    {
+      "id": "p2-contracts-root",
+      "labelVi": "Thu muc contracts cot loi",
+      "path": "src/core/contracts",
+      "type": "directory",
+      "required": true,
+      "phaseId": "P2",
+      "exists": false,
+      "missingRequired": true,
+      "excluded": false
+    },
+    {
+      "id": "p2-assessment-contract",
+      "labelVi": "Contract assessment",
+      "path": "src/core/contracts/assessment.ts",
+      "type": "file",
+      "required": true,
+      "phaseId": "P2",
+      "exists": false,
+      "missingRequired": true,
+      "excluded": false
+    },
+    {
+      "id": "p2-events-contract",
+      "labelVi": "Contract events",
+      "path": "src/core/contracts/events.ts",
+      "type": "file",
+      "required": true,
+      "phaseId": "P2",
+      "exists": false,
+      "missingRequired": true,
+      "excluded": false
+    },
+    {
+      "id": "p2-scoring-contract",
+      "labelVi": "Contract scoring",
+      "path": "src/core/contracts/scoring.ts",
+      "type": "file",
+      "required": true,
+      "phaseId": "P2",
+      "exists": false,
+      "missingRequired": true,
+      "excluded": false
+    },
+    {
+      "id": "p2-report-contract",
+      "labelVi": "Contract report",
+      "path": "src/core/contracts/report.ts",
+      "type": "file",
+      "required": true,
+      "phaseId": "P2",
+      "exists": false,
+      "missingRequired": true,
+      "excluded": false
+    },
+    {
+      "id": "p3-tracking-root",
+      "labelVi": "Thu muc tracking",
+      "path": "src/core/tracking",
+      "type": "directory",
+      "required": true,
+      "phaseId": "P3",
+      "exists": false,
+      "missingRequired": true,
+      "excluded": false
+    },
+    {
+      "id": "p3-event-tracker",
+      "labelVi": "Event Tracker",
+      "path": "src/core/tracking/EventTracker.ts",
+      "type": "file",
+      "required": true,
+      "phaseId": "P3",
+      "exists": false,
+      "missingRequired": true,
+      "excluded": false
+    },
+    {
+      "id": "p3-focus-tracking",
+      "labelVi": "Focus tracking",
+      "path": "src/core/tracking/focusTracking.ts",
+      "type": "file",
+      "required": true,
+      "phaseId": "P3",
+      "exists": false,
+      "missingRequired": true,
+      "excluded": false
+    },
+    {
+      "id": "p3-event-validation",
+      "labelVi": "Event validation",
+      "path": "src/core/tracking/eventValidation.ts",
+      "type": "file",
+      "required": true,
+      "phaseId": "P3",
+      "exists": false,
+      "missingRequired": true,
+      "excluded": false
+    },
+    {
+      "id": "p4-orchestrator-root",
+      "labelVi": "Thu muc orchestrator",
+      "path": "src/core/orchestrator",
+      "type": "directory",
+      "required": true,
+      "phaseId": "P4",
+      "exists": false,
+      "missingRequired": true,
+      "excluded": false
+    },
+    {
+      "id": "p4-test-orchestrator",
+      "labelVi": "Test Orchestrator",
+      "path": "src/core/orchestrator/TestOrchestrator.ts",
+      "type": "file",
+      "required": true,
+      "phaseId": "P4",
+      "exists": false,
+      "missingRequired": true,
+      "excluded": false
+    },
+    {
+      "id": "p4-module-registry",
+      "labelVi": "Module registry",
+      "path": "src/core/orchestrator/moduleRegistry.ts",
+      "type": "file",
+      "required": true,
+      "phaseId": "P4",
+      "exists": false,
+      "missingRequired": true,
+      "excluded": false
+    },
+    {
+      "id": "p4-state-machine",
+      "labelVi": "State machine",
+      "path": "src/core/orchestrator/stateMachine.ts",
+      "type": "file",
+      "required": true,
+      "phaseId": "P4",
+      "exists": false,
+      "missingRequired": true,
+      "excluded": false
+    },
+    {
+      "id": "p5-scoring-root",
+      "labelVi": "Thu muc scoring",
+      "path": "src/core/scoring",
+      "type": "directory",
+      "required": true,
+      "phaseId": "P5",
+      "exists": false,
+      "missingRequired": true,
+      "excluded": false
+    },
+    {
+      "id": "p5-scoring-engine",
+      "labelVi": "Scoring Engine",
+      "path": "src/core/scoring/ScoringEngine.ts",
+      "type": "file",
+      "required": true,
+      "phaseId": "P5",
+      "exists": false,
+      "missingRequired": true,
+      "excluded": false
+    },
+    {
+      "id": "p5-data-quality",
+      "labelVi": "Data quality checker",
+      "path": "src/core/scoring/dataQuality.ts",
+      "type": "file",
+      "required": true,
+      "phaseId": "P5",
+      "exists": false,
+      "missingRequired": true,
+      "excluded": false
+    },
+    {
+      "id": "p5-normalization",
+      "labelVi": "Normalization",
+      "path": "src/core/scoring/normalization.ts",
+      "type": "file",
+      "required": true,
+      "phaseId": "P5",
+      "exists": false,
+      "missingRequired": true,
+      "excluded": false
+    },
+    {
+      "id": "p5-profile-aggregator",
+      "labelVi": "Profile Aggregator",
+      "path": "src/core/scoring/profileAggregator.ts",
+      "type": "file",
+      "required": true,
+      "phaseId": "P5",
+      "exists": false,
+      "missingRequired": true,
+      "excluded": false
+    },
+    {
+      "id": "p6-m2-module",
+      "labelVi": "Module M2 inhibitory control",
+      "path": "src/modules/m2-inhibitory-control",
+      "type": "directory",
+      "required": true,
+      "phaseId": "P6",
+      "exists": false,
+      "missingRequired": true,
+      "excluded": false
+    },
+    {
+      "id": "p6-m3-module",
+      "labelVi": "Module M3 working memory",
+      "path": "src/modules/m3-working-memory",
+      "type": "directory",
+      "required": true,
+      "phaseId": "P6",
+      "exists": false,
+      "missingRequired": true,
+      "excluded": false
+    },
+    {
+      "id": "p6-m5-module",
+      "labelVi": "Module M5 procedural reasoning",
+      "path": "src/modules/m5-procedural-reasoning",
+      "type": "directory",
+      "required": true,
+      "phaseId": "P6",
+      "exists": false,
+      "missingRequired": true,
+      "excluded": false
+    },
+    {
+      "id": "p6-m9-module",
+      "labelVi": "Module M9 metacognition",
+      "path": "src/modules/m9-metacognition",
+      "type": "directory",
+      "required": true,
+      "phaseId": "P6",
+      "exists": false,
+      "missingRequired": true,
+      "excluded": false
+    },
+    {
+      "id": "p7-report-root",
+      "labelVi": "Thu muc report",
+      "path": "src/report",
+      "type": "directory",
+      "required": true,
+      "phaseId": "P7",
+      "exists": false,
+      "missingRequired": true,
+      "excluded": false
+    },
+    {
+      "id": "p7-export-root",
+      "labelVi": "Thu muc export",
+      "path": "src/export",
+      "type": "directory",
+      "required": true,
+      "phaseId": "P7",
+      "exists": false,
+      "missingRequired": true,
+      "excluded": false
+    },
+    {
+      "id": "p7-radar-profile",
+      "labelVi": "Radar profile report",
+      "path": "src/report/RadarProfile.ts",
+      "type": "file",
+      "required": true,
+      "phaseId": "P7",
+      "exists": false,
+      "missingRequired": true,
+      "excluded": false
+    },
+    {
+      "id": "p7-export-json",
+      "labelVi": "JSON export",
+      "path": "src/export/exportJson.ts",
+      "type": "file",
+      "required": true,
+      "phaseId": "P7",
+      "exists": false,
+      "missingRequired": true,
+      "excluded": false
+    },
+    {
+      "id": "p7-export-csv",
+      "labelVi": "CSV export",
+      "path": "src/export/exportCsv.ts",
+      "type": "file",
+      "required": true,
+      "phaseId": "P7",
+      "exists": false,
+      "missingRequired": true,
+      "excluded": false
+    },
+    {
+      "id": "p7-project-status",
+      "labelVi": "Trang thai du an",
+      "path": "docs/projectStatus.md",
+      "type": "file",
+      "required": true,
+      "phaseId": "P7",
+      "exists": true,
+      "missingRequired": false,
+      "excluded": false
+    },
+    {
+      "id": "p7-chatbot-handoff",
+      "labelVi": "Tai lieu handoff chatbot",
+      "path": "docs/CHATBOT_HANDOFF.md",
+      "type": "file",
+      "required": true,
+      "phaseId": "P7",
+      "exists": true,
+      "missingRequired": false,
+      "excluded": false
+    }
+  ],
+  "progress": {
+    "totalChecklistProgress": {
+      "completed": 26,
+      "total": 58,
+      "percent": 16
+    },
+    "mainAppMvpProgress": {
+      "completed": 16,
+      "total": 48,
+      "percent": 12
+    },
+    "projectControlCenterProgress": {
+      "completed": 10,
+      "total": 10,
+      "percent": 100
+    },
+    "codexReadiness": {
+      "completed": 5,
+      "total": 5,
+      "percent": 100
+    },
+    "productionReadiness": {
+      "completed": 1,
+      "total": 8,
+      "percent": 13
+    }
+  },
+  "summary": {
+    "schemaVersion": 1,
+    "scannedAt": "2026-05-22T14:59:13.573Z",
+    "fileCount": 95,
+    "directoryCount": 25,
+    "existingCheckCount": 26,
+    "missingCheckCount": 32,
+    "changedFileCount": 16
+  }
+}

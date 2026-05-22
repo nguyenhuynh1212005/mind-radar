@@ -1,0 +1,83 @@
+import path from "node:path";
+import { appendToolError, toToolErrorRecord } from "../core/errors";
+import { getGitSummary } from "../core/gitStatus";
+import { scanRepository } from "../core/repoScanner";
+import { appendScanHistory, writeStatusSnapshot } from "../core/snapshots";
+import type { RepoStatusSnapshot } from "../core/types";
+
+interface CliArgs {
+  readonly rootDir: string;
+  readonly write: boolean;
+}
+
+export async function runScan(args: readonly string[] = process.argv.slice(2)): Promise<RepoStatusSnapshot> {
+  const parsedArgs = parseArgs(args);
+
+  try {
+    const git = await getGitSummary(parsedArgs.rootDir);
+    const status = await scanRepository(parsedArgs.rootDir, git);
+
+    if (parsedArgs.write) {
+      const projectDir = path.join(parsedArgs.rootDir, ".project");
+      await writeStatusSnapshot(status, path.join(projectDir, "status.snapshot.json"), parsedArgs.rootDir);
+      await appendScanHistory(status.summary, path.join(projectDir, "scan-history.ndjson"), parsedArgs.rootDir);
+    }
+
+    return status;
+  } catch (error) {
+    await appendToolError(
+      toToolErrorRecord("cli-scan", error),
+      path.join(parsedArgs.rootDir, ".project", "tool-errors.ndjson"),
+      parsedArgs.rootDir
+    );
+    throw error;
+  }
+}
+
+function parseArgs(args: readonly string[]): CliArgs {
+  const rootFlagIndex = args.indexOf("--root");
+  const rootDir = rootFlagIndex >= 0 && args[rootFlagIndex + 1]
+    ? path.resolve(args[rootFlagIndex + 1])
+    : resolveDefaultRootDir();
+
+  return {
+    rootDir,
+    write: !args.includes("--dry-run")
+  };
+}
+
+function resolveDefaultRootDir(): string {
+  const cwd = process.cwd();
+  const cwdName = path.basename(cwd);
+  const parentName = path.basename(path.dirname(cwd));
+
+  if (cwdName === "project-control-center" && parentName === "tools") {
+    return path.resolve(cwd, "../..");
+  }
+
+  return cwd;
+}
+
+const currentFilePath = __filename;
+if (process.argv[1] && path.resolve(process.argv[1]) === currentFilePath) {
+  runScan()
+    .then((status) => {
+      console.log(JSON.stringify({
+        scannedAt: status.scannedAt,
+        files: status.summary.fileCount,
+        directories: status.summary.directoryCount,
+        existingChecks: status.summary.existingCheckCount,
+        missingChecks: status.summary.missingCheckCount,
+        totalChecklistProgress: status.progress.totalChecklistProgress.percent,
+        mainAppMvpProgress: status.progress.mainAppMvpProgress.percent,
+        projectControlCenterProgress: status.progress.projectControlCenterProgress.percent,
+        codexReadiness: status.progress.codexReadiness.percent,
+        productionReadiness: status.progress.productionReadiness.percent
+      }, null, 2));
+    })
+    .catch((error: unknown) => {
+      const message = error instanceof Error ? error.message : "Unknown scan failure.";
+      console.error(message);
+      process.exitCode = 1;
+    });
+}

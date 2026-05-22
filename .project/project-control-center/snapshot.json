@@ -1,0 +1,2431 @@
+{
+  "schemaVersion": "project-control-center.snapshot.v1",
+  "generatedAt": "2026-05-22T14:32:19.430Z",
+  "rootDir": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh",
+  "files": [
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\.ai\\code-index.json",
+      "relativePath": ".ai/code-index.json",
+      "name": "code-index.json",
+      "extension": ".json",
+      "kind": "generated",
+      "area": "unknown",
+      "sizeBytes": 63,
+      "modifiedAt": "2026-05-22T12:58:03.355Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\.ai\\context-bundle.md",
+      "relativePath": ".ai/context-bundle.md",
+      "name": "context-bundle.md",
+      "extension": ".md",
+      "kind": "generated",
+      "area": "documentation",
+      "sizeBytes": 842,
+      "modifiedAt": "2026-05-22T14:20:42.479Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\.ai\\handoff.md",
+      "relativePath": ".ai/handoff.md",
+      "name": "handoff.md",
+      "extension": ".md",
+      "kind": "generated",
+      "area": "documentation",
+      "sizeBytes": 1014,
+      "modifiedAt": "2026-05-22T14:20:42.479Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\.project\\git-history.snapshot.json",
+      "relativePath": ".project/git-history.snapshot.json",
+      "name": "git-history.snapshot.json",
+      "extension": ".json",
+      "kind": "generated",
+      "area": "unknown",
+      "sizeBytes": 162,
+      "modifiedAt": "2026-05-22T12:58:03.354Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\.project\\project-control-center\\history.jsonl",
+      "relativePath": ".project/project-control-center/history.jsonl",
+      "name": "history.jsonl",
+      "extension": ".jsonl",
+      "kind": "generated",
+      "area": "unknown",
+      "sizeBytes": 543,
+      "modifiedAt": "2026-05-22T14:20:42.480Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\.project\\project-control-center\\snapshot.json",
+      "relativePath": ".project/project-control-center/snapshot.json",
+      "name": "snapshot.json",
+      "extension": ".json",
+      "kind": "generated",
+      "area": "unknown",
+      "sizeBytes": 103804,
+      "modifiedAt": "2026-05-22T14:20:42.479Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\.project\\scan-history.ndjson",
+      "relativePath": ".project/scan-history.ndjson",
+      "name": "scan-history.ndjson",
+      "extension": ".ndjson",
+      "kind": "generated",
+      "area": "unknown",
+      "sizeBytes": 0,
+      "modifiedAt": "2026-05-22T12:59:49.288Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\.project\\status.md",
+      "relativePath": ".project/status.md",
+      "name": "status.md",
+      "extension": ".md",
+      "kind": "generated",
+      "area": "documentation",
+      "sizeBytes": 1178,
+      "modifiedAt": "2026-05-22T14:20:42.478Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\.project\\status.snapshot.json",
+      "relativePath": ".project/status.snapshot.json",
+      "name": "status.snapshot.json",
+      "extension": ".json",
+      "kind": "generated",
+      "area": "unknown",
+      "sizeBytes": 103804,
+      "modifiedAt": "2026-05-22T14:20:42.479Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\.project\\tool-errors.ndjson",
+      "relativePath": ".project/tool-errors.ndjson",
+      "name": "tool-errors.ndjson",
+      "extension": ".ndjson",
+      "kind": "generated",
+      "area": "unknown",
+      "sizeBytes": 0,
+      "modifiedAt": "2026-05-22T12:59:49.288Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\AGENTS.md",
+      "relativePath": "AGENTS.md",
+      "name": "AGENTS.md",
+      "extension": ".md",
+      "kind": "documentation",
+      "area": "documentation",
+      "sizeBytes": 2928,
+      "modifiedAt": "2026-05-22T10:26:13.630Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\DESIGN.md",
+      "relativePath": "DESIGN.md",
+      "name": "DESIGN.md",
+      "extension": ".md",
+      "kind": "documentation",
+      "area": "documentation",
+      "sizeBytes": 5047,
+      "modifiedAt": "2026-05-22T11:44:38.882Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\docs\\ARCHITECTURE.md",
+      "relativePath": "docs/ARCHITECTURE.md",
+      "name": "ARCHITECTURE.md",
+      "extension": ".md",
+      "kind": "documentation",
+      "area": "documentation",
+      "sizeBytes": 854,
+      "modifiedAt": "2026-05-22T04:48:38.829Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\docs\\CHATBOT_HANDOFF.md",
+      "relativePath": "docs/CHATBOT_HANDOFF.md",
+      "name": "CHATBOT_HANDOFF.md",
+      "extension": ".md",
+      "kind": "documentation",
+      "area": "documentation",
+      "sizeBytes": 832,
+      "modifiedAt": "2026-05-22T12:58:20.959Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\docs\\dataSchema.md",
+      "relativePath": "docs/dataSchema.md",
+      "name": "dataSchema.md",
+      "extension": ".md",
+      "kind": "documentation",
+      "area": "documentation",
+      "sizeBytes": 817,
+      "modifiedAt": "2026-05-22T03:33:03.444Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\docs\\eventTrackingSpec.md",
+      "relativePath": "docs/eventTrackingSpec.md",
+      "name": "eventTrackingSpec.md",
+      "extension": ".md",
+      "kind": "documentation",
+      "area": "documentation",
+      "sizeBytes": 737,
+      "modifiedAt": "2026-05-22T03:35:52.139Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\docs\\itemBankGuidelines.md",
+      "relativePath": "docs/itemBankGuidelines.md",
+      "name": "itemBankGuidelines.md",
+      "extension": ".md",
+      "kind": "documentation",
+      "area": "documentation",
+      "sizeBytes": 609,
+      "modifiedAt": "2026-05-22T03:54:38.971Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\docs\\moduleContracts.md",
+      "relativePath": "docs/moduleContracts.md",
+      "name": "moduleContracts.md",
+      "extension": ".md",
+      "kind": "documentation",
+      "area": "documentation",
+      "sizeBytes": 1019,
+      "modifiedAt": "2026-05-22T04:48:37.959Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\docs\\mvpScope.md",
+      "relativePath": "docs/mvpScope.md",
+      "name": "mvpScope.md",
+      "extension": ".md",
+      "kind": "documentation",
+      "area": "documentation",
+      "sizeBytes": 800,
+      "modifiedAt": "2026-05-22T03:29:21.288Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\docs\\projectStatus.md",
+      "relativePath": "docs/projectStatus.md",
+      "name": "projectStatus.md",
+      "extension": ".md",
+      "kind": "documentation",
+      "area": "documentation",
+      "sizeBytes": 3514,
+      "modifiedAt": "2026-05-22T12:58:20.958Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\docs\\TDD.md",
+      "relativePath": "docs/TDD.md",
+      "name": "TDD.md",
+      "extension": ".md",
+      "kind": "documentation",
+      "area": "documentation",
+      "sizeBytes": 13127,
+      "modifiedAt": "2026-05-22T01:45:34.616Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\docs\\testingStrategy.md",
+      "relativePath": "docs/testingStrategy.md",
+      "name": "testingStrategy.md",
+      "extension": ".md",
+      "kind": "documentation",
+      "area": "documentation",
+      "sizeBytes": 537,
+      "modifiedAt": "2026-05-22T04:00:44.428Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\docs\\ThuatToan.md",
+      "relativePath": "docs/ThuatToan.md",
+      "name": "ThuatToan.md",
+      "extension": ".md",
+      "kind": "documentation",
+      "area": "documentation",
+      "sizeBytes": 45977,
+      "modifiedAt": "2026-05-22T10:26:21.702Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\GEMINI.md",
+      "relativePath": "GEMINI.md",
+      "name": "GEMINI.md",
+      "extension": ".md",
+      "kind": "documentation",
+      "area": "documentation",
+      "sizeBytes": 1421,
+      "modifiedAt": "2026-05-22T11:53:56.192Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\README.md",
+      "relativePath": "README.md",
+      "name": "README.md",
+      "extension": ".md",
+      "kind": "documentation",
+      "area": "documentation",
+      "sizeBytes": 10781,
+      "modifiedAt": "2026-05-22T12:06:00.171Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\AGENTS.md",
+      "relativePath": "tools/project-control-center/AGENTS.md",
+      "name": "AGENTS.md",
+      "extension": ".md",
+      "kind": "documentation",
+      "area": "project-control-center",
+      "sizeBytes": 1848,
+      "modifiedAt": "2026-05-22T10:12:26.846Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\CODEX_PROMPTS.md",
+      "relativePath": "tools/project-control-center/CODEX_PROMPTS.md",
+      "name": "CODEX_PROMPTS.md",
+      "extension": ".md",
+      "kind": "documentation",
+      "area": "project-control-center",
+      "sizeBytes": 2364,
+      "modifiedAt": "2026-05-22T11:20:24.477Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\controlCenterSpec.md",
+      "relativePath": "tools/project-control-center/controlCenterSpec.md",
+      "name": "controlCenterSpec.md",
+      "extension": ".md",
+      "kind": "documentation",
+      "area": "project-control-center",
+      "sizeBytes": 9268,
+      "modifiedAt": "2026-05-22T10:28:39.330Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\eslint.config.js",
+      "relativePath": "tools/project-control-center/eslint.config.js",
+      "name": "eslint.config.js",
+      "extension": ".js",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 528,
+      "modifiedAt": "2026-05-22T12:58:33.869Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\index.html",
+      "relativePath": "tools/project-control-center/index.html",
+      "name": "index.html",
+      "extension": ".html",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 368,
+      "modifiedAt": "2026-05-22T13:06:48.976Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\package-lock.json",
+      "relativePath": "tools/project-control-center/package-lock.json",
+      "name": "package-lock.json",
+      "extension": ".json",
+      "kind": "config",
+      "area": "project-control-center",
+      "sizeBytes": 81822,
+      "modifiedAt": "2026-05-22T13:50:25.599Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\package.json",
+      "relativePath": "tools/project-control-center/package.json",
+      "name": "package.json",
+      "extension": ".json",
+      "kind": "config",
+      "area": "project-control-center",
+      "sizeBytes": 658,
+      "modifiedAt": "2026-05-22T13:42:56.278Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\project-map.json",
+      "relativePath": "tools/project-control-center/project-map.json",
+      "name": "project-map.json",
+      "extension": ".json",
+      "kind": "config",
+      "area": "project-control-center",
+      "sizeBytes": 15850,
+      "modifiedAt": "2026-05-22T14:30:10.256Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\projectMap.md",
+      "relativePath": "tools/project-control-center/projectMap.md",
+      "name": "projectMap.md",
+      "extension": ".md",
+      "kind": "documentation",
+      "area": "project-control-center",
+      "sizeBytes": 15638,
+      "modifiedAt": "2026-05-22T10:28:41.363Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\README.md",
+      "relativePath": "tools/project-control-center/README.md",
+      "name": "README.md",
+      "extension": ".md",
+      "kind": "documentation",
+      "area": "project-control-center",
+      "sizeBytes": 2526,
+      "modifiedAt": "2026-05-22T12:58:20.956Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\app.ts",
+      "relativePath": "tools/project-control-center/src/app.ts",
+      "name": "app.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 2045,
+      "modifiedAt": "2026-05-22T12:56:19.692Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\cli\\scan.ts",
+      "relativePath": "tools/project-control-center/src/cli/scan.ts",
+      "name": "scan.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 3707,
+      "modifiedAt": "2026-05-22T14:12:51.661Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\core\\constants.ts",
+      "relativePath": "tools/project-control-center/src/core/constants.ts",
+      "name": "constants.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 1010,
+      "modifiedAt": "2026-05-22T14:19:50.816Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\core\\contextExport.ts",
+      "relativePath": "tools/project-control-center/src/core/contextExport.ts",
+      "name": "contextExport.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 4166,
+      "modifiedAt": "2026-05-22T12:54:41.015Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\core\\errors.ts",
+      "relativePath": "tools/project-control-center/src/core/errors.ts",
+      "name": "errors.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 1179,
+      "modifiedAt": "2026-05-22T12:54:41.013Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\core\\fileScanner.ts",
+      "relativePath": "tools/project-control-center/src/core/fileScanner.ts",
+      "name": "fileScanner.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 3364,
+      "modifiedAt": "2026-05-22T13:06:48.980Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\core\\gitStatus.ts",
+      "relativePath": "tools/project-control-center/src/core/gitStatus.ts",
+      "name": "gitStatus.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 4545,
+      "modifiedAt": "2026-05-22T13:55:46.817Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\core\\historyLogger.ts",
+      "relativePath": "tools/project-control-center/src/core/historyLogger.ts",
+      "name": "historyLogger.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 1140,
+      "modifiedAt": "2026-05-22T13:06:48.982Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\core\\progressCalculator.ts",
+      "relativePath": "tools/project-control-center/src/core/progressCalculator.ts",
+      "name": "progressCalculator.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 4508,
+      "modifiedAt": "2026-05-22T14:28:09.779Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\core\\projectMap.ts",
+      "relativePath": "tools/project-control-center/src/core/projectMap.ts",
+      "name": "projectMap.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 2780,
+      "modifiedAt": "2026-05-22T14:28:33.175Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\core\\repoScanner.ts",
+      "relativePath": "tools/project-control-center/src/core/repoScanner.ts",
+      "name": "repoScanner.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 7079,
+      "modifiedAt": "2026-05-22T14:28:13.797Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\core\\repoTree.ts",
+      "relativePath": "tools/project-control-center/src/core/repoTree.ts",
+      "name": "repoTree.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 1717,
+      "modifiedAt": "2026-05-22T13:06:48.980Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\core\\safePaths.ts",
+      "relativePath": "tools/project-control-center/src/core/safePaths.ts",
+      "name": "safePaths.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 2771,
+      "modifiedAt": "2026-05-22T12:53:42.846Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\core\\safetyFilters.ts",
+      "relativePath": "tools/project-control-center/src/core/safetyFilters.ts",
+      "name": "safetyFilters.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 1606,
+      "modifiedAt": "2026-05-22T13:06:48.978Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\core\\snapshots.ts",
+      "relativePath": "tools/project-control-center/src/core/snapshots.ts",
+      "name": "snapshots.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 1266,
+      "modifiedAt": "2026-05-22T12:54:41.013Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\core\\types.ts",
+      "relativePath": "tools/project-control-center/src/core/types.ts",
+      "name": "types.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 2404,
+      "modifiedAt": "2026-05-22T14:28:04.390Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\main.ts",
+      "relativePath": "tools/project-control-center/src/main.ts",
+      "name": "main.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 212,
+      "modifiedAt": "2026-05-22T12:58:49.818Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\server\\contextService.ts",
+      "relativePath": "tools/project-control-center/src/server/contextService.ts",
+      "name": "contextService.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 546,
+      "modifiedAt": "2026-05-22T12:55:12.959Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\server\\gitService.ts",
+      "relativePath": "tools/project-control-center/src/server/gitService.ts",
+      "name": "gitService.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 578,
+      "modifiedAt": "2026-05-22T12:55:12.958Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\server\\index.ts",
+      "relativePath": "tools/project-control-center/src/server/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 622,
+      "modifiedAt": "2026-05-22T12:55:12.961Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\server\\routes.ts",
+      "relativePath": "tools/project-control-center/src/server/routes.ts",
+      "name": "routes.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 1210,
+      "modifiedAt": "2026-05-22T13:51:42.605Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\server\\scanService.ts",
+      "relativePath": "tools/project-control-center/src/server/scanService.ts",
+      "name": "scanService.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 854,
+      "modifiedAt": "2026-05-22T12:55:12.959Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\server\\server.ts",
+      "relativePath": "tools/project-control-center/src/server/server.ts",
+      "name": "server.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 2167,
+      "modifiedAt": "2026-05-22T13:47:25.583Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\styles.css",
+      "relativePath": "tools/project-control-center/src/styles.css",
+      "name": "styles.css",
+      "extension": ".css",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 2829,
+      "modifiedAt": "2026-05-22T12:56:55.068Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\tests\\contextExport.test.ts",
+      "relativePath": "tools/project-control-center/src/tests/contextExport.test.ts",
+      "name": "contextExport.test.ts",
+      "extension": ".ts",
+      "kind": "test",
+      "area": "project-control-center",
+      "sizeBytes": 1941,
+      "modifiedAt": "2026-05-22T14:10:50.885Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\tests\\gitStatus.test.ts",
+      "relativePath": "tools/project-control-center/src/tests/gitStatus.test.ts",
+      "name": "gitStatus.test.ts",
+      "extension": ".ts",
+      "kind": "test",
+      "area": "project-control-center",
+      "sizeBytes": 690,
+      "modifiedAt": "2026-05-22T12:57:45.948Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\tests\\projectMap.test.ts",
+      "relativePath": "tools/project-control-center/src/tests/projectMap.test.ts",
+      "name": "projectMap.test.ts",
+      "extension": ".ts",
+      "kind": "test",
+      "area": "project-control-center",
+      "sizeBytes": 2211,
+      "modifiedAt": "2026-05-22T14:30:21.126Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\tests\\repoScanner.test.ts",
+      "relativePath": "tools/project-control-center/src/tests/repoScanner.test.ts",
+      "name": "repoScanner.test.ts",
+      "extension": ".ts",
+      "kind": "test",
+      "area": "project-control-center",
+      "sizeBytes": 5736,
+      "modifiedAt": "2026-05-22T14:30:28.298Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\tests\\safePaths.test.ts",
+      "relativePath": "tools/project-control-center/src/tests/safePaths.test.ts",
+      "name": "safePaths.test.ts",
+      "extension": ".ts",
+      "kind": "test",
+      "area": "project-control-center",
+      "sizeBytes": 1137,
+      "modifiedAt": "2026-05-22T12:57:45.946Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\tests\\snapshots.test.ts",
+      "relativePath": "tools/project-control-center/src/tests/snapshots.test.ts",
+      "name": "snapshots.test.ts",
+      "extension": ".ts",
+      "kind": "test",
+      "area": "project-control-center",
+      "sizeBytes": 536,
+      "modifiedAt": "2026-05-22T12:57:45.950Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\types\\projectControlCenter.ts",
+      "relativePath": "tools/project-control-center/src/types/projectControlCenter.ts",
+      "name": "projectControlCenter.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 2822,
+      "modifiedAt": "2026-05-22T14:12:20.249Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\ui\\AiContextExportPanel.ts",
+      "relativePath": "tools/project-control-center/src/ui/AiContextExportPanel.ts",
+      "name": "AiContextExportPanel.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 1798,
+      "modifiedAt": "2026-05-22T12:56:19.691Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\ui\\GitHistoryPanel.ts",
+      "relativePath": "tools/project-control-center/src/ui/GitHistoryPanel.ts",
+      "name": "GitHistoryPanel.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 845,
+      "modifiedAt": "2026-05-22T12:56:19.687Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\ui\\i18n.ts",
+      "relativePath": "tools/project-control-center/src/ui/i18n.ts",
+      "name": "i18n.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 940,
+      "modifiedAt": "2026-05-22T13:51:50.826Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\ui\\layout.ts",
+      "relativePath": "tools/project-control-center/src/ui/layout.ts",
+      "name": "layout.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 1264,
+      "modifiedAt": "2026-05-22T12:56:19.687Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\ui\\LogsPanel.ts",
+      "relativePath": "tools/project-control-center/src/ui/LogsPanel.ts",
+      "name": "LogsPanel.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 335,
+      "modifiedAt": "2026-05-22T13:43:26.788Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\ui\\main.ts",
+      "relativePath": "tools/project-control-center/src/ui/main.ts",
+      "name": "main.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 3023,
+      "modifiedAt": "2026-05-22T13:43:54.286Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\ui\\RepoTreePanel.ts",
+      "relativePath": "tools/project-control-center/src/ui/RepoTreePanel.ts",
+      "name": "RepoTreePanel.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 1836,
+      "modifiedAt": "2026-05-22T12:58:49.817Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\ui\\StatusPanel.ts",
+      "relativePath": "tools/project-control-center/src/ui/StatusPanel.ts",
+      "name": "StatusPanel.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 682,
+      "modifiedAt": "2026-05-22T12:56:19.690Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\ui\\styles.css",
+      "relativePath": "tools/project-control-center/src/ui/styles.css",
+      "name": "styles.css",
+      "extension": ".css",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 1606,
+      "modifiedAt": "2026-05-22T13:06:48.990Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\writers\\contextBundleWriter.ts",
+      "relativePath": "tools/project-control-center/src/writers/contextBundleWriter.ts",
+      "name": "contextBundleWriter.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 1551,
+      "modifiedAt": "2026-05-22T13:06:48.986Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\writers\\handoffWriter.ts",
+      "relativePath": "tools/project-control-center/src/writers/handoffWriter.ts",
+      "name": "handoffWriter.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 1351,
+      "modifiedAt": "2026-05-22T13:06:48.985Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\writers\\snapshotWriter.ts",
+      "relativePath": "tools/project-control-center/src/writers/snapshotWriter.ts",
+      "name": "snapshotWriter.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 1028,
+      "modifiedAt": "2026-05-22T14:13:15.174Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\writers\\statusWriter.ts",
+      "relativePath": "tools/project-control-center/src/writers/statusWriter.ts",
+      "name": "statusWriter.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 1494,
+      "modifiedAt": "2026-05-22T13:06:48.985Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\tsconfig.json",
+      "relativePath": "tools/project-control-center/tsconfig.json",
+      "name": "tsconfig.json",
+      "extension": ".json",
+      "kind": "config",
+      "area": "project-control-center",
+      "sizeBytes": 612,
+      "modifiedAt": "2026-05-22T13:46:43.461Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\tsconfig.node.json",
+      "relativePath": "tools/project-control-center/tsconfig.node.json",
+      "name": "tsconfig.node.json",
+      "extension": ".json",
+      "kind": "config",
+      "area": "project-control-center",
+      "sizeBytes": 410,
+      "modifiedAt": "2026-05-22T13:43:14.098Z"
+    },
+    {
+      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\vite.config.ts",
+      "relativePath": "tools/project-control-center/vite.config.ts",
+      "name": "vite.config.ts",
+      "extension": ".ts",
+      "kind": "source",
+      "area": "project-control-center",
+      "sizeBytes": 298,
+      "modifiedAt": "2026-05-22T13:06:48.975Z"
+    }
+  ],
+  "tree": {
+    "name": ".",
+    "relativePath": "",
+    "type": "directory",
+    "children": [
+      {
+        "name": ".ai",
+        "relativePath": ".ai",
+        "type": "directory",
+        "children": [
+          {
+            "name": "code-index.json",
+            "relativePath": ".ai/code-index.json",
+            "type": "file",
+            "children": [],
+            "file": {
+              "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\.ai\\code-index.json",
+              "relativePath": ".ai/code-index.json",
+              "name": "code-index.json",
+              "extension": ".json",
+              "kind": "generated",
+              "area": "unknown",
+              "sizeBytes": 63,
+              "modifiedAt": "2026-05-22T12:58:03.355Z"
+            }
+          },
+          {
+            "name": "context-bundle.md",
+            "relativePath": ".ai/context-bundle.md",
+            "type": "file",
+            "children": [],
+            "file": {
+              "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\.ai\\context-bundle.md",
+              "relativePath": ".ai/context-bundle.md",
+              "name": "context-bundle.md",
+              "extension": ".md",
+              "kind": "generated",
+              "area": "documentation",
+              "sizeBytes": 842,
+              "modifiedAt": "2026-05-22T14:20:42.479Z"
+            }
+          },
+          {
+            "name": "handoff.md",
+            "relativePath": ".ai/handoff.md",
+            "type": "file",
+            "children": [],
+            "file": {
+              "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\.ai\\handoff.md",
+              "relativePath": ".ai/handoff.md",
+              "name": "handoff.md",
+              "extension": ".md",
+              "kind": "generated",
+              "area": "documentation",
+              "sizeBytes": 1014,
+              "modifiedAt": "2026-05-22T14:20:42.479Z"
+            }
+          }
+        ]
+      },
+      {
+        "name": ".project",
+        "relativePath": ".project",
+        "type": "directory",
+        "children": [
+          {
+            "name": "project-control-center",
+            "relativePath": ".project/project-control-center",
+            "type": "directory",
+            "children": [
+              {
+                "name": "history.jsonl",
+                "relativePath": ".project/project-control-center/history.jsonl",
+                "type": "file",
+                "children": [],
+                "file": {
+                  "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\.project\\project-control-center\\history.jsonl",
+                  "relativePath": ".project/project-control-center/history.jsonl",
+                  "name": "history.jsonl",
+                  "extension": ".jsonl",
+                  "kind": "generated",
+                  "area": "unknown",
+                  "sizeBytes": 543,
+                  "modifiedAt": "2026-05-22T14:20:42.480Z"
+                }
+              },
+              {
+                "name": "snapshot.json",
+                "relativePath": ".project/project-control-center/snapshot.json",
+                "type": "file",
+                "children": [],
+                "file": {
+                  "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\.project\\project-control-center\\snapshot.json",
+                  "relativePath": ".project/project-control-center/snapshot.json",
+                  "name": "snapshot.json",
+                  "extension": ".json",
+                  "kind": "generated",
+                  "area": "unknown",
+                  "sizeBytes": 103804,
+                  "modifiedAt": "2026-05-22T14:20:42.479Z"
+                }
+              }
+            ]
+          },
+          {
+            "name": "git-history.snapshot.json",
+            "relativePath": ".project/git-history.snapshot.json",
+            "type": "file",
+            "children": [],
+            "file": {
+              "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\.project\\git-history.snapshot.json",
+              "relativePath": ".project/git-history.snapshot.json",
+              "name": "git-history.snapshot.json",
+              "extension": ".json",
+              "kind": "generated",
+              "area": "unknown",
+              "sizeBytes": 162,
+              "modifiedAt": "2026-05-22T12:58:03.354Z"
+            }
+          },
+          {
+            "name": "scan-history.ndjson",
+            "relativePath": ".project/scan-history.ndjson",
+            "type": "file",
+            "children": [],
+            "file": {
+              "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\.project\\scan-history.ndjson",
+              "relativePath": ".project/scan-history.ndjson",
+              "name": "scan-history.ndjson",
+              "extension": ".ndjson",
+              "kind": "generated",
+              "area": "unknown",
+              "sizeBytes": 0,
+              "modifiedAt": "2026-05-22T12:59:49.288Z"
+            }
+          },
+          {
+            "name": "status.md",
+            "relativePath": ".project/status.md",
+            "type": "file",
+            "children": [],
+            "file": {
+              "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\.project\\status.md",
+              "relativePath": ".project/status.md",
+              "name": "status.md",
+              "extension": ".md",
+              "kind": "generated",
+              "area": "documentation",
+              "sizeBytes": 1178,
+              "modifiedAt": "2026-05-22T14:20:42.478Z"
+            }
+          },
+          {
+            "name": "status.snapshot.json",
+            "relativePath": ".project/status.snapshot.json",
+            "type": "file",
+            "children": [],
+            "file": {
+              "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\.project\\status.snapshot.json",
+              "relativePath": ".project/status.snapshot.json",
+              "name": "status.snapshot.json",
+              "extension": ".json",
+              "kind": "generated",
+              "area": "unknown",
+              "sizeBytes": 103804,
+              "modifiedAt": "2026-05-22T14:20:42.479Z"
+            }
+          },
+          {
+            "name": "tool-errors.ndjson",
+            "relativePath": ".project/tool-errors.ndjson",
+            "type": "file",
+            "children": [],
+            "file": {
+              "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\.project\\tool-errors.ndjson",
+              "relativePath": ".project/tool-errors.ndjson",
+              "name": "tool-errors.ndjson",
+              "extension": ".ndjson",
+              "kind": "generated",
+              "area": "unknown",
+              "sizeBytes": 0,
+              "modifiedAt": "2026-05-22T12:59:49.288Z"
+            }
+          }
+        ]
+      },
+      {
+        "name": "docs",
+        "relativePath": "docs",
+        "type": "directory",
+        "children": [
+          {
+            "name": "ARCHITECTURE.md",
+            "relativePath": "docs/ARCHITECTURE.md",
+            "type": "file",
+            "children": [],
+            "file": {
+              "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\docs\\ARCHITECTURE.md",
+              "relativePath": "docs/ARCHITECTURE.md",
+              "name": "ARCHITECTURE.md",
+              "extension": ".md",
+              "kind": "documentation",
+              "area": "documentation",
+              "sizeBytes": 854,
+              "modifiedAt": "2026-05-22T04:48:38.829Z"
+            }
+          },
+          {
+            "name": "CHATBOT_HANDOFF.md",
+            "relativePath": "docs/CHATBOT_HANDOFF.md",
+            "type": "file",
+            "children": [],
+            "file": {
+              "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\docs\\CHATBOT_HANDOFF.md",
+              "relativePath": "docs/CHATBOT_HANDOFF.md",
+              "name": "CHATBOT_HANDOFF.md",
+              "extension": ".md",
+              "kind": "documentation",
+              "area": "documentation",
+              "sizeBytes": 832,
+              "modifiedAt": "2026-05-22T12:58:20.959Z"
+            }
+          },
+          {
+            "name": "dataSchema.md",
+            "relativePath": "docs/dataSchema.md",
+            "type": "file",
+            "children": [],
+            "file": {
+              "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\docs\\dataSchema.md",
+              "relativePath": "docs/dataSchema.md",
+              "name": "dataSchema.md",
+              "extension": ".md",
+              "kind": "documentation",
+              "area": "documentation",
+              "sizeBytes": 817,
+              "modifiedAt": "2026-05-22T03:33:03.444Z"
+            }
+          },
+          {
+            "name": "eventTrackingSpec.md",
+            "relativePath": "docs/eventTrackingSpec.md",
+            "type": "file",
+            "children": [],
+            "file": {
+              "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\docs\\eventTrackingSpec.md",
+              "relativePath": "docs/eventTrackingSpec.md",
+              "name": "eventTrackingSpec.md",
+              "extension": ".md",
+              "kind": "documentation",
+              "area": "documentation",
+              "sizeBytes": 737,
+              "modifiedAt": "2026-05-22T03:35:52.139Z"
+            }
+          },
+          {
+            "name": "itemBankGuidelines.md",
+            "relativePath": "docs/itemBankGuidelines.md",
+            "type": "file",
+            "children": [],
+            "file": {
+              "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\docs\\itemBankGuidelines.md",
+              "relativePath": "docs/itemBankGuidelines.md",
+              "name": "itemBankGuidelines.md",
+              "extension": ".md",
+              "kind": "documentation",
+              "area": "documentation",
+              "sizeBytes": 609,
+              "modifiedAt": "2026-05-22T03:54:38.971Z"
+            }
+          },
+          {
+            "name": "moduleContracts.md",
+            "relativePath": "docs/moduleContracts.md",
+            "type": "file",
+            "children": [],
+            "file": {
+              "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\docs\\moduleContracts.md",
+              "relativePath": "docs/moduleContracts.md",
+              "name": "moduleContracts.md",
+              "extension": ".md",
+              "kind": "documentation",
+              "area": "documentation",
+              "sizeBytes": 1019,
+              "modifiedAt": "2026-05-22T04:48:37.959Z"
+            }
+          },
+          {
+            "name": "mvpScope.md",
+            "relativePath": "docs/mvpScope.md",
+            "type": "file",
+            "children": [],
+            "file": {
+              "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\docs\\mvpScope.md",
+              "relativePath": "docs/mvpScope.md",
+              "name": "mvpScope.md",
+              "extension": ".md",
+              "kind": "documentation",
+              "area": "documentation",
+              "sizeBytes": 800,
+              "modifiedAt": "2026-05-22T03:29:21.288Z"
+            }
+          },
+          {
+            "name": "projectStatus.md",
+            "relativePath": "docs/projectStatus.md",
+            "type": "file",
+            "children": [],
+            "file": {
+              "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\docs\\projectStatus.md",
+              "relativePath": "docs/projectStatus.md",
+              "name": "projectStatus.md",
+              "extension": ".md",
+              "kind": "documentation",
+              "area": "documentation",
+              "sizeBytes": 3514,
+              "modifiedAt": "2026-05-22T12:58:20.958Z"
+            }
+          },
+          {
+            "name": "TDD.md",
+            "relativePath": "docs/TDD.md",
+            "type": "file",
+            "children": [],
+            "file": {
+              "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\docs\\TDD.md",
+              "relativePath": "docs/TDD.md",
+              "name": "TDD.md",
+              "extension": ".md",
+              "kind": "documentation",
+              "area": "documentation",
+              "sizeBytes": 13127,
+              "modifiedAt": "2026-05-22T01:45:34.616Z"
+            }
+          },
+          {
+            "name": "testingStrategy.md",
+            "relativePath": "docs/testingStrategy.md",
+            "type": "file",
+            "children": [],
+            "file": {
+              "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\docs\\testingStrategy.md",
+              "relativePath": "docs/testingStrategy.md",
+              "name": "testingStrategy.md",
+              "extension": ".md",
+              "kind": "documentation",
+              "area": "documentation",
+              "sizeBytes": 537,
+              "modifiedAt": "2026-05-22T04:00:44.428Z"
+            }
+          },
+          {
+            "name": "ThuatToan.md",
+            "relativePath": "docs/ThuatToan.md",
+            "type": "file",
+            "children": [],
+            "file": {
+              "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\docs\\ThuatToan.md",
+              "relativePath": "docs/ThuatToan.md",
+              "name": "ThuatToan.md",
+              "extension": ".md",
+              "kind": "documentation",
+              "area": "documentation",
+              "sizeBytes": 45977,
+              "modifiedAt": "2026-05-22T10:26:21.702Z"
+            }
+          }
+        ]
+      },
+      {
+        "name": "tools",
+        "relativePath": "tools",
+        "type": "directory",
+        "children": [
+          {
+            "name": "project-control-center",
+            "relativePath": "tools/project-control-center",
+            "type": "directory",
+            "children": [
+              {
+                "name": "src",
+                "relativePath": "tools/project-control-center/src",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "cli",
+                    "relativePath": "tools/project-control-center/src/cli",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "scan.ts",
+                        "relativePath": "tools/project-control-center/src/cli/scan.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\cli\\scan.ts",
+                          "relativePath": "tools/project-control-center/src/cli/scan.ts",
+                          "name": "scan.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 3707,
+                          "modifiedAt": "2026-05-22T14:12:51.661Z"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "core",
+                    "relativePath": "tools/project-control-center/src/core",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "constants.ts",
+                        "relativePath": "tools/project-control-center/src/core/constants.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\core\\constants.ts",
+                          "relativePath": "tools/project-control-center/src/core/constants.ts",
+                          "name": "constants.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 1010,
+                          "modifiedAt": "2026-05-22T14:19:50.816Z"
+                        }
+                      },
+                      {
+                        "name": "contextExport.ts",
+                        "relativePath": "tools/project-control-center/src/core/contextExport.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\core\\contextExport.ts",
+                          "relativePath": "tools/project-control-center/src/core/contextExport.ts",
+                          "name": "contextExport.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 4166,
+                          "modifiedAt": "2026-05-22T12:54:41.015Z"
+                        }
+                      },
+                      {
+                        "name": "errors.ts",
+                        "relativePath": "tools/project-control-center/src/core/errors.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\core\\errors.ts",
+                          "relativePath": "tools/project-control-center/src/core/errors.ts",
+                          "name": "errors.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 1179,
+                          "modifiedAt": "2026-05-22T12:54:41.013Z"
+                        }
+                      },
+                      {
+                        "name": "fileScanner.ts",
+                        "relativePath": "tools/project-control-center/src/core/fileScanner.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\core\\fileScanner.ts",
+                          "relativePath": "tools/project-control-center/src/core/fileScanner.ts",
+                          "name": "fileScanner.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 3364,
+                          "modifiedAt": "2026-05-22T13:06:48.980Z"
+                        }
+                      },
+                      {
+                        "name": "gitStatus.ts",
+                        "relativePath": "tools/project-control-center/src/core/gitStatus.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\core\\gitStatus.ts",
+                          "relativePath": "tools/project-control-center/src/core/gitStatus.ts",
+                          "name": "gitStatus.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 4545,
+                          "modifiedAt": "2026-05-22T13:55:46.817Z"
+                        }
+                      },
+                      {
+                        "name": "historyLogger.ts",
+                        "relativePath": "tools/project-control-center/src/core/historyLogger.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\core\\historyLogger.ts",
+                          "relativePath": "tools/project-control-center/src/core/historyLogger.ts",
+                          "name": "historyLogger.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 1140,
+                          "modifiedAt": "2026-05-22T13:06:48.982Z"
+                        }
+                      },
+                      {
+                        "name": "progressCalculator.ts",
+                        "relativePath": "tools/project-control-center/src/core/progressCalculator.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\core\\progressCalculator.ts",
+                          "relativePath": "tools/project-control-center/src/core/progressCalculator.ts",
+                          "name": "progressCalculator.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 4508,
+                          "modifiedAt": "2026-05-22T14:28:09.779Z"
+                        }
+                      },
+                      {
+                        "name": "projectMap.ts",
+                        "relativePath": "tools/project-control-center/src/core/projectMap.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\core\\projectMap.ts",
+                          "relativePath": "tools/project-control-center/src/core/projectMap.ts",
+                          "name": "projectMap.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 2780,
+                          "modifiedAt": "2026-05-22T14:28:33.175Z"
+                        }
+                      },
+                      {
+                        "name": "repoScanner.ts",
+                        "relativePath": "tools/project-control-center/src/core/repoScanner.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\core\\repoScanner.ts",
+                          "relativePath": "tools/project-control-center/src/core/repoScanner.ts",
+                          "name": "repoScanner.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 7079,
+                          "modifiedAt": "2026-05-22T14:28:13.797Z"
+                        }
+                      },
+                      {
+                        "name": "repoTree.ts",
+                        "relativePath": "tools/project-control-center/src/core/repoTree.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\core\\repoTree.ts",
+                          "relativePath": "tools/project-control-center/src/core/repoTree.ts",
+                          "name": "repoTree.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 1717,
+                          "modifiedAt": "2026-05-22T13:06:48.980Z"
+                        }
+                      },
+                      {
+                        "name": "safePaths.ts",
+                        "relativePath": "tools/project-control-center/src/core/safePaths.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\core\\safePaths.ts",
+                          "relativePath": "tools/project-control-center/src/core/safePaths.ts",
+                          "name": "safePaths.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 2771,
+                          "modifiedAt": "2026-05-22T12:53:42.846Z"
+                        }
+                      },
+                      {
+                        "name": "safetyFilters.ts",
+                        "relativePath": "tools/project-control-center/src/core/safetyFilters.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\core\\safetyFilters.ts",
+                          "relativePath": "tools/project-control-center/src/core/safetyFilters.ts",
+                          "name": "safetyFilters.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 1606,
+                          "modifiedAt": "2026-05-22T13:06:48.978Z"
+                        }
+                      },
+                      {
+                        "name": "snapshots.ts",
+                        "relativePath": "tools/project-control-center/src/core/snapshots.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\core\\snapshots.ts",
+                          "relativePath": "tools/project-control-center/src/core/snapshots.ts",
+                          "name": "snapshots.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 1266,
+                          "modifiedAt": "2026-05-22T12:54:41.013Z"
+                        }
+                      },
+                      {
+                        "name": "types.ts",
+                        "relativePath": "tools/project-control-center/src/core/types.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\core\\types.ts",
+                          "relativePath": "tools/project-control-center/src/core/types.ts",
+                          "name": "types.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 2404,
+                          "modifiedAt": "2026-05-22T14:28:04.390Z"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "server",
+                    "relativePath": "tools/project-control-center/src/server",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "contextService.ts",
+                        "relativePath": "tools/project-control-center/src/server/contextService.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\server\\contextService.ts",
+                          "relativePath": "tools/project-control-center/src/server/contextService.ts",
+                          "name": "contextService.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 546,
+                          "modifiedAt": "2026-05-22T12:55:12.959Z"
+                        }
+                      },
+                      {
+                        "name": "gitService.ts",
+                        "relativePath": "tools/project-control-center/src/server/gitService.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\server\\gitService.ts",
+                          "relativePath": "tools/project-control-center/src/server/gitService.ts",
+                          "name": "gitService.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 578,
+                          "modifiedAt": "2026-05-22T12:55:12.958Z"
+                        }
+                      },
+                      {
+                        "name": "index.ts",
+                        "relativePath": "tools/project-control-center/src/server/index.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\server\\index.ts",
+                          "relativePath": "tools/project-control-center/src/server/index.ts",
+                          "name": "index.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 622,
+                          "modifiedAt": "2026-05-22T12:55:12.961Z"
+                        }
+                      },
+                      {
+                        "name": "routes.ts",
+                        "relativePath": "tools/project-control-center/src/server/routes.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\server\\routes.ts",
+                          "relativePath": "tools/project-control-center/src/server/routes.ts",
+                          "name": "routes.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 1210,
+                          "modifiedAt": "2026-05-22T13:51:42.605Z"
+                        }
+                      },
+                      {
+                        "name": "scanService.ts",
+                        "relativePath": "tools/project-control-center/src/server/scanService.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\server\\scanService.ts",
+                          "relativePath": "tools/project-control-center/src/server/scanService.ts",
+                          "name": "scanService.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 854,
+                          "modifiedAt": "2026-05-22T12:55:12.959Z"
+                        }
+                      },
+                      {
+                        "name": "server.ts",
+                        "relativePath": "tools/project-control-center/src/server/server.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\server\\server.ts",
+                          "relativePath": "tools/project-control-center/src/server/server.ts",
+                          "name": "server.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 2167,
+                          "modifiedAt": "2026-05-22T13:47:25.583Z"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "tests",
+                    "relativePath": "tools/project-control-center/src/tests",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "contextExport.test.ts",
+                        "relativePath": "tools/project-control-center/src/tests/contextExport.test.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\tests\\contextExport.test.ts",
+                          "relativePath": "tools/project-control-center/src/tests/contextExport.test.ts",
+                          "name": "contextExport.test.ts",
+                          "extension": ".ts",
+                          "kind": "test",
+                          "area": "project-control-center",
+                          "sizeBytes": 1941,
+                          "modifiedAt": "2026-05-22T14:10:50.885Z"
+                        }
+                      },
+                      {
+                        "name": "gitStatus.test.ts",
+                        "relativePath": "tools/project-control-center/src/tests/gitStatus.test.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\tests\\gitStatus.test.ts",
+                          "relativePath": "tools/project-control-center/src/tests/gitStatus.test.ts",
+                          "name": "gitStatus.test.ts",
+                          "extension": ".ts",
+                          "kind": "test",
+                          "area": "project-control-center",
+                          "sizeBytes": 690,
+                          "modifiedAt": "2026-05-22T12:57:45.948Z"
+                        }
+                      },
+                      {
+                        "name": "projectMap.test.ts",
+                        "relativePath": "tools/project-control-center/src/tests/projectMap.test.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\tests\\projectMap.test.ts",
+                          "relativePath": "tools/project-control-center/src/tests/projectMap.test.ts",
+                          "name": "projectMap.test.ts",
+                          "extension": ".ts",
+                          "kind": "test",
+                          "area": "project-control-center",
+                          "sizeBytes": 2211,
+                          "modifiedAt": "2026-05-22T14:30:21.126Z"
+                        }
+                      },
+                      {
+                        "name": "repoScanner.test.ts",
+                        "relativePath": "tools/project-control-center/src/tests/repoScanner.test.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\tests\\repoScanner.test.ts",
+                          "relativePath": "tools/project-control-center/src/tests/repoScanner.test.ts",
+                          "name": "repoScanner.test.ts",
+                          "extension": ".ts",
+                          "kind": "test",
+                          "area": "project-control-center",
+                          "sizeBytes": 5736,
+                          "modifiedAt": "2026-05-22T14:30:28.298Z"
+                        }
+                      },
+                      {
+                        "name": "safePaths.test.ts",
+                        "relativePath": "tools/project-control-center/src/tests/safePaths.test.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\tests\\safePaths.test.ts",
+                          "relativePath": "tools/project-control-center/src/tests/safePaths.test.ts",
+                          "name": "safePaths.test.ts",
+                          "extension": ".ts",
+                          "kind": "test",
+                          "area": "project-control-center",
+                          "sizeBytes": 1137,
+                          "modifiedAt": "2026-05-22T12:57:45.946Z"
+                        }
+                      },
+                      {
+                        "name": "snapshots.test.ts",
+                        "relativePath": "tools/project-control-center/src/tests/snapshots.test.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\tests\\snapshots.test.ts",
+                          "relativePath": "tools/project-control-center/src/tests/snapshots.test.ts",
+                          "name": "snapshots.test.ts",
+                          "extension": ".ts",
+                          "kind": "test",
+                          "area": "project-control-center",
+                          "sizeBytes": 536,
+                          "modifiedAt": "2026-05-22T12:57:45.950Z"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "types",
+                    "relativePath": "tools/project-control-center/src/types",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "projectControlCenter.ts",
+                        "relativePath": "tools/project-control-center/src/types/projectControlCenter.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\types\\projectControlCenter.ts",
+                          "relativePath": "tools/project-control-center/src/types/projectControlCenter.ts",
+                          "name": "projectControlCenter.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 2822,
+                          "modifiedAt": "2026-05-22T14:12:20.249Z"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "ui",
+                    "relativePath": "tools/project-control-center/src/ui",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "AiContextExportPanel.ts",
+                        "relativePath": "tools/project-control-center/src/ui/AiContextExportPanel.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\ui\\AiContextExportPanel.ts",
+                          "relativePath": "tools/project-control-center/src/ui/AiContextExportPanel.ts",
+                          "name": "AiContextExportPanel.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 1798,
+                          "modifiedAt": "2026-05-22T12:56:19.691Z"
+                        }
+                      },
+                      {
+                        "name": "GitHistoryPanel.ts",
+                        "relativePath": "tools/project-control-center/src/ui/GitHistoryPanel.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\ui\\GitHistoryPanel.ts",
+                          "relativePath": "tools/project-control-center/src/ui/GitHistoryPanel.ts",
+                          "name": "GitHistoryPanel.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 845,
+                          "modifiedAt": "2026-05-22T12:56:19.687Z"
+                        }
+                      },
+                      {
+                        "name": "i18n.ts",
+                        "relativePath": "tools/project-control-center/src/ui/i18n.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\ui\\i18n.ts",
+                          "relativePath": "tools/project-control-center/src/ui/i18n.ts",
+                          "name": "i18n.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 940,
+                          "modifiedAt": "2026-05-22T13:51:50.826Z"
+                        }
+                      },
+                      {
+                        "name": "layout.ts",
+                        "relativePath": "tools/project-control-center/src/ui/layout.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\ui\\layout.ts",
+                          "relativePath": "tools/project-control-center/src/ui/layout.ts",
+                          "name": "layout.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 1264,
+                          "modifiedAt": "2026-05-22T12:56:19.687Z"
+                        }
+                      },
+                      {
+                        "name": "LogsPanel.ts",
+                        "relativePath": "tools/project-control-center/src/ui/LogsPanel.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\ui\\LogsPanel.ts",
+                          "relativePath": "tools/project-control-center/src/ui/LogsPanel.ts",
+                          "name": "LogsPanel.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 335,
+                          "modifiedAt": "2026-05-22T13:43:26.788Z"
+                        }
+                      },
+                      {
+                        "name": "main.ts",
+                        "relativePath": "tools/project-control-center/src/ui/main.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\ui\\main.ts",
+                          "relativePath": "tools/project-control-center/src/ui/main.ts",
+                          "name": "main.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 3023,
+                          "modifiedAt": "2026-05-22T13:43:54.286Z"
+                        }
+                      },
+                      {
+                        "name": "RepoTreePanel.ts",
+                        "relativePath": "tools/project-control-center/src/ui/RepoTreePanel.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\ui\\RepoTreePanel.ts",
+                          "relativePath": "tools/project-control-center/src/ui/RepoTreePanel.ts",
+                          "name": "RepoTreePanel.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 1836,
+                          "modifiedAt": "2026-05-22T12:58:49.817Z"
+                        }
+                      },
+                      {
+                        "name": "StatusPanel.ts",
+                        "relativePath": "tools/project-control-center/src/ui/StatusPanel.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\ui\\StatusPanel.ts",
+                          "relativePath": "tools/project-control-center/src/ui/StatusPanel.ts",
+                          "name": "StatusPanel.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 682,
+                          "modifiedAt": "2026-05-22T12:56:19.690Z"
+                        }
+                      },
+                      {
+                        "name": "styles.css",
+                        "relativePath": "tools/project-control-center/src/ui/styles.css",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\ui\\styles.css",
+                          "relativePath": "tools/project-control-center/src/ui/styles.css",
+                          "name": "styles.css",
+                          "extension": ".css",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 1606,
+                          "modifiedAt": "2026-05-22T13:06:48.990Z"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "writers",
+                    "relativePath": "tools/project-control-center/src/writers",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "contextBundleWriter.ts",
+                        "relativePath": "tools/project-control-center/src/writers/contextBundleWriter.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\writers\\contextBundleWriter.ts",
+                          "relativePath": "tools/project-control-center/src/writers/contextBundleWriter.ts",
+                          "name": "contextBundleWriter.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 1551,
+                          "modifiedAt": "2026-05-22T13:06:48.986Z"
+                        }
+                      },
+                      {
+                        "name": "handoffWriter.ts",
+                        "relativePath": "tools/project-control-center/src/writers/handoffWriter.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\writers\\handoffWriter.ts",
+                          "relativePath": "tools/project-control-center/src/writers/handoffWriter.ts",
+                          "name": "handoffWriter.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 1351,
+                          "modifiedAt": "2026-05-22T13:06:48.985Z"
+                        }
+                      },
+                      {
+                        "name": "snapshotWriter.ts",
+                        "relativePath": "tools/project-control-center/src/writers/snapshotWriter.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\writers\\snapshotWriter.ts",
+                          "relativePath": "tools/project-control-center/src/writers/snapshotWriter.ts",
+                          "name": "snapshotWriter.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 1028,
+                          "modifiedAt": "2026-05-22T14:13:15.174Z"
+                        }
+                      },
+                      {
+                        "name": "statusWriter.ts",
+                        "relativePath": "tools/project-control-center/src/writers/statusWriter.ts",
+                        "type": "file",
+                        "children": [],
+                        "file": {
+                          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\writers\\statusWriter.ts",
+                          "relativePath": "tools/project-control-center/src/writers/statusWriter.ts",
+                          "name": "statusWriter.ts",
+                          "extension": ".ts",
+                          "kind": "source",
+                          "area": "project-control-center",
+                          "sizeBytes": 1494,
+                          "modifiedAt": "2026-05-22T13:06:48.985Z"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "app.ts",
+                    "relativePath": "tools/project-control-center/src/app.ts",
+                    "type": "file",
+                    "children": [],
+                    "file": {
+                      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\app.ts",
+                      "relativePath": "tools/project-control-center/src/app.ts",
+                      "name": "app.ts",
+                      "extension": ".ts",
+                      "kind": "source",
+                      "area": "project-control-center",
+                      "sizeBytes": 2045,
+                      "modifiedAt": "2026-05-22T12:56:19.692Z"
+                    }
+                  },
+                  {
+                    "name": "main.ts",
+                    "relativePath": "tools/project-control-center/src/main.ts",
+                    "type": "file",
+                    "children": [],
+                    "file": {
+                      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\main.ts",
+                      "relativePath": "tools/project-control-center/src/main.ts",
+                      "name": "main.ts",
+                      "extension": ".ts",
+                      "kind": "source",
+                      "area": "project-control-center",
+                      "sizeBytes": 212,
+                      "modifiedAt": "2026-05-22T12:58:49.818Z"
+                    }
+                  },
+                  {
+                    "name": "styles.css",
+                    "relativePath": "tools/project-control-center/src/styles.css",
+                    "type": "file",
+                    "children": [],
+                    "file": {
+                      "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\src\\styles.css",
+                      "relativePath": "tools/project-control-center/src/styles.css",
+                      "name": "styles.css",
+                      "extension": ".css",
+                      "kind": "source",
+                      "area": "project-control-center",
+                      "sizeBytes": 2829,
+                      "modifiedAt": "2026-05-22T12:56:55.068Z"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "AGENTS.md",
+                "relativePath": "tools/project-control-center/AGENTS.md",
+                "type": "file",
+                "children": [],
+                "file": {
+                  "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\AGENTS.md",
+                  "relativePath": "tools/project-control-center/AGENTS.md",
+                  "name": "AGENTS.md",
+                  "extension": ".md",
+                  "kind": "documentation",
+                  "area": "project-control-center",
+                  "sizeBytes": 1848,
+                  "modifiedAt": "2026-05-22T10:12:26.846Z"
+                }
+              },
+              {
+                "name": "CODEX_PROMPTS.md",
+                "relativePath": "tools/project-control-center/CODEX_PROMPTS.md",
+                "type": "file",
+                "children": [],
+                "file": {
+                  "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\CODEX_PROMPTS.md",
+                  "relativePath": "tools/project-control-center/CODEX_PROMPTS.md",
+                  "name": "CODEX_PROMPTS.md",
+                  "extension": ".md",
+                  "kind": "documentation",
+                  "area": "project-control-center",
+                  "sizeBytes": 2364,
+                  "modifiedAt": "2026-05-22T11:20:24.477Z"
+                }
+              },
+              {
+                "name": "controlCenterSpec.md",
+                "relativePath": "tools/project-control-center/controlCenterSpec.md",
+                "type": "file",
+                "children": [],
+                "file": {
+                  "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\controlCenterSpec.md",
+                  "relativePath": "tools/project-control-center/controlCenterSpec.md",
+                  "name": "controlCenterSpec.md",
+                  "extension": ".md",
+                  "kind": "documentation",
+                  "area": "project-control-center",
+                  "sizeBytes": 9268,
+                  "modifiedAt": "2026-05-22T10:28:39.330Z"
+                }
+              },
+              {
+                "name": "eslint.config.js",
+                "relativePath": "tools/project-control-center/eslint.config.js",
+                "type": "file",
+                "children": [],
+                "file": {
+                  "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\eslint.config.js",
+                  "relativePath": "tools/project-control-center/eslint.config.js",
+                  "name": "eslint.config.js",
+                  "extension": ".js",
+                  "kind": "source",
+                  "area": "project-control-center",
+                  "sizeBytes": 528,
+                  "modifiedAt": "2026-05-22T12:58:33.869Z"
+                }
+              },
+              {
+                "name": "index.html",
+                "relativePath": "tools/project-control-center/index.html",
+                "type": "file",
+                "children": [],
+                "file": {
+                  "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\index.html",
+                  "relativePath": "tools/project-control-center/index.html",
+                  "name": "index.html",
+                  "extension": ".html",
+                  "kind": "source",
+                  "area": "project-control-center",
+                  "sizeBytes": 368,
+                  "modifiedAt": "2026-05-22T13:06:48.976Z"
+                }
+              },
+              {
+                "name": "package-lock.json",
+                "relativePath": "tools/project-control-center/package-lock.json",
+                "type": "file",
+                "children": [],
+                "file": {
+                  "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\package-lock.json",
+                  "relativePath": "tools/project-control-center/package-lock.json",
+                  "name": "package-lock.json",
+                  "extension": ".json",
+                  "kind": "config",
+                  "area": "project-control-center",
+                  "sizeBytes": 81822,
+                  "modifiedAt": "2026-05-22T13:50:25.599Z"
+                }
+              },
+              {
+                "name": "package.json",
+                "relativePath": "tools/project-control-center/package.json",
+                "type": "file",
+                "children": [],
+                "file": {
+                  "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\package.json",
+                  "relativePath": "tools/project-control-center/package.json",
+                  "name": "package.json",
+                  "extension": ".json",
+                  "kind": "config",
+                  "area": "project-control-center",
+                  "sizeBytes": 658,
+                  "modifiedAt": "2026-05-22T13:42:56.278Z"
+                }
+              },
+              {
+                "name": "project-map.json",
+                "relativePath": "tools/project-control-center/project-map.json",
+                "type": "file",
+                "children": [],
+                "file": {
+                  "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\project-map.json",
+                  "relativePath": "tools/project-control-center/project-map.json",
+                  "name": "project-map.json",
+                  "extension": ".json",
+                  "kind": "config",
+                  "area": "project-control-center",
+                  "sizeBytes": 15850,
+                  "modifiedAt": "2026-05-22T14:30:10.256Z"
+                }
+              },
+              {
+                "name": "projectMap.md",
+                "relativePath": "tools/project-control-center/projectMap.md",
+                "type": "file",
+                "children": [],
+                "file": {
+                  "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\projectMap.md",
+                  "relativePath": "tools/project-control-center/projectMap.md",
+                  "name": "projectMap.md",
+                  "extension": ".md",
+                  "kind": "documentation",
+                  "area": "project-control-center",
+                  "sizeBytes": 15638,
+                  "modifiedAt": "2026-05-22T10:28:41.363Z"
+                }
+              },
+              {
+                "name": "README.md",
+                "relativePath": "tools/project-control-center/README.md",
+                "type": "file",
+                "children": [],
+                "file": {
+                  "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\README.md",
+                  "relativePath": "tools/project-control-center/README.md",
+                  "name": "README.md",
+                  "extension": ".md",
+                  "kind": "documentation",
+                  "area": "project-control-center",
+                  "sizeBytes": 2526,
+                  "modifiedAt": "2026-05-22T12:58:20.956Z"
+                }
+              },
+              {
+                "name": "tsconfig.json",
+                "relativePath": "tools/project-control-center/tsconfig.json",
+                "type": "file",
+                "children": [],
+                "file": {
+                  "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\tsconfig.json",
+                  "relativePath": "tools/project-control-center/tsconfig.json",
+                  "name": "tsconfig.json",
+                  "extension": ".json",
+                  "kind": "config",
+                  "area": "project-control-center",
+                  "sizeBytes": 612,
+                  "modifiedAt": "2026-05-22T13:46:43.461Z"
+                }
+              },
+              {
+                "name": "tsconfig.node.json",
+                "relativePath": "tools/project-control-center/tsconfig.node.json",
+                "type": "file",
+                "children": [],
+                "file": {
+                  "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\tsconfig.node.json",
+                  "relativePath": "tools/project-control-center/tsconfig.node.json",
+                  "name": "tsconfig.node.json",
+                  "extension": ".json",
+                  "kind": "config",
+                  "area": "project-control-center",
+                  "sizeBytes": 410,
+                  "modifiedAt": "2026-05-22T13:43:14.098Z"
+                }
+              },
+              {
+                "name": "vite.config.ts",
+                "relativePath": "tools/project-control-center/vite.config.ts",
+                "type": "file",
+                "children": [],
+                "file": {
+                  "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\tools\\project-control-center\\vite.config.ts",
+                  "relativePath": "tools/project-control-center/vite.config.ts",
+                  "name": "vite.config.ts",
+                  "extension": ".ts",
+                  "kind": "source",
+                  "area": "project-control-center",
+                  "sizeBytes": 298,
+                  "modifiedAt": "2026-05-22T13:06:48.975Z"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "AGENTS.md",
+        "relativePath": "AGENTS.md",
+        "type": "file",
+        "children": [],
+        "file": {
+          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\AGENTS.md",
+          "relativePath": "AGENTS.md",
+          "name": "AGENTS.md",
+          "extension": ".md",
+          "kind": "documentation",
+          "area": "documentation",
+          "sizeBytes": 2928,
+          "modifiedAt": "2026-05-22T10:26:13.630Z"
+        }
+      },
+      {
+        "name": "DESIGN.md",
+        "relativePath": "DESIGN.md",
+        "type": "file",
+        "children": [],
+        "file": {
+          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\DESIGN.md",
+          "relativePath": "DESIGN.md",
+          "name": "DESIGN.md",
+          "extension": ".md",
+          "kind": "documentation",
+          "area": "documentation",
+          "sizeBytes": 5047,
+          "modifiedAt": "2026-05-22T11:44:38.882Z"
+        }
+      },
+      {
+        "name": "GEMINI.md",
+        "relativePath": "GEMINI.md",
+        "type": "file",
+        "children": [],
+        "file": {
+          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\GEMINI.md",
+          "relativePath": "GEMINI.md",
+          "name": "GEMINI.md",
+          "extension": ".md",
+          "kind": "documentation",
+          "area": "documentation",
+          "sizeBytes": 1421,
+          "modifiedAt": "2026-05-22T11:53:56.192Z"
+        }
+      },
+      {
+        "name": "README.md",
+        "relativePath": "README.md",
+        "type": "file",
+        "children": [],
+        "file": {
+          "absolutePath": "C:\\Users\\nguye\\OneDrive\\Documents\\diemmanh\\README.md",
+          "relativePath": "README.md",
+          "name": "README.md",
+          "extension": ".md",
+          "kind": "documentation",
+          "area": "documentation",
+          "sizeBytes": 10781,
+          "modifiedAt": "2026-05-22T12:06:00.171Z"
+        }
+      }
+    ]
+  },
+  "progress": {
+    "overallPercent": 16,
+    "totalChecklistProgress": {
+      "completed": 26,
+      "total": 58,
+      "percent": 16
+    },
+    "mainAppMvpProgress": {
+      "completed": 16,
+      "total": 48,
+      "percent": 12
+    },
+    "projectControlCenterProgress": {
+      "completed": 10,
+      "total": 10,
+      "percent": 100
+    },
+    "codexReadiness": {
+      "completed": 5,
+      "total": 5,
+      "percent": 100
+    },
+    "productionReadiness": {
+      "completed": 1,
+      "total": 8,
+      "percent": 13
+    },
+    "metrics": [
+      {
+        "id": "P0",
+        "label": "Project docs, Codex config, skills",
+        "completed": 14,
+        "total": 15,
+        "status": "in-progress"
+      },
+      {
+        "id": "P0.5",
+        "label": "Project Control Center setup",
+        "completed": 10,
+        "total": 10,
+        "status": "complete"
+      },
+      {
+        "id": "P1",
+        "label": "App scaffold and dev environment",
+        "completed": 0,
+        "total": 4,
+        "status": "not-started"
+      },
+      {
+        "id": "P2",
+        "label": "Core contracts and data schemas",
+        "completed": 0,
+        "total": 5,
+        "status": "not-started"
+      },
+      {
+        "id": "P3",
+        "label": "Event Tracker and local state recovery",
+        "completed": 0,
+        "total": 4,
+        "status": "not-started"
+      },
+      {
+        "id": "P4",
+        "label": "Test Orchestrator and module registry",
+        "completed": 0,
+        "total": 4,
+        "status": "not-started"
+      },
+      {
+        "id": "P5",
+        "label": "Scoring Engine and scoring adapters",
+        "completed": 0,
+        "total": 5,
+        "status": "not-started"
+      },
+      {
+        "id": "P6",
+        "label": "MVP modules M2, M3, M5, M9",
+        "completed": 0,
+        "total": 4,
+        "status": "not-started"
+      },
+      {
+        "id": "P7",
+        "label": "Report, export, QA, internal test",
+        "completed": 2,
+        "total": 7,
+        "status": "in-progress"
+      }
+    ],
+    "notes": [
+      "Project docs, Codex config, skills: 14/15 detected.",
+      "App scaffold and dev environment: 0/4 detected.",
+      "Core contracts and data schemas: 0/5 detected.",
+      "Event Tracker and local state recovery: 0/4 detected.",
+      "Test Orchestrator and module registry: 0/4 detected.",
+      "Scoring Engine and scoring adapters: 0/5 detected.",
+      "MVP modules M2, M3, M5, M9: 0/4 detected.",
+      "Report, export, QA, internal test: 2/7 detected."
+    ]
+  },
+  "git": {
+    "branch": "main",
+    "upstream": "origin/main",
+    "ahead": 0,
+    "behind": 0,
+    "isClean": false,
+    "files": [
+      {
+        "indexStatus": "",
+        "workingTreeStatus": "M",
+        "path": ".gitignore"
+      },
+      {
+        "indexStatus": "",
+        "workingTreeStatus": "M",
+        "path": "docs/projectStatus.md"
+      },
+      {
+        "indexStatus": "",
+        "workingTreeStatus": "M",
+        "path": "tools/project-control-center/README.md"
+      },
+      {
+        "indexStatus": "?",
+        "workingTreeStatus": "?",
+        "path": ".ai/"
+      },
+      {
+        "indexStatus": "?",
+        "workingTreeStatus": "?",
+        "path": ".project/"
+      },
+      {
+        "indexStatus": "?",
+        "workingTreeStatus": "?",
+        "path": "docs/CHATBOT_HANDOFF.md"
+      },
+      {
+        "indexStatus": "?",
+        "workingTreeStatus": "?",
+        "path": "tools/project-control-center/eslint.config.js"
+      },
+      {
+        "indexStatus": "?",
+        "workingTreeStatus": "?",
+        "path": "tools/project-control-center/index.html"
+      },
+      {
+        "indexStatus": "?",
+        "workingTreeStatus": "?",
+        "path": "tools/project-control-center/package-lock.json"
+      },
+      {
+        "indexStatus": "?",
+        "workingTreeStatus": "?",
+        "path": "tools/project-control-center/package.json"
+      },
+      {
+        "indexStatus": "?",
+        "workingTreeStatus": "?",
+        "path": "tools/project-control-center/project-map.json"
+      },
+      {
+        "indexStatus": "?",
+        "workingTreeStatus": "?",
+        "path": "tools/project-control-center/src/"
+      },
+      {
+        "indexStatus": "?",
+        "workingTreeStatus": "?",
+        "path": "tools/project-control-center/tsconfig.json"
+      },
+      {
+        "indexStatus": "?",
+        "workingTreeStatus": "?",
+        "path": "tools/project-control-center/tsconfig.node.json"
+      },
+      {
+        "indexStatus": "?",
+        "workingTreeStatus": "?",
+        "path": "tools/project-control-center/vite.config.ts"
+      }
+    ]
+  }
+}

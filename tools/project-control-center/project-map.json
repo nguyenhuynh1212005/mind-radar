@@ -1,0 +1,575 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-22T00:00:00.000Z",
+  "projectName": "Interactive Cognitive-Behavioral Profile Assessment",
+  "version": "0.1.0",
+  "progressType": "development-checklist",
+  "phases": [
+    {
+      "id": "P0",
+      "name": "Project docs, Codex config, skills",
+      "weight": 10,
+      "checks": [
+        {
+          "id": "p0-agents",
+          "labelVi": "Huong dan AGENTS goc",
+          "path": "AGENTS.md",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p0-docs-tdd",
+          "labelVi": "Tai lieu TDD",
+          "path": "docs/TDD.md",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p0-docs-thuat-toan",
+          "labelVi": "Tai lieu thuat toan",
+          "path": "docs/ThuatToan.md",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p0-docs-mvp-scope",
+          "labelVi": "Pham vi MVP",
+          "path": "docs/mvpScope.md",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p0-docs-architecture",
+          "labelVi": "Tai lieu kien truc",
+          "path": "docs/ARCHITECTURE.md",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p0-docs-module-contracts",
+          "labelVi": "Hop dong module",
+          "path": "docs/moduleContracts.md",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p0-docs-data-schema",
+          "labelVi": "Schema du lieu",
+          "path": "docs/dataSchema.md",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p0-docs-event-tracking",
+          "labelVi": "Dac ta event tracking",
+          "path": "docs/eventTrackingSpec.md",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p0-docs-testing-strategy",
+          "labelVi": "Chien luoc kiem thu",
+          "path": "docs/testingStrategy.md",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p0-docs-item-bank-guidelines",
+          "labelVi": "Huong dan item bank",
+          "path": "docs/itemBankGuidelines.md",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p0-docs-codex-tasks",
+          "labelVi": "Danh sach tac vu Codex",
+          "path": "docs/CODEX_TASKS.md",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p0-codex-config",
+          "labelVi": "Cau hinh Codex",
+          "path": ".codex/config.toml",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p0-skill-architecture",
+          "labelVi": "Skill guard kien truc danh gia",
+          "path": ".agents/skills/assessment-architecture-guard/SKILL.md",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p0-skill-module-builder",
+          "labelVi": "Skill build module danh gia",
+          "path": ".agents/skills/assessment-module-builder/SKILL.md",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p0-skill-scoring-adapter",
+          "labelVi": "Skill build scoring adapter",
+          "path": ".agents/skills/scoring-adapter-builder/SKILL.md",
+          "type": "file",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "P0.5",
+      "name": "Project Control Center setup",
+      "weight": 5,
+      "checks": [
+        {
+          "id": "p05-tool-root",
+          "labelVi": "Thu muc Project Control Center",
+          "path": "tools/project-control-center",
+          "type": "directory",
+          "required": true
+        },
+        {
+          "id": "p05-ai-root",
+          "labelVi": "Thu muc ngu canh AI",
+          "path": ".ai",
+          "type": "directory",
+          "required": true
+        },
+        {
+          "id": "p05-project-root",
+          "labelVi": "Thu muc snapshot du an",
+          "path": ".project",
+          "type": "directory",
+          "required": true
+        },
+        {
+          "id": "p05-agents",
+          "labelVi": "Huong dan cuc bo cua tool",
+          "path": "tools/project-control-center/AGENTS.md",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p05-readme",
+          "labelVi": "Huong dan su dung dashboard",
+          "path": "tools/project-control-center/README.md",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p05-control-center-spec",
+          "labelVi": "Dac ta Project Control Center",
+          "path": "tools/project-control-center/controlCenterSpec.md",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p05-project-map-md",
+          "labelVi": "Tai lieu mo hinh tien do",
+          "path": "tools/project-control-center/projectMap.md",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p05-project-map-json",
+          "labelVi": "Project map may doc duoc",
+          "path": "tools/project-control-center/project-map.json",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p05-codex-prompts",
+          "labelVi": "Mau prompt Codex",
+          "path": "tools/project-control-center/CODEX_PROMPTS.md",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p05-skill",
+          "labelVi": "Skill Project Control Center",
+          "path": ".agents/skills/project-control-center-builder/SKILL.md",
+          "type": "file",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "P1",
+      "name": "App scaffold and dev environment",
+      "weight": 10,
+      "checks": [
+        {
+          "id": "p1-package-json",
+          "labelVi": "Cau hinh package app",
+          "path": "package.json",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p1-tsconfig",
+          "labelVi": "Cau hinh TypeScript",
+          "path": "tsconfig.json",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p1-src",
+          "labelVi": "Thu muc nguon app",
+          "path": "src",
+          "type": "directory",
+          "required": true
+        },
+        {
+          "id": "p1-tests",
+          "labelVi": "Thu muc kiem thu",
+          "path": "tests",
+          "type": "directory",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Core contracts and data schemas",
+      "weight": 15,
+      "checks": [
+        {
+          "id": "p2-contracts-root",
+          "labelVi": "Thu muc contracts cot loi",
+          "path": "src/core/contracts",
+          "type": "directory",
+          "required": true
+        },
+        {
+          "id": "p2-assessment-contract",
+          "labelVi": "Contract assessment",
+          "path": "src/core/contracts/assessment.ts",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p2-events-contract",
+          "labelVi": "Contract events",
+          "path": "src/core/contracts/events.ts",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p2-scoring-contract",
+          "labelVi": "Contract scoring",
+          "path": "src/core/contracts/scoring.ts",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p2-report-contract",
+          "labelVi": "Contract report",
+          "path": "src/core/contracts/report.ts",
+          "type": "file",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Event Tracker and local state recovery",
+      "weight": 15,
+      "checks": [
+        {
+          "id": "p3-tracking-root",
+          "labelVi": "Thu muc tracking",
+          "path": "src/core/tracking",
+          "type": "directory",
+          "required": true
+        },
+        {
+          "id": "p3-event-tracker",
+          "labelVi": "Event Tracker",
+          "path": "src/core/tracking/EventTracker.ts",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p3-focus-tracking",
+          "labelVi": "Focus tracking",
+          "path": "src/core/tracking/focusTracking.ts",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p3-event-validation",
+          "labelVi": "Event validation",
+          "path": "src/core/tracking/eventValidation.ts",
+          "type": "file",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "P4",
+      "name": "Test Orchestrator and module registry",
+      "weight": 10,
+      "checks": [
+        {
+          "id": "p4-orchestrator-root",
+          "labelVi": "Thu muc orchestrator",
+          "path": "src/core/orchestrator",
+          "type": "directory",
+          "required": true
+        },
+        {
+          "id": "p4-test-orchestrator",
+          "labelVi": "Test Orchestrator",
+          "path": "src/core/orchestrator/TestOrchestrator.ts",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p4-module-registry",
+          "labelVi": "Module registry",
+          "path": "src/core/orchestrator/moduleRegistry.ts",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p4-state-machine",
+          "labelVi": "State machine",
+          "path": "src/core/orchestrator/stateMachine.ts",
+          "type": "file",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "P5",
+      "name": "Scoring Engine and scoring adapters",
+      "weight": 15,
+      "checks": [
+        {
+          "id": "p5-scoring-root",
+          "labelVi": "Thu muc scoring",
+          "path": "src/core/scoring",
+          "type": "directory",
+          "required": true
+        },
+        {
+          "id": "p5-scoring-engine",
+          "labelVi": "Scoring Engine",
+          "path": "src/core/scoring/ScoringEngine.ts",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p5-data-quality",
+          "labelVi": "Data quality checker",
+          "path": "src/core/scoring/dataQuality.ts",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p5-normalization",
+          "labelVi": "Normalization",
+          "path": "src/core/scoring/normalization.ts",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p5-profile-aggregator",
+          "labelVi": "Profile Aggregator",
+          "path": "src/core/scoring/profileAggregator.ts",
+          "type": "file",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "P6",
+      "name": "MVP modules M2, M3, M5, M9",
+      "weight": 15,
+      "checks": [
+        {
+          "id": "p6-m2-module",
+          "labelVi": "Module M2 inhibitory control",
+          "path": "src/modules/m2-inhibitory-control",
+          "type": "directory",
+          "required": true
+        },
+        {
+          "id": "p6-m3-module",
+          "labelVi": "Module M3 working memory",
+          "path": "src/modules/m3-working-memory",
+          "type": "directory",
+          "required": true
+        },
+        {
+          "id": "p6-m5-module",
+          "labelVi": "Module M5 procedural reasoning",
+          "path": "src/modules/m5-procedural-reasoning",
+          "type": "directory",
+          "required": true
+        },
+        {
+          "id": "p6-m9-module",
+          "labelVi": "Module M9 metacognition",
+          "path": "src/modules/m9-metacognition",
+          "type": "directory",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "P7",
+      "name": "Report, export, QA, internal test",
+      "weight": 10,
+      "checks": [
+        {
+          "id": "p7-report-root",
+          "labelVi": "Thu muc report",
+          "path": "src/report",
+          "type": "directory",
+          "required": true
+        },
+        {
+          "id": "p7-export-root",
+          "labelVi": "Thu muc export",
+          "path": "src/export",
+          "type": "directory",
+          "required": true
+        },
+        {
+          "id": "p7-radar-profile",
+          "labelVi": "Radar profile report",
+          "path": "src/report/RadarProfile.ts",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p7-export-json",
+          "labelVi": "JSON export",
+          "path": "src/export/exportJson.ts",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p7-export-csv",
+          "labelVi": "CSV export",
+          "path": "src/export/exportCsv.ts",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p7-project-status",
+          "labelVi": "Trang thai du an",
+          "path": "docs/projectStatus.md",
+          "type": "file",
+          "required": true
+        },
+        {
+          "id": "p7-chatbot-handoff",
+          "labelVi": "Tai lieu handoff chatbot",
+          "path": "docs/CHATBOT_HANDOFF.md",
+          "type": "file",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "readiness": {
+    "codexReadinessChecks": [
+      {
+        "id": "codex-agents",
+        "labelVi": "Huong dan AGENTS goc",
+        "path": "AGENTS.md",
+        "type": "file",
+        "required": true
+      },
+      {
+        "id": "codex-config",
+        "labelVi": "Cau hinh Codex",
+        "path": ".codex/config.toml",
+        "type": "file",
+        "required": true
+      },
+      {
+        "id": "codex-skills-root",
+        "labelVi": "Thu muc skills",
+        "path": ".agents/skills",
+        "type": "directory",
+        "required": true
+      },
+      {
+        "id": "codex-docs-root",
+        "labelVi": "Thu muc tai lieu",
+        "path": "docs",
+        "type": "directory",
+        "required": true
+      },
+      {
+        "id": "codex-control-center-spec",
+        "labelVi": "Dac ta Project Control Center",
+        "path": "tools/project-control-center/controlCenterSpec.md",
+        "type": "file",
+        "required": true
+      }
+    ],
+    "productionReadinessChecks": [
+      {
+        "id": "production-m2-module",
+        "labelVi": "Module M2 inhibitory control",
+        "path": "src/modules/m2-inhibitory-control",
+        "type": "directory",
+        "required": true
+      },
+      {
+        "id": "production-m3-module",
+        "labelVi": "Module M3 working memory",
+        "path": "src/modules/m3-working-memory",
+        "type": "directory",
+        "required": true
+      },
+      {
+        "id": "production-m5-module",
+        "labelVi": "Module M5 procedural reasoning",
+        "path": "src/modules/m5-procedural-reasoning",
+        "type": "directory",
+        "required": true
+      },
+      {
+        "id": "production-m9-module",
+        "labelVi": "Module M9 metacognition",
+        "path": "src/modules/m9-metacognition",
+        "type": "directory",
+        "required": true
+      },
+      {
+        "id": "production-scoring-engine",
+        "labelVi": "Scoring Engine",
+        "path": "src/core/scoring/ScoringEngine.ts",
+        "type": "file",
+        "required": true
+      },
+      {
+        "id": "production-export-json",
+        "labelVi": "JSON export",
+        "path": "src/export/exportJson.ts",
+        "type": "file",
+        "required": true
+      },
+      {
+        "id": "production-export-csv",
+        "labelVi": "CSV export",
+        "path": "src/export/exportCsv.ts",
+        "type": "file",
+        "required": true
+      },
+      {
+        "id": "production-project-status",
+        "labelVi": "Trang thai du an",
+        "path": "docs/projectStatus.md",
+        "type": "file",
+        "required": true
+      }
+    ]
+  }
+}

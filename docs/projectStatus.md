@@ -76,3 +76,18 @@ Constraints:
 - Do not code yet.
 - Do not scaffold the main app.
 ```
+
+## Project Control Center
+
+Status: implementation added under `tools/project-control-center/`.
+
+- Runtime progress source: `tools/project-control-center/project-map.json`.
+- Documentation-only map: `tools/project-control-center/projectMap.md`.
+- UI locale default: `vi-VN`.
+- Panels implemented: Repo Tree, Git History, Status, Logs, AI Context Export.
+- Snapshot outputs: `.project/status.snapshot.json` and `.project/git-history.snapshot.json`.
+- Append-only logs: `.project/scan-history.ndjson` and `.project/tool-errors.ndjson`.
+- AI outputs: `.ai/context-bundle.md` and `.ai/code-index.json`.
+
+The tool is intentionally isolated and must not modify the main assessment app
+under `src/`.
