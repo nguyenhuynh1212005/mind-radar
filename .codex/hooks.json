@@ -1,0 +1,21 @@
+{
+    "post_command": [
+        {
+            "name": "Auto-Verify Code Modifications",
+            "description": "Bắt buộc chạy Typecheck và Lint sau khi Codex tạo hoặc sửa bất kỳ file .ts, .tsx nào.",
+            "condition": "modified_files =~ '\\.(ts|tsx)$'",
+            "command": "npm run typecheck && npm run lint",
+            "on_failure": "prompt",
+            "justification": "Bạn vừa sửa file TypeScript. Hệ thống yêu cầu phải kiểm tra lỗi type và format trước khi kết thúc lượt làm việc."
+        }
+    ],
+    "pre_prompt": [
+        {
+            "name": "Block Sensitive Data",
+            "description": "Chặn Codex vô tình rò rỉ API Key hoặc Token.",
+            "condition": "prompt =~ '(?i)(sk-[a-zA-Z0-9]{20,}|ghp_[a-zA-Z0-9]{36})'",
+            "action": "reject",
+            "message": "CẢNH BÁO BẢO MẬT: Prompt của bạn có chứa chuỗi giống API Key hoặc Token. Hãy xóa nó trước khi gửi cho Codex."
+        }
+    ]
+}

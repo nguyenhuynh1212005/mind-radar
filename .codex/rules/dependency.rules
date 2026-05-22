@@ -1,0 +1,19 @@
+# Chặn Codex tự ý cài đặt package mới mà không xin phép
+prefix_rule(
+    pattern = ["npm", "install"],
+    decision = "prompt",
+    justification = "Việc thêm thư viện vào dự án cần được lập trình viên (bạn) phê duyệt để tránh làm nặng app.",
+    match = [
+        "npm install lodash",
+        "npm i framer-motion"
+    ]
+)
+
+prefix_rule(
+    pattern = ["npm", "uninstall"],
+    decision = "prompt",
+    justification = "Không được tự ý gỡ bỏ thư viện nếu chưa có sự đồng ý.",
+    match = [
+        "npm uninstall react"
+    ]
+)
