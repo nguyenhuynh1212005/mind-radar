@@ -35,7 +35,7 @@ Trạng thái và tiến độ chi tiết của dự án **Interactive Cognitive
 
 ## In Progress (Đang thực hiện)
 
-- [/] **Control Center Spec** - Hoàn thiện các tài liệu đặc tả kỹ thuật và file map (`project-map.json`, `CONTROL_CENTER_SPEC.md`).
+- [/] **Control Center Spec** - Hoàn thiện các tài liệu đặc tả kỹ thuật và file map (`project-map.json`, `controlCenterSpec.md`).
 - [/] **Workflow Design** - Thiết lập cơ chế xuất AI context 4 cấp độ.
 
 ---
@@ -65,7 +65,7 @@ Use the project-control-center-builder skill.
 
 Read:
 - tools/project-control-center/AGENTS.md
-- tools/project-control-center/CONTROL_CENTER_SPEC.md
+- tools/project-control-center/controlCenterSpec.md
 - tools/project-control-center/project-map.json
 - tools/project-control-center/CODEX_PROMPTS.md
 

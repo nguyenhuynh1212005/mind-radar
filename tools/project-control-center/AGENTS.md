@@ -14,7 +14,7 @@ The tool helps the project owner:
 - know the current MVP phase
 - generate copyable prompts for Codex and other chatbots
 - export AI context bundles
-- update docs/PROJECT_STATUS.md and docs/CHATBOT_HANDOFF.md
+- update docs/projectStatus.md and docs/CHATBOT_HANDOFF.md
 
 ## Hard rules
 
@@ -39,7 +39,7 @@ The tool helps the project owner:
 ## Generated files
 
 The tool may generate:
-- docs/PROJECT_STATUS.md
+- docs/projectStatus.md
 - docs/CHATBOT_HANDOFF.md
 - .project/status.snapshot.json
 - .ai/context-bundle.md

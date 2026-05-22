@@ -8,7 +8,7 @@ A local developer-only dashboard for tracking this repository's MVP progress and
 - Reads project-map.json.
 - Checks Git status.
 - Computes practical MVP progress.
-- Generates docs/PROJECT_STATUS.md.
+- Generates docs/projectStatus.md.
 - Generates docs/CHATBOT_HANDOFF.md.
 - Generates .project/status.snapshot.json.
 - Generates AI context bundles for chatbot/Codex review.
@@ -36,7 +36,7 @@ http://localhost:4177
 ```
 
 ## Main files
-- CONTROL_CENTER_SPEC.md: product spec for this tool
-- PROJECT_MAP.md: human explanation of progress model
+- controlCenterSpec.md: product spec for this tool
+- projectMap.md: human explanation of progress model
 - project-map.json: machine-readable phase checklist
 - CODEX_PROMPTS.md: prompts to give Codex

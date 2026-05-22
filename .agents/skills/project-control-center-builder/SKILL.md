@@ -9,7 +9,7 @@ Purpose:
 - Track MVP progress visually.
 - Read repo status from docs, Git, project-map.json, and file existence checks.
 - Generate copyable AI context for Codex or other chatbots.
-- Generate docs/PROJECT_STATUS.md.
+- Generate docs/projectStatus.md.
 - Generate docs/CHATBOT_HANDOFF.md.
 - Generate .project/status.snapshot.json.
 - Generate .ai/context-bundle.md and .ai/code-index.json when implemented.
@@ -45,7 +45,7 @@ Required UI features:
 - Refresh button.
 
 Required generated files:
-- docs/PROJECT_STATUS.md
+- docs/projectStatus.md
 - docs/CHATBOT_HANDOFF.md
 - .project/status.snapshot.json
 - .ai/context-bundle.md
@@ -61,9 +61,9 @@ Progress calculation:
 Before coding:
 1. Read root AGENTS.md.
 2. Read tools/project-control-center/AGENTS.md.
-3. Read tools/project-control-center/CONTROL_CENTER_SPEC.md.
+3. Read tools/project-control-center/controlCenterSpec.md.
 4. Read tools/project-control-center/project-map.json.
-5. Read docs/MVP_SCOPE.md.
+5. Read docs/mvpScope.md.
 6. Read docs/CODEX_TASKS.md if available.
 
 Done means:

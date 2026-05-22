@@ -17,10 +17,10 @@ Hard rules:
 
 Before coding:
 1. Read AGENTS.md.
-2. Read docs/MVP_SCOPE.md.
+2. Read docs/mvpScope.md.
 3. Read docs/ARCHITECTURE.md.
-4. Read docs/MODULE_CONTRACTS.md.
-5. Read docs/DATA_SCHEMA.md.
+4. Read docs/moduleContracts.md.
+5. Read docs/dataSchema.md.
 
 When proposing changes:
 - Identify affected contracts.

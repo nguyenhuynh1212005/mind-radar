@@ -20,7 +20,7 @@ Hệ thống sử dụng phương pháp kiểm tra sự tồn tại của các f
 | **P4** | 10% | Test Orchestrator & Đăng ký Module | `src/core/orchestrator/` (`TestOrchestrator.ts`, `moduleRegistry.ts`, `stateMachine.ts`) |
 | **P5** | 15% | Scoring Engine & Các Adapters chấm điểm | `src/core/scoring/` (`ScoringEngine.ts`, `dataQuality.ts`, `normalization.ts`, `profileAggregator.ts`) |
 | **P6** | 15% | Phát triển các Modules MVP (M2, M3, M5, M9) | `src/modules/` (`m2-inhibitory-control`, `m3-working-memory`, `m5-procedural-reasoning`, `m9-metacognition`) |
-| **P7** | 10% | Báo cáo, Xuất dữ liệu, QA & Kiểm thử | `src/report/`, `src/export/`, `docs/PROJECT_STATUS.md`, `docs/CHATBOT_HANDOFF.md` |
+| **P7** | 10% | Báo cáo, Xuất dữ liệu, QA & Kiểm thử | `src/report/`, `src/export/`, `docs/projectStatus.md`, `docs/CHATBOT_HANDOFF.md` |
 
 > [!NOTE]
 > Tổng trọng số là **105%** bao gồm phase phụ **P0.5** (Project Control Center). Khi tính tiến độ thuần của MVP App, có thể tùy chọn loại bỏ P0.5 để quy về 100% chuẩn, hoặc tính song song cả hai chỉ số.
@@ -57,14 +57,14 @@ diemmanh/
 ├── .project/
 │   └── README.md                            # Nơi lưu trữ trạng thái máy đọc (snapshot)
 ├── docs/
-│   ├── PROJECT_STATUS.md                    # Tiến trình dự án (người đọc)
+│   ├── projectStatus.md                     # Tiến trình dự án (người đọc)
 │   └── CHATBOT_HANDOFF.md                   # Prompt chuyển giao ngữ cảnh cho AI
 └── tools/
     └── project-control-center/
         ├── AGENTS.md                        # Chỉ dẫn cục bộ cho Codex khi làm việc với tool
         ├── README.md                        # Hướng dẫn sử dụng dashboard
-        ├── CONTROL_CENTER_SPEC.md           # Đặc tả tính năng của Control Center
-        ├── PROJECT_MAP.md                   # Hướng dẫn này (Mô hình tiến độ)
+        ├── controlCenterSpec.md             # Đặc tả tính năng của Control Center
+        ├── projectMap.md                    # Hướng dẫn này (Mô hình tiến độ)
         ├── project-map.json                 # Cấu hình checklist dạng máy đọc (JSON)
         └── CODEX_PROMPTS.md                 # Các mẫu câu lệnh tối ưu cho Codex
 ```
@@ -90,13 +90,13 @@ Dưới đây là các tài liệu cấu hình chi tiết của từng file thà
         "AGENTS.md",
         "docs/TDD.md",
         "docs/ThuatToan.md",
-        "docs/MVP_SCOPE.md",
+        "docs/mvpScope.md",
         "docs/ARCHITECTURE.md",
-        "docs/MODULE_CONTRACTS.md",
-        "docs/DATA_SCHEMA.md",
-        "docs/EVENT_TRACKING_SPEC.md",
-        "docs/TESTING_STRATEGY.md",
-        "docs/ITEM_BANK_GUIDELINES.md",
+        "docs/moduleContracts.md",
+        "docs/dataSchema.md",
+        "docs/eventTrackingSpec.md",
+        "docs/testingStrategy.md",
+        "docs/itemBankGuidelines.md",
         "docs/CODEX_TASKS.md",
         ".codex/config.toml",
         ".agents/skills/assessment-architecture-guard/SKILL.md",
@@ -111,8 +111,8 @@ Dưới đây là các tài liệu cấu hình chi tiết của từng file thà
       "checks": [
         "tools/project-control-center/AGENTS.md",
         "tools/project-control-center/README.md",
-        "tools/project-control-center/CONTROL_CENTER_SPEC.md",
-        "tools/project-control-center/PROJECT_MAP.md",
+        "tools/project-control-center/controlCenterSpec.md",
+        "tools/project-control-center/projectMap.md",
         "tools/project-control-center/project-map.json",
         "tools/project-control-center/CODEX_PROMPTS.md",
         ".agents/skills/project-control-center-builder/SKILL.md"
@@ -196,7 +196,7 @@ Dưới đây là các tài liệu cấu hình chi tiết của từng file thà
         "src/report/RadarProfile.tsx",
         "src/export/exportJson.ts",
         "src/export/exportCsv.ts",
-        "docs/PROJECT_STATUS.md",
+        "docs/projectStatus.md",
         "docs/CHATBOT_HANDOFF.md"
       ]
     }
@@ -207,7 +207,7 @@ Dưới đây là các tài liệu cấu hình chi tiết của từng file thà
       ".codex/config.toml",
       ".agents/skills",
       "docs",
-      "tools/project-control-center/CONTROL_CENTER_SPEC.md"
+      "tools/project-control-center/controlCenterSpec.md"
     ],
     "productionReadinessChecks": [
       "src/modules/m2-inhibitory-control",
@@ -217,7 +217,7 @@ Dưới đây là các tài liệu cấu hình chi tiết của từng file thà
       "src/core/scoring/ScoringEngine.ts",
       "src/export/exportJson.ts",
       "src/export/exportCsv.ts",
-      "docs/PROJECT_STATUS.md"
+      "docs/projectStatus.md"
     ]
   }
 }
@@ -234,7 +234,7 @@ description: Sử dụng khi xây dựng hoặc cập nhật công cụ Project 
 - Theo dõi tiến độ MVP một cách trực quan.
 - Đọc trạng thái repo từ tài liệu, Git, cấu hình JSON và kiểm tra sự tồn tại của file.
 - Tạo mã ngữ cảnh AI copyable để dán vào Codex hoặc chatbot khác.
-- Cập nhật tự động các file: `docs/PROJECT_STATUS.md`, `docs/CHATBOT_HANDOFF.md`, `.project/status.snapshot.json`.
+- Cập nhật tự động các file: `docs/projectStatus.md`, `docs/CHATBOT_HANDOFF.md`, `.project/status.snapshot.json`.
 
 ## Ranh giới phát triển (Hard Boundaries)
 - Tuyệt đối KHÔNG cấu trúc hoặc thay đổi code của ứng dụng chính từ công cụ này.
@@ -263,7 +263,7 @@ Thư mục này chứa công cụ Project Control Center chạy ở môi trườ
 - Kết quả phần trăm tiến độ là thước đo công việc checklist kỹ thuật, không đại diện cho tính chính xác hay kiểm định khoa học của bài đánh giá tâm lý.
 ```
 
-### 4. `tools/project-control-center/CONTROL_CENTER_SPEC.md` (Đặc tả tính năng công cụ)
+### 4. `tools/project-control-center/controlCenterSpec.md` (Đặc tả tính năng công cụ)
 ```markdown
 # Project Control Center Spec
 
@@ -297,7 +297,7 @@ graph TD
     A --> D[Cấp 3: Module Specific Context]
     A --> E[Cấp 4: AI Context Bundle]
 
-    B --> B1[Gom: AGENTS.md + PROJECT_STATUS.md]
+    B --> B1[Gom: AGENTS.md + projectStatus.md]
     C --> C1[Gom: git diff + git status]
     D --> D1[Gom: Source file liên quan tới M2/M3/M5...]
     E --> E1[Gom: Toàn bộ tiến độ + thay đổi + cấu trúc cốt lõi]
@@ -341,6 +341,6 @@ Mỗi khi AI hoàn thành một tính năng hoặc thay đổi cấu trúc repo:
 1. Chạy lệnh cập nhật tiến độ: `npm run scan` hoặc `npm run project:status`.
 2. Commit toàn bộ thay đổi công cụ và tài liệu tiến độ mới:
    ```bash
-   git add tools/project-control-center docs/PROJECT_STATUS.md docs/CHATBOT_HANDOFF.md .project/status.snapshot.json
+   git add tools/project-control-center docs/projectStatus.md docs/CHATBOT_HANDOFF.md .project/status.snapshot.json
    git commit -m "chore(tools): update project control center and progress status"
    ```

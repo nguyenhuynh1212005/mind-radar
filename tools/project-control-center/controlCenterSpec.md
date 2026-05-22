@@ -55,7 +55,7 @@ graph TD
 
     %% Outputs & Artifacts
     F -->|Deterministic Snapshot| I[.project/status.snapshot.json]
-    F -->|Human Status Report| J[docs/PROJECT_STATUS.md]
+    F -->|Human Status Report| J[docs/projectStatus.md]
     G -->|Excluded Filtered Sources| K[.ai/context-bundle.md]
     G -->|Index Database| L[.ai/code-index.json]
     H & G -->|Chatbot Prompt Generation| M[docs/CHATBOT_HANDOFF.md]
@@ -186,7 +186,7 @@ To preserve workspace safety, compliance, and strict code isolation, the Project
 > [!CAUTION]
 > **Code Sandbox Boundary**: The Project Control Center is entirely read-only with respect to the `src/` product folder. It must never append, edit, or delete production application code or items. Its write access is strictly limited to:
 > *   `tools/project-control-center/`
-> *   `docs/PROJECT_STATUS.md`
+> *   `docs/projectStatus.md`
 > *   `docs/CHATBOT_HANDOFF.md`
 > *   `.project/`
 > *   `.ai/`
@@ -200,6 +200,6 @@ A candidate implementation of the Project Control Center is deemed complete only
 - [ ] **Deterministic Scanner**: Accurately scans file existence and calculates real progress based on `project-map.json`.
 - [ ] **Git Connector**: Captures git status, branch name, and recent commit history using non-blocking child processes.
 - [ ] **Local Dashboard UI**: Serves a modern local web server displaying all data using custom palettes, visual animations, and glassmorphism styling.
-- [ ] **Artifact Writer**: Synchronizes dynamic markdown files (`docs/PROJECT_STATUS.md`, `docs/CHATBOT_HANDOFF.md`) on every reload.
+- [ ] **Artifact Writer**: Synchronizes dynamic markdown files (`docs/projectStatus.md`, `docs/CHATBOT_HANDOFF.md`) on every reload.
 - [ ] **Quick Copier**: Includes functional copy-to-clipboard portals for prompt templates without breaking on modern browsers.
 - [ ] **Safety Compliance**: Passes build, lint, and typechecks, confirming that no secrets or binary assets are crawled.
