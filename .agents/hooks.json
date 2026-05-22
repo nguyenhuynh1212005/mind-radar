@@ -1,0 +1,16 @@
+{
+    "auto-lint-typecheck": {
+        "PostToolUse": [
+            {
+                "matcher": "run_command",
+                "hooks": [
+                    {
+                        "type": "command",
+                        "command": "npm run typecheck",
+                        "timeout": 30
+                    }
+                ]
+            }
+        ]
+    }
+}
