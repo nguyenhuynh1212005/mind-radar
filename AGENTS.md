@@ -88,9 +88,13 @@ Every raw event must include:
 
 ## Engineering conventions
 
+Tech stack:
+- Frontend: Vite + Vanilla TypeScript
+- Backend: Node.js + Express
+
 Use TypeScript.
 Prefer small, pure functions for scoring.
-Do not mix scoring code with React components.
+Do not mix scoring code with UI components.
 All scoring adapters must have unit tests.
 All schemas must be versioned.
 Use explicit types; avoid `any` unless unavoidable.

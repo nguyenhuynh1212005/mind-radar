@@ -179,7 +179,7 @@ To preserve workspace safety, compliance, and strict code isolation, the Project
 > **Strict Context Exclusions**: The AI Context Bundler must never export or inspect sensitive files. The following list of files and patterns must be strictly blacklisted in the scanning engine:
 > *   Environment configs: `.env`, `.env.local`, `.env.*`
 > *   Dependency packages: `node_modules/`, `bower_components/`
-> *   Build artifacts: `dist/`, `build/`, `out/`, `.next/`
+> *   Build artifacts: `dist/`, `build/`, `out/`
 > *   Git metadata: `.git/`
 > *   Binary files: `.png`, `.jpg`, `.jpeg`, `.pdf`, `.zip`, `.gz`
 

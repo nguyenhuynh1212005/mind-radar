@@ -193,7 +193,7 @@ Dưới đây là các tài liệu cấu hình chi tiết của từng file thà
       "checks": [
         "src/report",
         "src/export",
-        "src/report/RadarProfile.tsx",
+        "src/report/RadarProfile.ts",
         "src/export/exportJson.ts",
         "src/export/exportCsv.ts",
         "docs/projectStatus.md",

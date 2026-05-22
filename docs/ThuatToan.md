@@ -692,9 +692,9 @@ s_1002,p_5008,M3,block_01,m3_corsi_001,corsi_seq_4,forward,4,false,0.75,3402,120
 ## 14. Chiến lược Phát triển Phần mềm (Software Development Strategy)
 
 ### 14.1. Công nghệ Khuyến nghị (Recommended Tech Stack)
-* **Frontend:** Next.js hoặc React (Vite) + TypeScript. Quản lý trạng thái bằng **Zustand** (Nhẹ, tối ưu lưu trữ offline).
+* **Frontend:** Dùng Vite + Vanilla TypeScript. Quản lý trạng thái bằng **Zustand** (Nhẹ, tối ưu lưu trữ offline).
 * **UI/Visualization:** TailwindCSS (nếu cần thiết, hoặc Vanilla CSS cho hiệu năng tối đa), **Framer Motion** cho tương tác chuyển động mượt mà, **Recharts** vẽ Radar Chart.
-* **Backend:** Next.js API Routes hoặc FastAPI (Python) để xử lý logic chấm điểm bảo mật và lưu trữ cơ sở dữ liệu.
+* **Backend:** Dùng Node.js + Express để xử lý logic chấm điểm bảo mật và lưu trữ cơ sở dữ liệu.
 * **Database:** PostgreSQL (Supabase) lưu Session, Metadata và Logs.
 
 ### 14.2. Thứ tự Xây dựng Hệ thống (Build Order)
