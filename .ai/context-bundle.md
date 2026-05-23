@@ -1,6 +1,6 @@
 # AI Context Bundle
 
-Generated: 2026-05-23T11:36:06.773Z
+Generated: 2026-05-23T11:46:27.569Z
 
 # Copyable Prompts
 
@@ -8,18 +8,15 @@ Generated: 2026-05-23T11:36:06.773Z
 
 # Project Control Center
 
-- Thoi diem scan: 2026-05-23T11:36:06.743Z
+- Thoi diem scan: 2026-05-23T11:46:27.535Z
 - Nhanh Git: main
 - Trang thai: co thay doi
-- Check hien co: 27
-- Check thieu: 31
+- Check hien co: 30
+- Check thieu: 28
 
 ## Check thieu
 
 - p0-docs-codex-tasks: docs/CODEX_TASKS.md
-- p1-tsconfig: tsconfig.json
-- p1-src: src
-- p1-tests: tests
 - p2-contracts-root: src/core/contracts
 - p2-assessment-contract: src/core/contracts/assessment.ts
 - p2-events-contract: src/core/contracts/events.ts
@@ -86,14 +83,14 @@ Nhanh: main
 
 ## Diff summary
 
--  .ai/code-index.json                |   2 +-
--  .ai/context-bundle.md              | 623 ++++++++++++++++++++++++++++++++++---
--  .project/git-history.snapshot.json |  46 +--
--  .project/scan-history.ndjson       |  13 +
--  .project/status.snapshot.json      |   4 +-
--  docs/CHATBOT_HANDOFF.md            |   6 +-
--  docs/projectStatus.md              |   4 +-
--  7 files changed, 621 insertions(+), 77 deletions(-)
+-  .ai/code-index.json                |  8 ++---
+-  .ai/context-bundle.md              | 63 ++++++++++++++++----------------------
+-  .project/git-history.snapshot.json | 32 +++++++++----------
+-  .project/scan-history.ndjson       | 10 ++++++
+-  .project/status.snapshot.json      | 18 +++++------
+-  docs/CHATBOT_HANDOFF.md            | 19 +++++-------
+-  docs/projectStatus.md              | 11 +++----
+-  7 files changed, 78 insertions(+), 83 deletions(-)
 
 ## nextCodexPrompt
 
@@ -105,15 +102,15 @@ Use project-map.json as the only machine-readable progress source.
 ## Priority missing checks
 
 - p0-docs-codex-tasks: docs/CODEX_TASKS.md
-- p1-tsconfig: tsconfig.json
-- p1-src: src
-- p1-tests: tests
 - p2-contracts-root: src/core/contracts
 - p2-assessment-contract: src/core/contracts/assessment.ts
 - p2-events-contract: src/core/contracts/events.ts
 - p2-scoring-contract: src/core/contracts/scoring.ts
 - p2-report-contract: src/core/contracts/report.ts
 - p3-tracking-root: src/core/tracking
+- p3-event-tracker: src/core/tracking/EventTracker.ts
+- p3-focus-tracking: src/core/tracking/focusTracking.ts
+- p3-event-validation: src/core/tracking/eventValidation.ts
 
 ## architectureContext
 
@@ -1194,25 +1191,22 @@ Module -> Orchestrator -> Profile Aggregator -> Report
 ```
 # Chatbot Handoff
 
-Generated: 2026-05-23T11:36:05.940Z
-Scan: 2026-05-23T11:36:05.910Z
+Generated: 2026-05-23T11:46:24.230Z
+Scan: 2026-05-23T11:46:24.199Z
 Git branch: main
 
 ## Handoff Prompt
 # Project Control Center
 
-- Thoi diem scan: 2026-05-23T11:36:05.910Z
+- Thoi diem scan: 2026-05-23T11:46:24.199Z
 - Nhanh Git: main
 - Trang thai: co thay doi
-- Check hien co: 27
-- Check thieu: 31
+- Check hien co: 30
+- Check thieu: 28
 
 ## Check thieu
 
 - p0-docs-codex-tasks: docs/CODEX_TASKS.md
-- p1-tsconfig: tsconfig.json
-- p1-src: src
-- p1-tests: tests
 - p2-contracts-root: src/core/contracts
 - p2-assessment-contract: src/core/contracts/assessment.ts
 - p2-events-contract: src/core/contracts/events.ts
@@ -1260,15 +1254,15 @@ Use project-map.json as the only machine-readable progress source.
 ## Priority missing checks
 
 - p0-docs-codex-tasks: docs/CODEX_TASKS.md
-- p1-tsconfig: tsconfig.json
-- p1-src: src
-- p1-tests: tests
 - p2-contracts-root: src/core/contracts
 - p2-assessment-contract: src/core/contracts/assessment.ts
 - p2-events-contract: src/core/contracts/events.ts
 - p2-scoring-contract: src/core/contracts/scoring.ts
 - p2-report-contract: src/core/contracts/report.ts
 - p3-tracking-root: src/core/tracking
+- p3-event-tracker: src/core/tracking/EventTracker.ts
+- p3-focus-tracking: src/core/tracking/focusTracking.ts
+- p3-event-validation: src/core/tracking/eventValidation.ts
 ```
 
 ## docs/TDD.md
@@ -2169,23 +2163,20 @@ Build a working assessment platform skeleton with 3 validated modules:
 ```
 # Project Status
 
-Generated: 2026-05-23T11:36:05.940Z
-Scan: 2026-05-23T11:36:05.910Z
+Generated: 2026-05-23T11:46:24.230Z
+Scan: 2026-05-23T11:46:24.199Z
 Git branch: main
 Git clean: no
 
 ## Progress
-- Total checklist: 19%
-- Main app MVP: 15%
+- Total checklist: 26%
+- Main app MVP: 22%
 - Project Control Center: 100%
 - Codex readiness: 100%
 - Production readiness: 13%
 
 ## Missing Checks
 - p0-docs-codex-tasks: docs/CODEX_TASKS.md
-- p1-tsconfig: tsconfig.json
-- p1-src: src
-- p1-tests: tests
 - p2-contracts-root: src/core/contracts
 - p2-assessment-contract: src/core/contracts/assessment.ts
 - p2-events-contract: src/core/contracts/events.ts

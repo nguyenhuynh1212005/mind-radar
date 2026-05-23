@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-23T11:36:06.773Z",
+  "generatedAt": "2026-05-23T11:46:27.569Z",
   "checks": [
     {
       "id": "p0-agents",
@@ -161,19 +161,19 @@
     {
       "id": "p1-tsconfig",
       "path": "tsconfig.json",
-      "exists": false,
+      "exists": true,
       "required": true
     },
     {
       "id": "p1-src",
       "path": "src",
-      "exists": false,
+      "exists": true,
       "required": true
     },
     {
       "id": "p1-tests",
       "path": "tests",
-      "exists": false,
+      "exists": true,
       "required": true
     },
     {

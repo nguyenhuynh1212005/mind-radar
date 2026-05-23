@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "capturedAt": "2026-05-23T11:36:06.724Z",
+  "capturedAt": "2026-05-23T11:46:27.510Z",
   "branch": "main",
   "isClean": false,
   "stagedFiles": [],
@@ -24,6 +24,13 @@
     "docs/projectStatus.md"
   ],
   "lastCommits": [
+    {
+      "hash": "2e320b5390135c2da010184bc89e0e2b58f12316",
+      "shortHash": "2e320b5",
+      "author": "nguyenhuynh1212005",
+      "date": "2026-05-23T18:44:58+07:00",
+      "subject": "chore: init typescript base project and tools"
+    },
     {
       "hash": "1a3ee1490a317102343991cca27b0d9151d50a71",
       "shortHash": "1a3ee14",
@@ -51,23 +58,16 @@
       "author": "nguyenhuynh1212005",
       "date": "2026-05-23T17:33:45+07:00",
       "subject": "feat: integrate Project Control Center for automated project status tracking and AI handoff context generation"
-    },
-    {
-      "hash": "9fe5dd0012e24abfe1a953a01cf7deae70844172",
-      "shortHash": "9fe5dd0",
-      "author": "nguyenhuynh1212005",
-      "date": "2026-05-23T16:24:21+07:00",
-      "subject": "chore(tools): complete project control center MVP"
     }
   ],
   "diffSummary": [
-    " .ai/code-index.json                |   2 +-",
-    " .ai/context-bundle.md              | 623 ++++++++++++++++++++++++++++++++++---",
-    " .project/git-history.snapshot.json |  46 +--",
-    " .project/scan-history.ndjson       |  13 +",
-    " .project/status.snapshot.json      |   4 +-",
-    " docs/CHATBOT_HANDOFF.md            |   6 +-",
-    " docs/projectStatus.md              |   4 +-",
-    " 7 files changed, 621 insertions(+), 77 deletions(-)"
+    " .ai/code-index.json                |  8 ++---",
+    " .ai/context-bundle.md              | 63 ++++++++++++++++----------------------",
+    " .project/git-history.snapshot.json | 32 +++++++++----------",
+    " .project/scan-history.ndjson       | 10 ++++++",
+    " .project/status.snapshot.json      | 18 +++++------",
+    " docs/CHATBOT_HANDOFF.md            | 19 +++++-------",
+    " docs/projectStatus.md              | 11 +++----",
+    " 7 files changed, 78 insertions(+), 83 deletions(-)"
   ]
 }

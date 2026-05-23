@@ -1,24 +1,21 @@
 # Chatbot Handoff
 
-Generated: 2026-05-23T11:36:06.773Z
-Scan: 2026-05-23T11:36:06.743Z
+Generated: 2026-05-23T11:46:27.569Z
+Scan: 2026-05-23T11:46:27.535Z
 Git branch: main
 
 ## Handoff Prompt
 # Project Control Center
 
-- Thoi diem scan: 2026-05-23T11:36:06.743Z
+- Thoi diem scan: 2026-05-23T11:46:27.535Z
 - Nhanh Git: main
 - Trang thai: co thay doi
-- Check hien co: 27
-- Check thieu: 31
+- Check hien co: 30
+- Check thieu: 28
 
 ## Check thieu
 
 - p0-docs-codex-tasks: docs/CODEX_TASKS.md
-- p1-tsconfig: tsconfig.json
-- p1-src: src
-- p1-tests: tests
 - p2-contracts-root: src/core/contracts
 - p2-assessment-contract: src/core/contracts/assessment.ts
 - p2-events-contract: src/core/contracts/events.ts
@@ -66,12 +63,12 @@ Use project-map.json as the only machine-readable progress source.
 ## Priority missing checks
 
 - p0-docs-codex-tasks: docs/CODEX_TASKS.md
-- p1-tsconfig: tsconfig.json
-- p1-src: src
-- p1-tests: tests
 - p2-contracts-root: src/core/contracts
 - p2-assessment-contract: src/core/contracts/assessment.ts
 - p2-events-contract: src/core/contracts/events.ts
 - p2-scoring-contract: src/core/contracts/scoring.ts
 - p2-report-contract: src/core/contracts/report.ts
 - p3-tracking-root: src/core/tracking
+- p3-event-tracker: src/core/tracking/EventTracker.ts
+- p3-focus-tracking: src/core/tracking/focusTracking.ts
+- p3-event-validation: src/core/tracking/eventValidation.ts

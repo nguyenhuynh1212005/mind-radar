@@ -1,22 +1,19 @@
 # Project Status
 
-Generated: 2026-05-23T11:36:06.773Z
-Scan: 2026-05-23T11:36:06.743Z
+Generated: 2026-05-23T11:46:27.569Z
+Scan: 2026-05-23T11:46:27.535Z
 Git branch: main
 Git clean: no
 
 ## Progress
-- Total checklist: 19%
-- Main app MVP: 15%
+- Total checklist: 26%
+- Main app MVP: 22%
 - Project Control Center: 100%
 - Codex readiness: 100%
 - Production readiness: 13%
 
 ## Missing Checks
 - p0-docs-codex-tasks: docs/CODEX_TASKS.md
-- p1-tsconfig: tsconfig.json
-- p1-src: src
-- p1-tests: tests
 - p2-contracts-root: src/core/contracts
 - p2-assessment-contract: src/core/contracts/assessment.ts
 - p2-events-contract: src/core/contracts/events.ts
