@@ -1,38 +1,25 @@
 {
   "schemaVersion": 1,
-  "capturedAt": "2026-05-23T09:18:58.853Z",
+  "capturedAt": "2026-05-23T10:51:06.648Z",
   "branch": "main",
   "isClean": false,
-  "stagedFiles": [],
-  "unstagedFiles": [
+  "stagedFiles": [
     ".ai/code-index.json",
     ".ai/context-bundle.md",
     ".project/git-history.snapshot.json",
     ".project/scan-history.ndjson",
     ".project/status.snapshot.json",
     "docs/CHATBOT_HANDOFF.md",
-    "docs/projectStatus.md",
-    "tools/project-control-center/index.html",
-    "tools/project-control-center/package.json",
-    "tools/project-control-center/src/app.ts",
-    "tools/project-control-center/src/core/constants.ts",
-    "tools/project-control-center/src/core/contextExport.ts",
-    "tools/project-control-center/src/core/gitStatus.ts",
-    "tools/project-control-center/src/core/snapshots.ts",
-    "tools/project-control-center/src/server/routes.ts",
-    "tools/project-control-center/src/tests/contextExport.test.ts",
-    "tools/project-control-center/src/tests/snapshots.test.ts",
-    "tools/project-control-center/src/ui/LogsPanel.ts",
-    "tools/project-control-center/src/ui/RepoTreePanel.ts",
-    "tools/project-control-center/src/ui/StatusPanel.ts",
-    "tools/project-control-center/src/ui/i18n.ts",
-    "tools/project-control-center/src/ui/main.ts",
-    "tools/project-control-center/vite.config.ts"
+    "docs/projectStatus.md"
   ],
-  "untrackedFiles": [
-    "tools/project-control-center/src/cli/exportContext.ts",
-    "tools/project-control-center/src/cli/gitSummary.ts"
+  "unstagedFiles": [
+    ".project/scan-history.ndjson",
+    ".project/status.snapshot.json",
+    "tools/project-control-center/src/styles.css",
+    "tools/project-control-center/src/ui/AiContextExportPanel.ts",
+    "tools/project-control-center/src/ui/i18n.ts"
   ],
+  "untrackedFiles": [],
   "changedFiles": [
     ".ai/code-index.json",
     ".ai/context-bundle.md",
@@ -41,26 +28,25 @@
     ".project/status.snapshot.json",
     "docs/CHATBOT_HANDOFF.md",
     "docs/projectStatus.md",
-    "tools/project-control-center/index.html",
-    "tools/project-control-center/package.json",
-    "tools/project-control-center/src/app.ts",
-    "tools/project-control-center/src/core/constants.ts",
-    "tools/project-control-center/src/core/contextExport.ts",
-    "tools/project-control-center/src/core/gitStatus.ts",
-    "tools/project-control-center/src/core/snapshots.ts",
-    "tools/project-control-center/src/server/routes.ts",
-    "tools/project-control-center/src/tests/contextExport.test.ts",
-    "tools/project-control-center/src/tests/snapshots.test.ts",
-    "tools/project-control-center/src/ui/LogsPanel.ts",
-    "tools/project-control-center/src/ui/RepoTreePanel.ts",
-    "tools/project-control-center/src/ui/StatusPanel.ts",
-    "tools/project-control-center/src/ui/i18n.ts",
-    "tools/project-control-center/src/ui/main.ts",
-    "tools/project-control-center/vite.config.ts",
-    "tools/project-control-center/src/cli/exportContext.ts",
-    "tools/project-control-center/src/cli/gitSummary.ts"
+    "tools/project-control-center/src/styles.css",
+    "tools/project-control-center/src/ui/AiContextExportPanel.ts",
+    "tools/project-control-center/src/ui/i18n.ts"
   ],
   "lastCommits": [
+    {
+      "hash": "8cf489894a46f59908bea618a71a53c134e5d036",
+      "shortHash": "8cf4898",
+      "author": "nguyenhuynh1212005",
+      "date": "2026-05-23T17:33:45+07:00",
+      "subject": "feat: integrate Project Control Center for automated project status tracking and AI handoff context generation"
+    },
+    {
+      "hash": "9fe5dd0012e24abfe1a953a01cf7deae70844172",
+      "shortHash": "9fe5dd0",
+      "author": "nguyenhuynh1212005",
+      "date": "2026-05-23T16:24:21+07:00",
+      "subject": "chore(tools): complete project control center MVP"
+    },
     {
       "hash": "91545bdbfc78bd03c93e3c1e51bfb56059f5852d",
       "shortHash": "91545bd",
@@ -81,46 +67,22 @@
       "author": "nguyenhuynh1212005",
       "date": "2026-05-22T22:01:56+07:00",
       "subject": "feat: initialize project control center tool (step 3/6) with repository scanning, git monitoring, and context management capabilities"
-    },
-    {
-      "hash": "4d75e8611dac28130cbb84c07e5561c4b3ee60a2",
-      "shortHash": "4d75e86",
-      "author": "nguyenhuynh1212005",
-      "date": "2026-05-22T19:06:18+07:00",
-      "subject": "docs: add project README.md"
-    },
-    {
-      "hash": "ad745429f6341136f561082ba8a0a8e4bb4dd409",
-      "shortHash": "ad74542",
-      "author": "nguyenhuynh1212005",
-      "date": "2026-05-22T18:55:47+07:00",
-      "subject": "feat: establish design system, architectural guardrails, and automated agent workflows"
     }
   ],
   "diffSummary": [
-    " .ai/code-index.json                                |  608 ++++-",
-    " .ai/context-bundle.md                              | 2850 +++++++++++++++++++-",
-    " .project/git-history.snapshot.json                 |  126 +-",
-    " .project/scan-history.ndjson                       |    8 +",
-    " .project/status.snapshot.json                      |   90 +-",
-    " docs/CHATBOT_HANDOFF.md                            |  116 +-",
-    " docs/projectStatus.md                              |  140 +-",
-    " tools/project-control-center/index.html            |    1 +",
-    " tools/project-control-center/package.json          |    4 +-",
-    " tools/project-control-center/src/app.ts            |   10 +-",
-    " tools/project-control-center/src/core/constants.ts |    3 +",
-    " .../src/core/contextExport.ts                      |  333 ++-",
-    " tools/project-control-center/src/core/gitStatus.ts |   43 +-",
-    " tools/project-control-center/src/core/snapshots.ts |    8 +-",
-    " tools/project-control-center/src/server/routes.ts  |   28 +-",
-    " .../src/tests/contextExport.test.ts                |   55 +-",
-    " .../src/tests/snapshots.test.ts                    |   25 +-",
-    " tools/project-control-center/src/ui/LogsPanel.ts   |   29 +-",
-    " .../project-control-center/src/ui/RepoTreePanel.ts |   15 +-",
-    " tools/project-control-center/src/ui/StatusPanel.ts |   20 +-",
-    " tools/project-control-center/src/ui/i18n.ts        |  119 +-",
-    " tools/project-control-center/src/ui/main.ts        |   70 +-",
-    " tools/project-control-center/vite.config.ts        |   12 +",
-    " 23 files changed, 4413 insertions(+), 300 deletions(-)"
+    " .ai/code-index.json                |   2 +-",
+    " .ai/context-bundle.md              |  86 +++++++++++++-----------------",
+    " .project/git-history.snapshot.json | 105 +++++++++----------------------------",
+    " .project/scan-history.ndjson       |  27 ++++++++++",
+    " .project/status.snapshot.json      |  28 +++++-----",
+    " docs/CHATBOT_HANDOFF.md            |  15 +++---",
+    " docs/projectStatus.md              |   4 +-",
+    " 7 files changed, 114 insertions(+), 153 deletions(-)",
+    " .project/scan-history.ndjson                       |  1 +",
+    " .project/status.snapshot.json                      | 20 +++---",
+    " tools/project-control-center/src/styles.css        | 82 ++++++++++++++++++++++",
+    " .../src/ui/AiContextExportPanel.ts                 | 62 ++++++++++++++--",
+    " tools/project-control-center/src/ui/i18n.ts        | 10 +++",
+    " 5 files changed, 159 insertions(+), 16 deletions(-)"
   ]
 }

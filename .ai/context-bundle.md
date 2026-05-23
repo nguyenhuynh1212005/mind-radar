@@ -1,6 +1,6 @@
 # AI Context Bundle
 
-Generated: 2026-05-23T10:32:40.058Z
+Generated: 2026-05-23T10:52:26.716Z
 
 # Copyable Prompts
 
@@ -8,7 +8,7 @@ Generated: 2026-05-23T10:32:40.058Z
 
 # Project Control Center
 
-- Thoi diem scan: 2026-05-23T10:32:40.036Z
+- Thoi diem scan: 2026-05-23T10:52:26.699Z
 - Nhanh Git: main
 - Trang thai: co thay doi
 - Check hien co: 27
@@ -50,12 +50,16 @@ Generated: 2026-05-23T10:32:40.058Z
 
 ## Tep thay doi
 
+- .ai/code-index.json
+- .ai/context-bundle.md
+- .project/git-history.snapshot.json
 - .project/scan-history.ndjson
 - .project/status.snapshot.json
-- AGENTS.md
-- GEMINI.md
-- README.md
-- package.json
+- docs/CHATBOT_HANDOFF.md
+- docs/projectStatus.md
+- tools/project-control-center/src/styles.css
+- tools/project-control-center/src/ui/AiContextExportPanel.ts
+- tools/project-control-center/src/ui/i18n.ts
 
 ## gitDiffReview
 
@@ -67,28 +71,44 @@ Nhanh: main
 
 ## Staged
 
-- Khong co
+- .ai/code-index.json
+- .ai/context-bundle.md
+- .project/git-history.snapshot.json
+- .project/scan-history.ndjson
+- .project/status.snapshot.json
+- docs/CHATBOT_HANDOFF.md
+- docs/projectStatus.md
 
 ## Unstaged
 
+- .project/git-history.snapshot.json
 - .project/scan-history.ndjson
 - .project/status.snapshot.json
-- AGENTS.md
-- GEMINI.md
-- README.md
+- tools/project-control-center/src/styles.css
+- tools/project-control-center/src/ui/AiContextExportPanel.ts
+- tools/project-control-center/src/ui/i18n.ts
 
 ## Untracked
 
-- package.json
+- Khong co
 
 ## Diff summary
 
--  .project/scan-history.ndjson  |   2 +
--  .project/status.snapshot.json | 108 +++++++++++++++++++++---------------------
--  AGENTS.md                     |  16 +++++++
--  GEMINI.md                     |   1 +
--  README.md                     |  27 +++++++++++
--  5 files changed, 99 insertions(+), 55 deletions(-)
+-  .ai/code-index.json                |   2 +-
+-  .ai/context-bundle.md              |  86 +++++++++++++-----------------
+-  .project/git-history.snapshot.json | 105 +++++++++----------------------------
+-  .project/scan-history.ndjson       |  27 ++++++++++
+-  .project/status.snapshot.json      |  28 +++++-----
+-  docs/CHATBOT_HANDOFF.md            |  15 +++---
+-  docs/projectStatus.md              |   4 +-
+-  7 files changed, 114 insertions(+), 153 deletions(-)
+-  .project/git-history.snapshot.json                 | 27 ++++++--
+-  .project/scan-history.ndjson                       |  3 +
+-  .project/status.snapshot.json                      | 20 +++---
+-  tools/project-control-center/src/styles.css        | 77 ++++++++++++++++++++++
+-  .../src/ui/AiContextExportPanel.ts                 | 53 +++++++++++++--
+-  tools/project-control-center/src/ui/i18n.ts        | 10 +++
+-  6 files changed, 168 insertions(+), 22 deletions(-)
 
 ## nextCodexPrompt
 
@@ -126,12 +146,16 @@ AI exports live in .ai/.
 
 ## Tep thay doi
 
+- .ai/code-index.json
+- .ai/context-bundle.md
+- .project/git-history.snapshot.json
 - .project/scan-history.ndjson
 - .project/status.snapshot.json
-- AGENTS.md
-- GEMINI.md
-- README.md
-- package.json
+- docs/CHATBOT_HANDOFF.md
+- docs/projectStatus.md
+- tools/project-control-center/src/styles.css
+- tools/project-control-center/src/ui/AiContextExportPanel.ts
+- tools/project-control-center/src/ui/i18n.ts
 
 # Allowlisted Project Context
 
@@ -657,23 +681,22 @@ Module -> Orchestrator -> Profile Aggregator -> Report
 ```
 # Chatbot Handoff
 
-Generated: 2026-05-23T09:19:00.431Z
-Scan: 2026-05-23T09:19:00.416Z
+Generated: 2026-05-23T10:38:53.780Z
+Scan: 2026-05-23T10:38:53.749Z
 Git branch: main
 
 ## Handoff Prompt
 # Project Control Center
 
-- Thoi diem scan: 2026-05-23T09:19:00.416Z
+- Thoi diem scan: 2026-05-23T10:38:53.749Z
 - Nhanh Git: main
 - Trang thai: co thay doi
-- Check hien co: 26
-- Check thieu: 32
+- Check hien co: 27
+- Check thieu: 31
 
 ## Check thieu
 
 - p0-docs-codex-tasks: docs/CODEX_TASKS.md
-- p1-package-json: package.json
 - p1-tsconfig: tsconfig.json
 - p1-src: src
 - p1-tests: tests
@@ -714,24 +737,6 @@ Git branch: main
 - .project/status.snapshot.json
 - docs/CHATBOT_HANDOFF.md
 - docs/projectStatus.md
-- tools/project-control-center/index.html
-- tools/project-control-center/package.json
-- tools/project-control-center/src/app.ts
-- tools/project-control-center/src/core/constants.ts
-- tools/project-control-center/src/core/contextExport.ts
-- tools/project-control-center/src/core/gitStatus.ts
-- tools/project-control-center/src/core/snapshots.ts
-- tools/project-control-center/src/server/routes.ts
-- tools/project-control-center/src/tests/contextExport.test.ts
-- tools/project-control-center/src/tests/snapshots.test.ts
-- tools/project-control-center/src/ui/LogsPanel.ts
-- tools/project-control-center/src/ui/RepoTreePanel.ts
-- tools/project-control-center/src/ui/StatusPanel.ts
-- tools/project-control-center/src/ui/i18n.ts
-- tools/project-control-center/src/ui/main.ts
-- tools/project-control-center/vite.config.ts
-- tools/project-control-center/src/cli/exportContext.ts
-- tools/project-control-center/src/cli/gitSummary.ts
 
 ## Next Codex Prompt
 Use the project-control-center-builder skill.
@@ -742,7 +747,6 @@ Use project-map.json as the only machine-readable progress source.
 ## Priority missing checks
 
 - p0-docs-codex-tasks: docs/CODEX_TASKS.md
-- p1-package-json: package.json
 - p1-tsconfig: tsconfig.json
 - p1-src: src
 - p1-tests: tests
@@ -751,6 +755,7 @@ Use project-map.json as the only machine-readable progress source.
 - p2-events-contract: src/core/contracts/events.ts
 - p2-scoring-contract: src/core/contracts/scoring.ts
 - p2-report-contract: src/core/contracts/report.ts
+- p3-tracking-root: src/core/tracking
 ```
 
 ## docs/TDD.md
@@ -1651,21 +1656,20 @@ Build a working assessment platform skeleton with 3 validated modules:
 ```
 # Project Status
 
-Generated: 2026-05-23T09:19:00.431Z
-Scan: 2026-05-23T09:19:00.416Z
+Generated: 2026-05-23T10:38:53.780Z
+Scan: 2026-05-23T10:38:53.749Z
 Git branch: main
 Git clean: no
 
 ## Progress
-- Total checklist: 16%
-- Main app MVP: 12%
+- Total checklist: 19%
+- Main app MVP: 15%
 - Project Control Center: 100%
 - Codex readiness: 100%
 - Production readiness: 13%
 
 ## Missing Checks
 - p0-docs-codex-tasks: docs/CODEX_TASKS.md
-- p1-package-json: package.json
 - p1-tsconfig: tsconfig.json
 - p1-src: src
 - p1-tests: tests
@@ -2765,12 +2769,12 @@ A candidate implementation of the Project Control Center is deemed complete only
 - tools/project-control-center/src/server/routes.ts (68 lines, 2028 bytes)
 - tools/project-control-center/src/server/scanService.ts (23 lines, 854 bytes)
 - tools/project-control-center/src/server/server.ts (69 lines, 2167 bytes)
-- tools/project-control-center/src/ui/AiContextExportPanel.ts (60 lines, 1798 bytes)
+- tools/project-control-center/src/ui/AiContextExportPanel.ts (101 lines, 3166 bytes)
 - tools/project-control-center/src/ui/GitHistoryPanel.ts (21 lines, 845 bytes)
 - tools/project-control-center/src/ui/LogsPanel.ts (31 lines, 987 bytes)
 - tools/project-control-center/src/ui/RepoTreePanel.ts (73 lines, 2283 bytes)
 - tools/project-control-center/src/ui/StatusPanel.ts (22 lines, 1086 bytes)
-- tools/project-control-center/src/ui/i18n.ts (125 lines, 4605 bytes)
+- tools/project-control-center/src/ui/i18n.ts (135 lines, 5462 bytes)
 - tools/project-control-center/src/ui/layout.ts (47 lines, 1264 bytes)
 - tools/project-control-center/src/ui/main.ts (89 lines, 2607 bytes)
 - tools/project-control-center/src/writers/contextBundleWriter.ts (46 lines, 1551 bytes)

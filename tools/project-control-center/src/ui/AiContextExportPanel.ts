@@ -18,6 +18,14 @@ const labelByKind: Record<ContextExportKind, LabelKey> = {
   changedFilesContext: "copyChangedFilesContext"
 };
 
+const descByKind: Record<ContextExportKind, LabelKey> = {
+  chatbotHandoff: "descChatbotHandoff",
+  gitDiffReview: "descGitDiffReview",
+  nextCodexPrompt: "descNextCodexPrompt",
+  architectureContext: "descArchitectureContext",
+  changedFilesContext: "descChangedFilesContext"
+};
+
 async function loadExports(): Promise<ContextExport[]> {
   const response = await fetch("/api/context");
   if (!response.ok) {
@@ -32,28 +40,61 @@ export function renderAiContextExportPanel(): HTMLElement {
   section.append(el("p", "panel-note", t("aiArtifacts")));
 
   const status = el("p", "copy-status", "");
-  const actions = el("div", "button-row");
+  const grid = el("div", "copilot-grid");
 
   for (const kind of exportOrder) {
-    const button = el("button", "button", t(labelByKind[kind]));
+    const card = el("div", "copilot-card");
+
+    const info = el("div", "copilot-info");
+    const title = el("h4", "copilot-title", t(labelByKind[kind]));
+    const desc = el("p", "copilot-desc", t(descByKind[kind]));
+    info.append(title, desc);
+
+    const button = el("button", "copilot-action-btn", t("copyPrompt"));
     button.type = "button";
-    button.addEventListener("click", async () => {
+
+    card.append(info, button);
+
+    // Click anywhere on the card to copy
+    card.addEventListener("click", async (e) => {
+      if (e.target === button) return; // handled by button click
       button.setAttribute("aria-busy", "true");
       try {
         const exports = await loadExports();
         const match = exports.find((entry) => entry.kind === kind);
         if (match) {
           await navigator.clipboard.writeText(match.content);
-          status.textContent = t("copied");
+          status.textContent = `${t(labelByKind[kind])}: ${t("copied")}`;
         }
+      } catch (err) {
+        status.textContent = t("copyFailed");
       } finally {
         button.removeAttribute("aria-busy");
       }
     });
-    actions.append(button);
+
+    // Also support button click
+    button.addEventListener("click", async (e) => {
+      e.stopPropagation();
+      button.setAttribute("aria-busy", "true");
+      try {
+        const exports = await loadExports();
+        const match = exports.find((entry) => entry.kind === kind);
+        if (match) {
+          await navigator.clipboard.writeText(match.content);
+          status.textContent = `${t(labelByKind[kind])}: ${t("copied")}`;
+        }
+      } catch (err) {
+        status.textContent = t("copyFailed");
+      } finally {
+        button.removeAttribute("aria-busy");
+      }
+    });
+
+    grid.append(card);
   }
 
-  section.append(actions);
+  section.append(grid);
   section.append(status);
   return section;
 }

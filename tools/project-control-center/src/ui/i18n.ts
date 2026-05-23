@@ -27,6 +27,11 @@ export interface Messages {
   readonly copyNextCodexPrompt: string;
   readonly copyArchitectureContext: string;
   readonly copyChangedFilesContext: string;
+  readonly descChatbotHandoff: string;
+  readonly descGitDiffReview: string;
+  readonly descNextCodexPrompt: string;
+  readonly descArchitectureContext: string;
+  readonly descChangedFilesContext: string;
   readonly copied: string;
   readonly clean: string;
   readonly dirtyState: string;
@@ -81,6 +86,11 @@ const VI_MESSAGES: Messages = {
   copyNextCodexPrompt: 'Next Codex Prompt',
   copyArchitectureContext: 'Architecture Context',
   copyChangedFilesContext: 'Changed Files Context',
+  descChatbotHandoff: 'Sao chép đầy đủ tiến độ, cây tệp và các nhiệm vụ còn thiếu sang phiên AI mới.',
+  descGitDiffReview: 'Sao chép các thay đổi hiện tại (git diff) kèm theo các chỉ dẫn đánh giá code chi tiết.',
+  descNextCodexPrompt: 'Sao chép chỉ dẫn tác vụ Codex tiếp theo để bắt đầu ngay công việc tiếp theo.',
+  descArchitectureContext: 'Sao chép sơ đồ luồng kiến trúc kỹ thuật và phân rã các tầng của Mind Radar.',
+  descChangedFilesContext: 'Sao chép toàn bộ mã nguồn của các tệp tin mới chỉnh sửa gần đây cho AI tham chiếu.',
   copied: 'Đã sao chép vào clipboard!',
   clean: 'Sạch (Không có tệp chưa commit)',
   dirtyState: 'Có thay đổi chưa được commit',
