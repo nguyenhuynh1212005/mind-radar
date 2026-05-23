@@ -1,5 +1,10 @@
 import { getMessages } from './i18n.js';
-import type { ProjectSnapshot } from '../types/projectControlCenter.js';
+import { renderStatusPanel } from './StatusPanel.js';
+import { renderGitHistoryPanel } from './GitHistoryPanel.js';
+import { renderRepoTreePanel } from './RepoTreePanel.js';
+import { renderLogsPanel } from './LogsPanel.js';
+import { renderAiContextExportPanel } from './AiContextExportPanel.js';
+import { el } from './layout.js';
 
 const messages = getMessages();
 const app = document.querySelector<HTMLElement>('#app');
@@ -42,9 +47,13 @@ async function loadSnapshot(): Promise<void> {
     if (!response.ok) {
       throw new Error(`Snapshot request failed with ${response.status}.`);
     }
-    const snapshot = await response.json() as ProjectSnapshot;
-    renderSnapshot(snapshot);
-  } catch {
+    const data = await response.json() as any;
+    // data contains { status: RepoStatusSnapshot, git: GitSummary }
+    if (!data.status || !data.git) {
+      throw new Error("Invalid API response format");
+    }
+    await renderSnapshot(data);
+  } catch (e) {
     renderEmptyState(messages.unavailable);
   }
 }
@@ -58,39 +67,22 @@ function renderEmptyState(message = messages.unavailable): void {
   `;
 }
 
-function renderSnapshot(snapshot: ProjectSnapshot): void {
-  const areaCounts = new Map<string, number>();
-  for (const file of snapshot.files) {
-    areaCounts.set(file.area, (areaCounts.get(file.area) ?? 0) + 1);
-  }
-
-  content!.innerHTML = `
-    <article class="panel">
-      <h2>${messages.progress}</h2>
-      <div class="metric-large">${snapshot.progress.overallPercent}%</div>
-      <ul>${snapshot.progress.metrics.map((metric) => `<li>${metric.label}: ${metric.completed}/${metric.total}</li>`).join('')}</ul>
-    </article>
-    <article class="panel">
-      <h2>${messages.git}</h2>
-      <p>Branch: <strong>${snapshot.git.branch}</strong></p>
-      <p>Status: <strong>${snapshot.git.isClean ? 'clean' : 'changed'}</strong></p>
-      <p>Ahead/behind: ${snapshot.git.ahead}/${snapshot.git.behind}</p>
-    </article>
-    <article class="panel">
-      <h2>${messages.changedFiles}</h2>
-      <ul>${renderChangedFiles(snapshot)}</ul>
-    </article>
-    <article class="panel">
-      <h2>${messages.fileAreas}</h2>
-      <ul>${[...areaCounts.entries()].map(([area, count]) => `<li>${area}: ${count}</li>`).join('')}</ul>
-    </article>
-  `;
-}
-
-function renderChangedFiles(snapshot: ProjectSnapshot): string {
-  if (snapshot.git.files.length === 0) {
-    return '<li>No changed files detected.</li>';
-  }
-
-  return snapshot.git.files.slice(0, 12).map((file) => `<li>${file.path}</li>`).join('');
+async function renderSnapshot(data: any): Promise<void> {
+  content!.innerHTML = "";
+  
+  const col1 = el("div", "col");
+  col1.append(renderStatusPanel(data.status));
+  
+  const treePanel = renderRepoTreePanel(data.status);
+  const repoTreeWrapper = el("div", "panel-wrapper");
+  repoTreeWrapper.append(treePanel);
+  col1.append(repoTreeWrapper);
+  
+  const col2 = el("div", "col");
+  col2.append(renderGitHistoryPanel(data.git));
+  col2.append(await renderLogsPanel());
+  col2.append(renderAiContextExportPanel());
+  
+  content!.append(col1);
+  content!.append(col2);
 }

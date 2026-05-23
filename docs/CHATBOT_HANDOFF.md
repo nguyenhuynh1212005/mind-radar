@@ -1,24 +1,96 @@
 # Chatbot Handoff
 
-Use the `project-control-center-builder` skill for future changes to the Project
-Control Center.
+Generated: 2026-05-23T09:19:00.431Z
+Scan: 2026-05-23T09:19:00.416Z
+Git branch: main
 
-Important constraints:
+## Handoff Prompt
+# Project Control Center
 
-- Do not modify `src/`.
-- Do not scaffold the main assessment app from this tool.
-- Use `tools/project-control-center/project-map.json` as the only machine-readable
-  source for progress calculation.
-- Treat `tools/project-control-center/projectMap.md` as documentation only.
-- Keep all UI labels in `tools/project-control-center/src/ui/i18n.ts`.
-- Keep writes limited to `tools/project-control-center/`, `docs/projectStatus.md`,
-  `docs/CHATBOT_HANDOFF.md`, `.project/`, and `.ai/`.
+- Thoi diem scan: 2026-05-23T09:19:00.416Z
+- Nhanh Git: main
+- Trang thai: co thay doi
+- Check hien co: 26
+- Check thieu: 32
 
-Generated state:
+## Check thieu
 
-- `.project/status.snapshot.json`
-- `.project/scan-history.ndjson`
-- `.project/tool-errors.ndjson`
-- `.project/git-history.snapshot.json`
-- `.ai/context-bundle.md`
-- `.ai/code-index.json`
+- p0-docs-codex-tasks: docs/CODEX_TASKS.md
+- p1-package-json: package.json
+- p1-tsconfig: tsconfig.json
+- p1-src: src
+- p1-tests: tests
+- p2-contracts-root: src/core/contracts
+- p2-assessment-contract: src/core/contracts/assessment.ts
+- p2-events-contract: src/core/contracts/events.ts
+- p2-scoring-contract: src/core/contracts/scoring.ts
+- p2-report-contract: src/core/contracts/report.ts
+- p3-tracking-root: src/core/tracking
+- p3-event-tracker: src/core/tracking/EventTracker.ts
+- p3-focus-tracking: src/core/tracking/focusTracking.ts
+- p3-event-validation: src/core/tracking/eventValidation.ts
+- p4-orchestrator-root: src/core/orchestrator
+- p4-test-orchestrator: src/core/orchestrator/TestOrchestrator.ts
+- p4-module-registry: src/core/orchestrator/moduleRegistry.ts
+- p4-state-machine: src/core/orchestrator/stateMachine.ts
+- p5-scoring-root: src/core/scoring
+- p5-scoring-engine: src/core/scoring/ScoringEngine.ts
+- p5-data-quality: src/core/scoring/dataQuality.ts
+- p5-normalization: src/core/scoring/normalization.ts
+- p5-profile-aggregator: src/core/scoring/profileAggregator.ts
+- p6-m2-module: src/modules/m2-inhibitory-control
+- p6-m3-module: src/modules/m3-working-memory
+- p6-m5-module: src/modules/m5-procedural-reasoning
+- p6-m9-module: src/modules/m9-metacognition
+- p7-report-root: src/report
+- p7-export-root: src/export
+- p7-radar-profile: src/report/RadarProfile.ts
+- p7-export-json: src/export/exportJson.ts
+- p7-export-csv: src/export/exportCsv.ts
+
+## Tep thay doi
+
+- .ai/code-index.json
+- .ai/context-bundle.md
+- .project/git-history.snapshot.json
+- .project/scan-history.ndjson
+- .project/status.snapshot.json
+- docs/CHATBOT_HANDOFF.md
+- docs/projectStatus.md
+- tools/project-control-center/index.html
+- tools/project-control-center/package.json
+- tools/project-control-center/src/app.ts
+- tools/project-control-center/src/core/constants.ts
+- tools/project-control-center/src/core/contextExport.ts
+- tools/project-control-center/src/core/gitStatus.ts
+- tools/project-control-center/src/core/snapshots.ts
+- tools/project-control-center/src/server/routes.ts
+- tools/project-control-center/src/tests/contextExport.test.ts
+- tools/project-control-center/src/tests/snapshots.test.ts
+- tools/project-control-center/src/ui/LogsPanel.ts
+- tools/project-control-center/src/ui/RepoTreePanel.ts
+- tools/project-control-center/src/ui/StatusPanel.ts
+- tools/project-control-center/src/ui/i18n.ts
+- tools/project-control-center/src/ui/main.ts
+- tools/project-control-center/vite.config.ts
+- tools/project-control-center/src/cli/exportContext.ts
+- tools/project-control-center/src/cli/gitSummary.ts
+
+## Next Codex Prompt
+Use the project-control-center-builder skill.
+
+Continue from the Project Control Center status snapshot.
+Do not modify src/.
+Use project-map.json as the only machine-readable progress source.
+## Priority missing checks
+
+- p0-docs-codex-tasks: docs/CODEX_TASKS.md
+- p1-package-json: package.json
+- p1-tsconfig: tsconfig.json
+- p1-src: src
+- p1-tests: tests
+- p2-contracts-root: src/core/contracts
+- p2-assessment-contract: src/core/contracts/assessment.ts
+- p2-events-contract: src/core/contracts/events.ts
+- p2-scoring-contract: src/core/contracts/scoring.ts
+- p2-report-contract: src/core/contracts/report.ts

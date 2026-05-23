@@ -1,15 +1,21 @@
-import type { GitSummary, RepoStatusSnapshot } from "../core/types";
+import type { RepoStatusSnapshot } from "../core/types";
 import { el, metric, panel } from "./layout";
-import { t } from "./i18n";
 
-export function renderStatusPanel(status: RepoStatusSnapshot, git: GitSummary): HTMLElement {
-  const section = panel("status");
+export function renderStatusPanel(status: RepoStatusSnapshot): HTMLElement {
+  const section = panel("progress");
   const grid = el("div", "metric-grid");
-  grid.append(metric("progressSource", t("progressSourceValue")));
-  grid.append(metric("docsOnly", t("yes")));
+  
+  grid.append(metric("totalChecklistProgress", `${status.progress.totalChecklistProgress.percent}%`));
+  grid.append(metric("mainAppMvpProgress", `${status.progress.mainAppMvpProgress.percent}%`));
+  grid.append(metric("projectControlCenterProgress", `${status.progress.projectControlCenterProgress.percent}%`));
+  grid.append(metric("codexReadiness", `${status.progress.codexReadiness.percent}%`));
+  grid.append(metric("productionReadiness", `${status.progress.productionReadiness.percent}%`));
+  
+  grid.append(metric("files", status.summary.fileCount));
+  grid.append(metric("directories", status.summary.directoryCount));
   grid.append(metric("existingChecks", status.summary.existingCheckCount));
   grid.append(metric("missingChecks", status.summary.missingCheckCount));
-  grid.append(metric("gitChanged", git.changedFiles.length));
+  
   section.append(grid);
   return section;
 }

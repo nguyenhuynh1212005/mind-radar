@@ -1,5 +1,11 @@
 import { describe, expect, it } from "vitest";
-import { buildContextExports } from "../core/contextExport";
+import {
+  buildCodeIndex,
+  buildContextExports,
+  isContextBundleAllowedPath,
+  renderChatbotHandoffDoc,
+  renderProjectStatusDoc
+} from "../core/contextExport";
 import type { GitSummary, RepoStatusSnapshot } from "../core/types";
 
 const status: RepoStatusSnapshot = {
@@ -78,5 +84,52 @@ describe("buildContextExports", () => {
       "changedFilesContext"
     ]);
     expect(exports[0]?.content).toContain("docs/missing.md");
+  });
+
+  it("keeps unsafe paths out of context bundle allowlist", () => {
+    expect(isContextBundleAllowedPath("AGENTS.md")).toBe(true);
+    expect(isContextBundleAllowedPath("docs/ARCHITECTURE.md")).toBe(true);
+    expect(isContextBundleAllowedPath("tools/project-control-center/controlCenterSpec.md")).toBe(true);
+    expect(isContextBundleAllowedPath("tools/project-control-center/project-map.json")).toBe(true);
+
+    expect(isContextBundleAllowedPath(".env")).toBe(false);
+    expect(isContextBundleAllowedPath(".env.local")).toBe(false);
+    expect(isContextBundleAllowedPath("node_modules/pkg/README.md")).toBe(false);
+    expect(isContextBundleAllowedPath("dist/app.js")).toBe(false);
+    expect(isContextBundleAllowedPath("build/app.js")).toBe(false);
+    expect(isContextBundleAllowedPath("out/app.js")).toBe(false);
+    expect(isContextBundleAllowedPath(".git/config")).toBe(false);
+    expect(isContextBundleAllowedPath("docs/image.png")).toBe(false);
+    expect(isContextBundleAllowedPath("tools/project-control-center/projectMap.md")).toBe(false);
+  });
+
+  it("builds a code index with checks, context files, and source summaries", () => {
+    const index = buildCodeIndex(
+      status,
+      [{ path: "AGENTS.md", content: "# Agents", truncated: false }],
+      [{ path: "tools/project-control-center/src/core/contextExport.ts", lineCount: 10, byteLength: 250 }],
+      "2026-05-22T00:00:00.000Z"
+    ) as {
+      checks: Array<{ id: string; path: string }>;
+      contextFiles: Array<{ path: string; truncated: boolean }>;
+      sourceIndex: Array<{ path: string; lineCount: number }>;
+    };
+
+    expect(index.checks).toEqual([{ id: "missing", path: "docs/missing.md", exists: false, required: true }]);
+    expect(index.contextFiles).toEqual([{ path: "AGENTS.md", truncated: false }]);
+    expect(index.sourceIndex).toEqual([
+      { path: "tools/project-control-center/src/core/contextExport.ts", lineCount: 10, byteLength: 250 }
+    ]);
+  });
+
+  it("renders docs and handoff content from current status and prompts", () => {
+    const exports = buildContextExports(status, git);
+    const projectStatus = renderProjectStatusDoc(status, git, "2026-05-22T00:00:00.000Z");
+    const handoff = renderChatbotHandoffDoc(exports, status, git, "2026-05-22T00:00:00.000Z");
+
+    expect(projectStatus).toContain("# Project Status");
+    expect(projectStatus).toContain("docs/missing.md");
+    expect(handoff).toContain("# Chatbot Handoff");
+    expect(handoff).toContain("Next Codex Prompt");
   });
 });

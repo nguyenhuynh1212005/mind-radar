@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "scannedAt": "2026-05-23T08:26:28.314Z",
+  "scannedAt": "2026-05-23T09:18:57.328Z",
   "tree": {
     "name": ".",
     "path": ".",
@@ -228,7 +228,7 @@
             "missingCheckIds": [],
             "existsInProjectMap": false,
             "missingRequiredCheck": false,
-            "gitChanged": false,
+            "gitChanged": true,
             "excluded": false
           },
           {
@@ -240,7 +240,7 @@
             "missingCheckIds": [],
             "existsInProjectMap": false,
             "missingRequiredCheck": false,
-            "gitChanged": false,
+            "gitChanged": true,
             "excluded": false
           },
           {
@@ -262,7 +262,7 @@
         "missingCheckIds": [],
         "existsInProjectMap": true,
         "missingRequiredCheck": false,
-        "gitChanged": false,
+        "gitChanged": true,
         "excluded": false
       },
       {
@@ -380,7 +380,7 @@
             "missingCheckIds": [],
             "existsInProjectMap": false,
             "missingRequiredCheck": false,
-            "gitChanged": false,
+            "gitChanged": true,
             "excluded": false
           },
           {
@@ -471,7 +471,7 @@
             "missingCheckIds": [],
             "existsInProjectMap": true,
             "missingRequiredCheck": false,
-            "gitChanged": false,
+            "gitChanged": true,
             "excluded": false
           },
           {
@@ -571,7 +571,7 @@
             "missingCheckIds": [],
             "existsInProjectMap": true,
             "missingRequiredCheck": false,
-            "gitChanged": false,
+            "gitChanged": true,
             "excluded": false
           },
           {
@@ -621,7 +621,7 @@
         "missingCheckIds": [],
         "existsInProjectMap": false,
         "missingRequiredCheck": false,
-        "gitChanged": false,
+        "gitChanged": true,
         "excluded": false
       },
       {
@@ -1142,6 +1142,30 @@
                     "type": "directory",
                     "children": [
                       {
+                        "name": "exportContext.ts",
+                        "path": "tools/project-control-center/src/cli/exportContext.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": true,
+                        "excluded": false
+                      },
+                      {
+                        "name": "gitSummary.ts",
+                        "path": "tools/project-control-center/src/cli/gitSummary.ts",
+                        "type": "file",
+                        "children": [],
+                        "checkIds": [],
+                        "missingCheckIds": [],
+                        "existsInProjectMap": false,
+                        "missingRequiredCheck": false,
+                        "gitChanged": true,
+                        "excluded": false
+                      },
+                      {
                         "name": "scan.ts",
                         "path": "tools/project-control-center/src/cli/scan.ts",
                         "type": "file",
@@ -1150,7 +1174,7 @@
                         "missingCheckIds": [],
                         "existsInProjectMap": false,
                         "missingRequiredCheck": false,
-                        "gitChanged": true,
+                        "gitChanged": false,
                         "excluded": false
                       }
                     ],
@@ -1175,7 +1199,7 @@
                         "missingCheckIds": [],
                         "existsInProjectMap": false,
                         "missingRequiredCheck": false,
-                        "gitChanged": false,
+                        "gitChanged": true,
                         "excluded": false
                       },
                       {
@@ -1187,7 +1211,7 @@
                         "missingCheckIds": [],
                         "existsInProjectMap": false,
                         "missingRequiredCheck": false,
-                        "gitChanged": false,
+                        "gitChanged": true,
                         "excluded": false
                       },
                       {
@@ -1223,7 +1247,7 @@
                         "missingCheckIds": [],
                         "existsInProjectMap": false,
                         "missingRequiredCheck": false,
-                        "gitChanged": false,
+                        "gitChanged": true,
                         "excluded": false
                       },
                       {
@@ -1235,7 +1259,7 @@
                         "missingCheckIds": [],
                         "existsInProjectMap": false,
                         "missingRequiredCheck": false,
-                        "gitChanged": true,
+                        "gitChanged": false,
                         "excluded": false
                       },
                       {
@@ -1247,7 +1271,7 @@
                         "missingCheckIds": [],
                         "existsInProjectMap": false,
                         "missingRequiredCheck": false,
-                        "gitChanged": true,
+                        "gitChanged": false,
                         "excluded": false
                       },
                       {
@@ -1271,7 +1295,7 @@
                         "missingCheckIds": [],
                         "existsInProjectMap": false,
                         "missingRequiredCheck": false,
-                        "gitChanged": true,
+                        "gitChanged": false,
                         "excluded": false
                       },
                       {
@@ -1319,7 +1343,7 @@
                         "missingCheckIds": [],
                         "existsInProjectMap": false,
                         "missingRequiredCheck": false,
-                        "gitChanged": false,
+                        "gitChanged": true,
                         "excluded": false
                       },
                       {
@@ -1331,7 +1355,7 @@
                         "missingCheckIds": [],
                         "existsInProjectMap": false,
                         "missingRequiredCheck": false,
-                        "gitChanged": true,
+                        "gitChanged": false,
                         "excluded": false
                       }
                     ],
@@ -1392,7 +1416,7 @@
                         "missingCheckIds": [],
                         "existsInProjectMap": false,
                         "missingRequiredCheck": false,
-                        "gitChanged": false,
+                        "gitChanged": true,
                         "excluded": false
                       },
                       {
@@ -1424,7 +1448,7 @@
                     "missingCheckIds": [],
                     "existsInProjectMap": false,
                     "missingRequiredCheck": false,
-                    "gitChanged": false,
+                    "gitChanged": true,
                     "excluded": false
                   },
                   {
@@ -1477,7 +1501,7 @@
                         "missingCheckIds": [],
                         "existsInProjectMap": false,
                         "missingRequiredCheck": false,
-                        "gitChanged": true,
+                        "gitChanged": false,
                         "excluded": false
                       },
                       {
@@ -1575,7 +1599,7 @@
                         "missingCheckIds": [],
                         "existsInProjectMap": false,
                         "missingRequiredCheck": false,
-                        "gitChanged": false,
+                        "gitChanged": true,
                         "excluded": false
                       },
                       {
@@ -1599,7 +1623,7 @@
                         "missingCheckIds": [],
                         "existsInProjectMap": false,
                         "missingRequiredCheck": false,
-                        "gitChanged": false,
+                        "gitChanged": true,
                         "excluded": false
                       },
                       {
@@ -1611,7 +1635,7 @@
                         "missingCheckIds": [],
                         "existsInProjectMap": false,
                         "missingRequiredCheck": false,
-                        "gitChanged": false,
+                        "gitChanged": true,
                         "excluded": false
                       },
                       {
@@ -1623,7 +1647,7 @@
                         "missingCheckIds": [],
                         "existsInProjectMap": false,
                         "missingRequiredCheck": false,
-                        "gitChanged": false,
+                        "gitChanged": true,
                         "excluded": false
                       },
                       {
@@ -1635,7 +1659,7 @@
                         "missingCheckIds": [],
                         "existsInProjectMap": false,
                         "missingRequiredCheck": false,
-                        "gitChanged": false,
+                        "gitChanged": true,
                         "excluded": false
                       },
                       {
@@ -1655,7 +1679,7 @@
                     "missingCheckIds": [],
                     "existsInProjectMap": false,
                     "missingRequiredCheck": false,
-                    "gitChanged": false,
+                    "gitChanged": true,
                     "excluded": false
                   },
                   {
@@ -1728,7 +1752,7 @@
                     "missingCheckIds": [],
                     "existsInProjectMap": false,
                     "missingRequiredCheck": false,
-                    "gitChanged": false,
+                    "gitChanged": true,
                     "excluded": false
                   },
                   {
@@ -1826,7 +1850,7 @@
                 "missingCheckIds": [],
                 "existsInProjectMap": false,
                 "missingRequiredCheck": false,
-                "gitChanged": false,
+                "gitChanged": true,
                 "excluded": false
               },
               {
@@ -1850,7 +1874,7 @@
                 "missingCheckIds": [],
                 "existsInProjectMap": false,
                 "missingRequiredCheck": false,
-                "gitChanged": false,
+                "gitChanged": true,
                 "excluded": false
               },
               {
@@ -1928,7 +1952,7 @@
                 "missingCheckIds": [],
                 "existsInProjectMap": false,
                 "missingRequiredCheck": false,
-                "gitChanged": false,
+                "gitChanged": true,
                 "excluded": false
               }
             ],
@@ -2737,11 +2761,11 @@
   "productionReadiness": 13,
   "summary": {
     "schemaVersion": 1,
-    "scannedAt": "2026-05-23T08:26:28.314Z",
-    "fileCount": 95,
+    "scannedAt": "2026-05-23T09:18:57.328Z",
+    "fileCount": 97,
     "directoryCount": 25,
     "existingCheckCount": 26,
     "missingCheckCount": 32,
-    "changedFileCount": 12
+    "changedFileCount": 25
   }
 }

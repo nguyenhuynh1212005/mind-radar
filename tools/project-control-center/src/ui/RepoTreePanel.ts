@@ -2,13 +2,12 @@ import type { RepoStatusSnapshot, RepoTreeNode } from "../core/types";
 import { t } from "./i18n";
 import { el, list, metric, panel } from "./layout";
 
-function renderNode(node: RepoTreeNode): HTMLElement {
+function renderNode(node: RepoTreeNode): HTMLElement | null {
+  if (node.excluded) return null;
+
   const item = el("li", "tree-item");
   if (node.gitChanged) {
     item.classList.add("is-git-changed");
-  }
-  if (node.excluded) {
-    item.classList.add("is-excluded");
   }
   if (node.missingRequiredCheck) {
     item.classList.add("is-missing-check");
@@ -39,7 +38,10 @@ function renderNode(node: RepoTreeNode): HTMLElement {
   if (node.children.length > 0) {
     const children = el("ul", "tree");
     for (const child of node.children) {
-      children.append(renderNode(child));
+      const childNode = renderNode(child);
+      if (childNode) {
+        children.append(childNode);
+      }
     }
     item.append(children);
   }
@@ -63,7 +65,8 @@ export function renderRepoTreePanel(status: RepoStatusSnapshot): HTMLElement {
   section.append(list("missingChecks", missingChecks));
 
   const tree = el("ul", "tree tree-root");
-  tree.append(renderNode(status.tree));
+  const rootNode = renderNode(status.tree);
+  if (rootNode) tree.append(rootNode);
   section.append(tree);
   return section;
 }

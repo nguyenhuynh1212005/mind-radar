@@ -1,5 +1,609 @@
 {
   "schemaVersion": 1,
-  "generatedAt": null,
-  "files": []
+  "generatedAt": "2026-05-23T09:19:00.431Z",
+  "checks": [
+    {
+      "id": "p0-agents",
+      "path": "AGENTS.md",
+      "exists": true,
+      "required": true
+    },
+    {
+      "id": "p0-docs-tdd",
+      "path": "docs/TDD.md",
+      "exists": true,
+      "required": true
+    },
+    {
+      "id": "p0-docs-thuat-toan",
+      "path": "docs/ThuatToan.md",
+      "exists": true,
+      "required": true
+    },
+    {
+      "id": "p0-docs-mvp-scope",
+      "path": "docs/mvpScope.md",
+      "exists": true,
+      "required": true
+    },
+    {
+      "id": "p0-docs-architecture",
+      "path": "docs/ARCHITECTURE.md",
+      "exists": true,
+      "required": true
+    },
+    {
+      "id": "p0-docs-module-contracts",
+      "path": "docs/moduleContracts.md",
+      "exists": true,
+      "required": true
+    },
+    {
+      "id": "p0-docs-data-schema",
+      "path": "docs/dataSchema.md",
+      "exists": true,
+      "required": true
+    },
+    {
+      "id": "p0-docs-event-tracking",
+      "path": "docs/eventTrackingSpec.md",
+      "exists": true,
+      "required": true
+    },
+    {
+      "id": "p0-docs-testing-strategy",
+      "path": "docs/testingStrategy.md",
+      "exists": true,
+      "required": true
+    },
+    {
+      "id": "p0-docs-item-bank-guidelines",
+      "path": "docs/itemBankGuidelines.md",
+      "exists": true,
+      "required": true
+    },
+    {
+      "id": "p0-docs-codex-tasks",
+      "path": "docs/CODEX_TASKS.md",
+      "exists": false,
+      "required": true
+    },
+    {
+      "id": "p0-codex-config",
+      "path": ".codex/config.toml",
+      "exists": true,
+      "required": true
+    },
+    {
+      "id": "p0-skill-architecture",
+      "path": ".agents/skills/assessment-architecture-guard/SKILL.md",
+      "exists": true,
+      "required": true
+    },
+    {
+      "id": "p0-skill-module-builder",
+      "path": ".agents/skills/assessment-module-builder/SKILL.md",
+      "exists": true,
+      "required": true
+    },
+    {
+      "id": "p0-skill-scoring-adapter",
+      "path": ".agents/skills/scoring-adapter-builder/SKILL.md",
+      "exists": true,
+      "required": true
+    },
+    {
+      "id": "p05-tool-root",
+      "path": "tools/project-control-center",
+      "exists": true,
+      "required": true
+    },
+    {
+      "id": "p05-ai-root",
+      "path": ".ai",
+      "exists": true,
+      "required": true
+    },
+    {
+      "id": "p05-project-root",
+      "path": ".project",
+      "exists": true,
+      "required": true
+    },
+    {
+      "id": "p05-agents",
+      "path": "tools/project-control-center/AGENTS.md",
+      "exists": true,
+      "required": true
+    },
+    {
+      "id": "p05-readme",
+      "path": "tools/project-control-center/README.md",
+      "exists": true,
+      "required": true
+    },
+    {
+      "id": "p05-control-center-spec",
+      "path": "tools/project-control-center/controlCenterSpec.md",
+      "exists": true,
+      "required": true
+    },
+    {
+      "id": "p05-project-map-md",
+      "path": "tools/project-control-center/projectMap.md",
+      "exists": true,
+      "required": true
+    },
+    {
+      "id": "p05-project-map-json",
+      "path": "tools/project-control-center/project-map.json",
+      "exists": true,
+      "required": true
+    },
+    {
+      "id": "p05-codex-prompts",
+      "path": "tools/project-control-center/CODEX_PROMPTS.md",
+      "exists": true,
+      "required": true
+    },
+    {
+      "id": "p05-skill",
+      "path": ".agents/skills/project-control-center-builder/SKILL.md",
+      "exists": true,
+      "required": true
+    },
+    {
+      "id": "p1-package-json",
+      "path": "package.json",
+      "exists": false,
+      "required": true
+    },
+    {
+      "id": "p1-tsconfig",
+      "path": "tsconfig.json",
+      "exists": false,
+      "required": true
+    },
+    {
+      "id": "p1-src",
+      "path": "src",
+      "exists": false,
+      "required": true
+    },
+    {
+      "id": "p1-tests",
+      "path": "tests",
+      "exists": false,
+      "required": true
+    },
+    {
+      "id": "p2-contracts-root",
+      "path": "src/core/contracts",
+      "exists": false,
+      "required": true
+    },
+    {
+      "id": "p2-assessment-contract",
+      "path": "src/core/contracts/assessment.ts",
+      "exists": false,
+      "required": true
+    },
+    {
+      "id": "p2-events-contract",
+      "path": "src/core/contracts/events.ts",
+      "exists": false,
+      "required": true
+    },
+    {
+      "id": "p2-scoring-contract",
+      "path": "src/core/contracts/scoring.ts",
+      "exists": false,
+      "required": true
+    },
+    {
+      "id": "p2-report-contract",
+      "path": "src/core/contracts/report.ts",
+      "exists": false,
+      "required": true
+    },
+    {
+      "id": "p3-tracking-root",
+      "path": "src/core/tracking",
+      "exists": false,
+      "required": true
+    },
+    {
+      "id": "p3-event-tracker",
+      "path": "src/core/tracking/EventTracker.ts",
+      "exists": false,
+      "required": true
+    },
+    {
+      "id": "p3-focus-tracking",
+      "path": "src/core/tracking/focusTracking.ts",
+      "exists": false,
+      "required": true
+    },
+    {
+      "id": "p3-event-validation",
+      "path": "src/core/tracking/eventValidation.ts",
+      "exists": false,
+      "required": true
+    },
+    {
+      "id": "p4-orchestrator-root",
+      "path": "src/core/orchestrator",
+      "exists": false,
+      "required": true
+    },
+    {
+      "id": "p4-test-orchestrator",
+      "path": "src/core/orchestrator/TestOrchestrator.ts",
+      "exists": false,
+      "required": true
+    },
+    {
+      "id": "p4-module-registry",
+      "path": "src/core/orchestrator/moduleRegistry.ts",
+      "exists": false,
+      "required": true
+    },
+    {
+      "id": "p4-state-machine",
+      "path": "src/core/orchestrator/stateMachine.ts",
+      "exists": false,
+      "required": true
+    },
+    {
+      "id": "p5-scoring-root",
+      "path": "src/core/scoring",
+      "exists": false,
+      "required": true
+    },
+    {
+      "id": "p5-scoring-engine",
+      "path": "src/core/scoring/ScoringEngine.ts",
+      "exists": false,
+      "required": true
+    },
+    {
+      "id": "p5-data-quality",
+      "path": "src/core/scoring/dataQuality.ts",
+      "exists": false,
+      "required": true
+    },
+    {
+      "id": "p5-normalization",
+      "path": "src/core/scoring/normalization.ts",
+      "exists": false,
+      "required": true
+    },
+    {
+      "id": "p5-profile-aggregator",
+      "path": "src/core/scoring/profileAggregator.ts",
+      "exists": false,
+      "required": true
+    },
+    {
+      "id": "p6-m2-module",
+      "path": "src/modules/m2-inhibitory-control",
+      "exists": false,
+      "required": true
+    },
+    {
+      "id": "p6-m3-module",
+      "path": "src/modules/m3-working-memory",
+      "exists": false,
+      "required": true
+    },
+    {
+      "id": "p6-m5-module",
+      "path": "src/modules/m5-procedural-reasoning",
+      "exists": false,
+      "required": true
+    },
+    {
+      "id": "p6-m9-module",
+      "path": "src/modules/m9-metacognition",
+      "exists": false,
+      "required": true
+    },
+    {
+      "id": "p7-report-root",
+      "path": "src/report",
+      "exists": false,
+      "required": true
+    },
+    {
+      "id": "p7-export-root",
+      "path": "src/export",
+      "exists": false,
+      "required": true
+    },
+    {
+      "id": "p7-radar-profile",
+      "path": "src/report/RadarProfile.ts",
+      "exists": false,
+      "required": true
+    },
+    {
+      "id": "p7-export-json",
+      "path": "src/export/exportJson.ts",
+      "exists": false,
+      "required": true
+    },
+    {
+      "id": "p7-export-csv",
+      "path": "src/export/exportCsv.ts",
+      "exists": false,
+      "required": true
+    },
+    {
+      "id": "p7-project-status",
+      "path": "docs/projectStatus.md",
+      "exists": true,
+      "required": true
+    },
+    {
+      "id": "p7-chatbot-handoff",
+      "path": "docs/CHATBOT_HANDOFF.md",
+      "exists": true,
+      "required": true
+    }
+  ],
+  "contextFiles": [
+    {
+      "path": "AGENTS.md",
+      "truncated": false
+    },
+    {
+      "path": "DESIGN.md",
+      "truncated": false
+    },
+    {
+      "path": "README.md",
+      "truncated": false
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "truncated": false
+    },
+    {
+      "path": "docs/CHATBOT_HANDOFF.md",
+      "truncated": false
+    },
+    {
+      "path": "docs/TDD.md",
+      "truncated": false
+    },
+    {
+      "path": "docs/ThuatToan.md",
+      "truncated": true
+    },
+    {
+      "path": "docs/dataSchema.md",
+      "truncated": false
+    },
+    {
+      "path": "docs/eventTrackingSpec.md",
+      "truncated": false
+    },
+    {
+      "path": "docs/itemBankGuidelines.md",
+      "truncated": false
+    },
+    {
+      "path": "docs/moduleContracts.md",
+      "truncated": false
+    },
+    {
+      "path": "docs/mvpScope.md",
+      "truncated": false
+    },
+    {
+      "path": "docs/projectStatus.md",
+      "truncated": false
+    },
+    {
+      "path": "docs/testingStrategy.md",
+      "truncated": false
+    },
+    {
+      "path": "tools/project-control-center/AGENTS.md",
+      "truncated": false
+    },
+    {
+      "path": "tools/project-control-center/CODEX_PROMPTS.md",
+      "truncated": false
+    },
+    {
+      "path": "tools/project-control-center/README.md",
+      "truncated": false
+    },
+    {
+      "path": "tools/project-control-center/controlCenterSpec.md",
+      "truncated": false
+    },
+    {
+      "path": "tools/project-control-center/project-map.json",
+      "truncated": false
+    }
+  ],
+  "sourceIndex": [
+    {
+      "path": "tools/project-control-center/src/cli/exportContext.ts",
+      "lineCount": 85,
+      "byteLength": 2649
+    },
+    {
+      "path": "tools/project-control-center/src/cli/gitSummary.ts",
+      "lineCount": 82,
+      "byteLength": 2342
+    },
+    {
+      "path": "tools/project-control-center/src/cli/scan.ts",
+      "lineCount": 86,
+      "byteLength": 3071
+    },
+    {
+      "path": "tools/project-control-center/src/core/constants.ts",
+      "lineCount": 28,
+      "byteLength": 1227
+    },
+    {
+      "path": "tools/project-control-center/src/core/contextExport.ts",
+      "lineCount": 431,
+      "byteLength": 13492
+    },
+    {
+      "path": "tools/project-control-center/src/core/errors.ts",
+      "lineCount": 41,
+      "byteLength": 1213
+    },
+    {
+      "path": "tools/project-control-center/src/core/fileScanner.ts",
+      "lineCount": 124,
+      "byteLength": 3364
+    },
+    {
+      "path": "tools/project-control-center/src/core/gitStatus.ts",
+      "lineCount": 183,
+      "byteLength": 5310
+    },
+    {
+      "path": "tools/project-control-center/src/core/legacyHistoryLogger.ts",
+      "lineCount": 34,
+      "byteLength": 1289
+    },
+    {
+      "path": "tools/project-control-center/src/core/legacyProgressCalculator.ts",
+      "lineCount": 122,
+      "byteLength": 4724
+    },
+    {
+      "path": "tools/project-control-center/src/core/projectMap.ts",
+      "lineCount": 87,
+      "byteLength": 2805
+    },
+    {
+      "path": "tools/project-control-center/src/core/repoScanner.ts",
+      "lineCount": 401,
+      "byteLength": 11965
+    },
+    {
+      "path": "tools/project-control-center/src/core/repoTree.ts",
+      "lineCount": 73,
+      "byteLength": 1717
+    },
+    {
+      "path": "tools/project-control-center/src/core/safePaths.ts",
+      "lineCount": 106,
+      "byteLength": 2933
+    },
+    {
+      "path": "tools/project-control-center/src/core/safetyFilters.ts",
+      "lineCount": 48,
+      "byteLength": 1606
+    },
+    {
+      "path": "tools/project-control-center/src/core/snapshots.ts",
+      "lineCount": 50,
+      "byteLength": 1534
+    },
+    {
+      "path": "tools/project-control-center/src/core/types.ts",
+      "lineCount": 131,
+      "byteLength": 2796
+    },
+    {
+      "path": "tools/project-control-center/src/server/contextService.ts",
+      "lineCount": 15,
+      "byteLength": 546
+    },
+    {
+      "path": "tools/project-control-center/src/server/gitService.ts",
+      "lineCount": 17,
+      "byteLength": 578
+    },
+    {
+      "path": "tools/project-control-center/src/server/index.ts",
+      "lineCount": 28,
+      "byteLength": 622
+    },
+    {
+      "path": "tools/project-control-center/src/server/routes.ts",
+      "lineCount": 68,
+      "byteLength": 2028
+    },
+    {
+      "path": "tools/project-control-center/src/server/scanService.ts",
+      "lineCount": 23,
+      "byteLength": 854
+    },
+    {
+      "path": "tools/project-control-center/src/server/server.ts",
+      "lineCount": 69,
+      "byteLength": 2167
+    },
+    {
+      "path": "tools/project-control-center/src/ui/AiContextExportPanel.ts",
+      "lineCount": 60,
+      "byteLength": 1798
+    },
+    {
+      "path": "tools/project-control-center/src/ui/GitHistoryPanel.ts",
+      "lineCount": 21,
+      "byteLength": 845
+    },
+    {
+      "path": "tools/project-control-center/src/ui/LogsPanel.ts",
+      "lineCount": 31,
+      "byteLength": 987
+    },
+    {
+      "path": "tools/project-control-center/src/ui/RepoTreePanel.ts",
+      "lineCount": 73,
+      "byteLength": 2283
+    },
+    {
+      "path": "tools/project-control-center/src/ui/StatusPanel.ts",
+      "lineCount": 22,
+      "byteLength": 1086
+    },
+    {
+      "path": "tools/project-control-center/src/ui/i18n.ts",
+      "lineCount": 125,
+      "byteLength": 4605
+    },
+    {
+      "path": "tools/project-control-center/src/ui/layout.ts",
+      "lineCount": 47,
+      "byteLength": 1264
+    },
+    {
+      "path": "tools/project-control-center/src/ui/main.ts",
+      "lineCount": 89,
+      "byteLength": 2607
+    },
+    {
+      "path": "tools/project-control-center/src/writers/contextBundleWriter.ts",
+      "lineCount": 46,
+      "byteLength": 1551
+    },
+    {
+      "path": "tools/project-control-center/src/writers/handoffWriter.ts",
+      "lineCount": 42,
+      "byteLength": 1351
+    },
+    {
+      "path": "tools/project-control-center/src/writers/snapshotWriter.ts",
+      "lineCount": 23,
+      "byteLength": 1028
+    },
+    {
+      "path": "tools/project-control-center/src/writers/statusWriter.ts",
+      "lineCount": 44,
+      "byteLength": 1494
+    }
+  ]
 }

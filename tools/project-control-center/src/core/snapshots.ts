@@ -40,6 +40,10 @@ export async function appendScanHistory(
   await appendNdjson(filePath, summary, repoRoot);
 }
 
-export async function writeGitHistorySnapshot(summary: GitSummary): Promise<void> {
-  await writeJson(GIT_HISTORY_SNAPSHOT_PATH, summary);
+export async function writeGitHistorySnapshot(
+  summary: GitSummary,
+  filePath = GIT_HISTORY_SNAPSHOT_PATH,
+  repoRoot = REPO_ROOT
+): Promise<void> {
+  await writeJson(filePath, summary, repoRoot);
 }

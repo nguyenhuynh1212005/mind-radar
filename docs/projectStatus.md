@@ -1,93 +1,47 @@
-# Project Status Dashboard
+# Project Status
 
-Trạng thái và tiến độ chi tiết của dự án **Interactive Cognitive-Behavioral Profile Assessment**.
+Generated: 2026-05-23T09:19:00.431Z
+Scan: 2026-05-23T09:19:00.416Z
+Git branch: main
+Git clean: no
 
----
+## Progress
+- Total checklist: 16%
+- Main app MVP: 12%
+- Project Control Center: 100%
+- Codex readiness: 100%
+- Production readiness: 13%
 
-## Current Phase & Focus
-
-> [!IMPORTANT]
-> **Phase hiện tại:** `P0.5 - Project Control Center Setup`
->
-> **Trọng tâm:** Xây dựng Dashboard quản lý tiến độ nội bộ (Project Control Center) để định hướng Vibe Coding hiệu quả trước khi scaffold mã nguồn chính.
-
----
-
-## Current Progress Metrics
-
-| Metric | Progress / Status | Notes |
-| :--- | :---: | :--- |
-| **Main App MVP Progress** | `10%` | Các tài liệu đặc tả & Skill Codex đã hoàn thành. |
-| **Project Control Center** | `Setup in Progress` | Đang thiết lập cấu hình & Đặc tả cho tool quản lý. |
-| **Codex Readiness** | `HIGH` | Môi trường Codex và các prompt mẫu đã sẵn sàng. |
-| **Production Readiness** | `0%` | Chưa deploy và chưa scaffold core ứng dụng chính. |
-
----
-
-## Completed (Đã hoàn thành)
-
-- [x] **Root AGENTS.md** - Thiết lập quy chuẩn cốt lõi cho Agent AI.
-- [x] **Codex Config** - Cấu hình Codex hoàn tất tại `.codex/config.toml`.
-- [x] **Assessment Skills** - Khởi tạo các workflow đặc biệt cho Agent tại thư mục `.agents/skills`.
-- [x] **Project Docs** - Hoàn thành bộ tài liệu thiết kế hệ thống nền tảng trong `docs/`.
-
----
-
-## In Progress (Đang thực hiện)
-
-- [/] **Control Center Spec** - Hoàn thiện các tài liệu đặc tả kỹ thuật và file map (`project-map.json`, `controlCenterSpec.md`).
-- [/] **Workflow Design** - Thiết lập cơ chế xuất AI context 4 cấp độ.
-
----
-
-## Not Started (Chưa bắt đầu)
-
-- [ ] Scaffold cấu trúc ứng dụng chính (TypeScript).
-- [ ] Triển khai Contracts cốt lõi (`src/core/contracts`).
-- [ ] Xây dựng Event Tracker (`src/core/tracking`).
-- [ ] Triển khai Test Orchestrator (`src/core/orchestrator`).
-- [ ] Triển khai Scoring Engine & các scoring adapters (`src/core/scoring`).
-- [ ] Phát triển các MVP modules (M2, M3, M5, M9) (`src/modules`).
-- [ ] Xây dựng hệ thống xuất báo cáo (Radar Profile, JSON/CSV export) (`src/report`).
-
----
-
-## Next Recommended Action
-
-> [!TIP]
-> Hãy yêu cầu Codex lập kế hoạch triển khai công cụ **Project Control Center** mà không scaffold mã nguồn chính.
-> Copy đoạn Prompt dưới đây và gửi cho Codex:
-
-```text
-/plan
-
-Use the project-control-center-builder skill.
-
-Read:
-- tools/project-control-center/AGENTS.md
-- tools/project-control-center/controlCenterSpec.md
-- tools/project-control-center/project-map.json
-- tools/project-control-center/CODEX_PROMPTS.md
-
-Goal:
-Plan the implementation of the Project Control Center.
-
-Constraints:
-- Do not code yet.
-- Do not scaffold the main app.
-```
-
-## Project Control Center
-
-Status: implementation added under `tools/project-control-center/`.
-
-- Runtime progress source: `tools/project-control-center/project-map.json`.
-- Documentation-only map: `tools/project-control-center/projectMap.md`.
-- UI locale default: `vi-VN`.
-- Panels implemented: Repo Tree, Git History, Status, Logs, AI Context Export.
-- Snapshot outputs: `.project/status.snapshot.json` and `.project/git-history.snapshot.json`.
-- Append-only logs: `.project/scan-history.ndjson` and `.project/tool-errors.ndjson`.
-- AI outputs: `.ai/context-bundle.md` and `.ai/code-index.json`.
-
-The tool is intentionally isolated and must not modify the main assessment app
-under `src/`.
+## Missing Checks
+- p0-docs-codex-tasks: docs/CODEX_TASKS.md
+- p1-package-json: package.json
+- p1-tsconfig: tsconfig.json
+- p1-src: src
+- p1-tests: tests
+- p2-contracts-root: src/core/contracts
+- p2-assessment-contract: src/core/contracts/assessment.ts
+- p2-events-contract: src/core/contracts/events.ts
+- p2-scoring-contract: src/core/contracts/scoring.ts
+- p2-report-contract: src/core/contracts/report.ts
+- p3-tracking-root: src/core/tracking
+- p3-event-tracker: src/core/tracking/EventTracker.ts
+- p3-focus-tracking: src/core/tracking/focusTracking.ts
+- p3-event-validation: src/core/tracking/eventValidation.ts
+- p4-orchestrator-root: src/core/orchestrator
+- p4-test-orchestrator: src/core/orchestrator/TestOrchestrator.ts
+- p4-module-registry: src/core/orchestrator/moduleRegistry.ts
+- p4-state-machine: src/core/orchestrator/stateMachine.ts
+- p5-scoring-root: src/core/scoring
+- p5-scoring-engine: src/core/scoring/ScoringEngine.ts
+- p5-data-quality: src/core/scoring/dataQuality.ts
+- p5-normalization: src/core/scoring/normalization.ts
+- p5-profile-aggregator: src/core/scoring/profileAggregator.ts
+- p6-m2-module: src/modules/m2-inhibitory-control
+- p6-m3-module: src/modules/m3-working-memory
+- p6-m5-module: src/modules/m5-procedural-reasoning
+- p6-m9-module: src/modules/m9-metacognition
+- p7-report-root: src/report
+- p7-export-root: src/export
+- p7-radar-profile: src/report/RadarProfile.ts
+- p7-export-json: src/export/exportJson.ts
+- p7-export-csv: src/export/exportCsv.ts

@@ -29,7 +29,7 @@ function renderError(root: HTMLElement, error: unknown): void {
   root.append(section);
 }
 
-function renderDashboard(root: HTMLElement, payload: StatusPayload): void {
+async function renderDashboard(root: HTMLElement, payload: StatusPayload): Promise<void> {
   root.replaceChildren();
   const header = el("header", "app-header");
   header.append(el("h1", undefined, t("appTitle")));
@@ -41,11 +41,13 @@ function renderDashboard(root: HTMLElement, payload: StatusPayload): void {
   header.append(refresh);
 
   const main = el("main", "dashboard");
-  main.append(renderStatusPanel(payload.status, payload.git));
+  main.append(renderStatusPanel(payload.status));
   main.append(renderRepoTreePanel(payload.status));
   main.append(renderGitHistoryPanel(payload.git));
   main.append(renderAiContextExportPanel());
-  main.append(renderLogsPanel());
+  
+  const logsPanel = await renderLogsPanel();
+  main.append(logsPanel);
 
   root.append(header, main);
 }
@@ -54,7 +56,7 @@ export async function start(root: HTMLElement): Promise<void> {
   root.replaceChildren(el("p", "loading", t("loading")));
   try {
     const payload = await loadStatus();
-    renderDashboard(root, payload);
+    await renderDashboard(root, payload);
   } catch (error) {
     renderError(root, error);
   }

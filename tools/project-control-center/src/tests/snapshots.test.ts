@@ -4,8 +4,8 @@ import path from "node:path";
 import { describe, expect, it } from "vitest";
 import { appendToolError, toToolErrorRecord } from "../core/errors";
 import { isAllowedWritePath } from "../core/safePaths";
-import { appendScanHistory } from "../core/snapshots";
-import type { ScanSummary, ToolErrorRecord } from "../core/types";
+import { appendScanHistory, writeGitHistorySnapshot } from "../core/snapshots";
+import type { GitSummary, ScanSummary, ToolErrorRecord } from "../core/types";
 
 async function makeTempRepo(): Promise<string> {
   return await fs.mkdtemp(path.join(os.tmpdir(), "pcc-snapshot-"));
@@ -38,6 +38,27 @@ describe("snapshot paths", () => {
     const lines = (await fs.readFile(historyPath, "utf8")).trim().split(/\r?\n/);
     expect(lines).toHaveLength(2);
     expect(lines.map((line) => JSON.parse(line) as ScanSummary)).toEqual([summary, { ...summary, fileCount: 3 }]);
+  });
+
+  it("writes the Git history snapshot as JSON", async () => {
+    const repoRoot = await makeTempRepo();
+    const snapshotPath = path.join(repoRoot, ".project", "git-history.snapshot.json");
+    const summary: GitSummary = {
+      schemaVersion: 1,
+      capturedAt: "2026-05-22T00:00:00.000Z",
+      branch: "main",
+      isClean: false,
+      stagedFiles: ["staged.ts"],
+      unstagedFiles: ["unstaged.ts"],
+      untrackedFiles: ["new.ts"],
+      changedFiles: ["staged.ts", "unstaged.ts", "new.ts"],
+      lastCommits: [],
+      diffSummary: ["1 file changed"]
+    };
+
+    await writeGitHistorySnapshot(summary, snapshotPath, repoRoot);
+
+    expect(JSON.parse(await fs.readFile(snapshotPath, "utf8")) as GitSummary).toEqual(summary);
   });
 
   it("appends tool errors as valid NDJSON", async () => {

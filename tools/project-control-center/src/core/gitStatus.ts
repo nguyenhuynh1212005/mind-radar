@@ -1,6 +1,8 @@
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
+import { SCHEMA_VERSION } from './constants';
 import type { GitFileStatus, GitStatusSummary } from '../types/projectControlCenter.js';
+import type { GitSummary } from './types';
 
 const execFileAsync = promisify(execFile);
 
@@ -119,7 +121,7 @@ function normalizeGitStatusPath(path: string): string {
   return renameIndex === -1 ? path : path.slice(renameIndex + renameSeparator.length);
 }
 
-export async function getGitSummary(repoRoot: string): Promise<import("./types").GitSummary> {
+export async function getGitSummary(repoRoot: string): Promise<GitSummary> {
   const { execFile } = await import("node:child_process");
 
   const runGit = (args: string[]): Promise<string> =>
@@ -134,30 +136,47 @@ export async function getGitSummary(repoRoot: string): Promise<import("./types")
       });
     });
 
-  const [branchOutput, statusOutput, logOutput] = await Promise.all([
+  const [branchOutput, statusOutput, logOutput, unstagedDiffOutput, stagedDiffOutput] = await Promise.all([
     runGit(["branch", "--show-current"]),
     runGit(["status", "--porcelain"]),
-    runGit(["log", "-5", "--pretty=format:%h%x09%s"])
+    runGit(["log", "-5", "--pretty=format:%H%x09%h%x09%an%x09%aI%x09%s"]),
+    runGit(["diff", "--stat"]),
+    runGit(["diff", "--cached", "--stat"])
   ]);
 
-  const changedFiles = statusOutput
-    .split(/\r?\n/)
-    .filter((line) => line.length > 0)
-    .map((line) => line.slice(3).trim())
-    .filter((path) => path.length > 0);
+  const status = parseGitStatusOutput(statusOutput);
+  const changedFiles = uniquePaths([
+    ...status.stagedFiles,
+    ...status.unstagedFiles,
+    ...status.untrackedFiles
+  ]);
 
   const lastCommits = logOutput
     .split(/\r?\n/)
     .filter((line) => line.length > 0)
     .map((line) => {
-      const [shortHash = "", subject = ""] = line.split("\t");
-      return { shortHash, subject };
+      const [hash = "", shortHash = "", author = "", date = "", ...subjectParts] = line.split("\t");
+      return { hash, shortHash, author, date, subject: subjectParts.join("\t") };
     });
 
   return {
+    schemaVersion: SCHEMA_VERSION,
+    capturedAt: new Date().toISOString(),
     branch: branchOutput.trim() || "unknown",
     isClean: changedFiles.length === 0,
+    stagedFiles: status.stagedFiles,
+    unstagedFiles: status.unstagedFiles,
+    untrackedFiles: status.untrackedFiles,
     changedFiles,
-    lastCommits
-  } as unknown as import("./types").GitSummary;
+    lastCommits,
+    diffSummary: [...splitLines(stagedDiffOutput), ...splitLines(unstagedDiffOutput)]
+  };
+}
+
+function splitLines(value: string): string[] {
+  return value.split(/\r?\n/).map((line) => line.trimEnd()).filter((line) => line.length > 0);
+}
+
+function uniquePaths(values: string[]): string[] {
+  return [...new Set(values)];
 }

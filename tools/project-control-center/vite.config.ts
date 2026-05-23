@@ -1,8 +1,20 @@
 import { defineConfig } from 'vite';
+import express from 'express';
+import { registerRoutes } from './src/server/routes';
 
 export default defineConfig({
   root: '.',
   publicDir: false,
+  plugins: [
+    {
+      name: 'express-api',
+      configureServer(server) {
+        const app = express();
+        registerRoutes(app);
+        server.middlewares.use(app);
+      }
+    }
+  ],
   build: {
     outDir: 'dist/ui',
     emptyOutDir: false,

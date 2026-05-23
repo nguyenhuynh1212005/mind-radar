@@ -9,7 +9,9 @@
     "test": "vitest run",
     "build": "vite build && npm run build:node",
     "build:node": "tsc -p tsconfig.node.json",
-    "scan": "npm run build:node && node dist/src/cli/scan.js"
+    "scan": "npm run build:node && node dist/src/cli/scan.js",
+    "git:summary": "npm run build:node && node dist/src/cli/gitSummary.js",
+    "export:context": "npm run build:node && node dist/src/cli/exportContext.js"
   },
   "dependencies": {
     "express": "^4.19.2"
