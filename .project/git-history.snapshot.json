@@ -1,29 +1,20 @@
 {
   "schemaVersion": 1,
-  "capturedAt": "2026-05-23T11:46:27.510Z",
+  "capturedAt": "2026-05-23T11:52:18.329Z",
   "branch": "main",
-  "isClean": false,
+  "isClean": true,
   "stagedFiles": [],
-  "unstagedFiles": [
-    ".ai/code-index.json",
-    ".ai/context-bundle.md",
-    ".project/git-history.snapshot.json",
-    ".project/scan-history.ndjson",
-    ".project/status.snapshot.json",
-    "docs/CHATBOT_HANDOFF.md",
-    "docs/projectStatus.md"
-  ],
+  "unstagedFiles": [],
   "untrackedFiles": [],
-  "changedFiles": [
-    ".ai/code-index.json",
-    ".ai/context-bundle.md",
-    ".project/git-history.snapshot.json",
-    ".project/scan-history.ndjson",
-    ".project/status.snapshot.json",
-    "docs/CHATBOT_HANDOFF.md",
-    "docs/projectStatus.md"
-  ],
+  "changedFiles": [],
   "lastCommits": [
+    {
+      "hash": "223a0e1d64e42e3b1b15e9e73ee620776834eb25",
+      "shortHash": "223a0e1",
+      "author": "nguyenhuynh1212005",
+      "date": "2026-05-23T18:52:10+07:00",
+      "subject": "feat: initialize project control center with documentation and monitoring infrastructure"
+    },
     {
       "hash": "2e320b5390135c2da010184bc89e0e2b58f12316",
       "shortHash": "2e320b5",
@@ -51,23 +42,7 @@
       "author": "nguyenhuynh1212005",
       "date": "2026-05-23T17:52:59+07:00",
       "subject": "style(pcc): remove emojis and streamline AI export panel UI into compact layout"
-    },
-    {
-      "hash": "8cf489894a46f59908bea618a71a53c134e5d036",
-      "shortHash": "8cf4898",
-      "author": "nguyenhuynh1212005",
-      "date": "2026-05-23T17:33:45+07:00",
-      "subject": "feat: integrate Project Control Center for automated project status tracking and AI handoff context generation"
     }
   ],
-  "diffSummary": [
-    " .ai/code-index.json                |  8 ++---",
-    " .ai/context-bundle.md              | 63 ++++++++++++++++----------------------",
-    " .project/git-history.snapshot.json | 32 +++++++++----------",
-    " .project/scan-history.ndjson       | 10 ++++++",
-    " .project/status.snapshot.json      | 18 +++++------",
-    " docs/CHATBOT_HANDOFF.md            | 19 +++++-------",
-    " docs/projectStatus.md              | 11 +++----",
-    " 7 files changed, 78 insertions(+), 83 deletions(-)"
-  ]
+  "diffSummary": []
 }
