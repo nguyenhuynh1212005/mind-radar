@@ -7,3 +7,7 @@ converage/
 .env
 .env.*
 .DS_Store
+
+# Project Control Center
+.project/
+.ai/
