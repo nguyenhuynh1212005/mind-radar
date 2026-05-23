@@ -4,11 +4,23 @@
   "description": "Mind Radar - Interactive Cognitive-Behavioral Profile Assessment",
   "private": true,
   "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint \"src/**/*.ts\" \"tests/**/*.ts\"",
     "pcc:install": "npm install --prefix tools/project-control-center",
     "pcc:dev": "npm run dev --prefix tools/project-control-center",
     "pcc:scan": "npm run scan --prefix tools/project-control-center",
     "pcc:test": "npm run test --prefix tools/project-control-center",
     "pcc:build": "npm run build --prefix tools/project-control-center",
     "pcc:export": "npm run export:context --prefix tools/project-control-center"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.15",
+    "@typescript-eslint/eslint-plugin": "^7.10.0",
+    "@typescript-eslint/parser": "^7.10.0",
+    "eslint": "^8.57.0",
+    "typescript": "^5.5.4",
+    "vitest": "^2.1.9"
   }
 }

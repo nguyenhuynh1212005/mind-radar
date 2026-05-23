@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "scannedAt": "2026-05-23T11:08:56.647Z",
+  "scannedAt": "2026-05-23T11:42:02.460Z",
   "tree": {
     "name": ".",
     "path": ".",
@@ -1092,33 +1092,78 @@
             "missingRequiredCheck": true,
             "gitChanged": false,
             "excluded": false
+          },
+          {
+            "name": ".gitkeep",
+            "path": "src/.gitkeep",
+            "type": "file",
+            "children": [],
+            "checkIds": [],
+            "missingCheckIds": [],
+            "existsInProjectMap": false,
+            "missingRequiredCheck": false,
+            "gitChanged": false,
+            "excluded": false
+          },
+          {
+            "name": "index.ts",
+            "path": "src/index.ts",
+            "type": "file",
+            "children": [],
+            "checkIds": [],
+            "missingCheckIds": [],
+            "existsInProjectMap": false,
+            "missingRequiredCheck": false,
+            "gitChanged": false,
+            "excluded": false
           }
         ],
         "checkIds": [
           "p1-src"
         ],
-        "missingCheckIds": [
-          "p1-src"
-        ],
+        "missingCheckIds": [],
         "existsInProjectMap": true,
-        "missingRequiredCheck": true,
-        "gitChanged": false,
+        "missingRequiredCheck": false,
+        "gitChanged": true,
         "excluded": false
       },
       {
         "name": "tests",
         "path": "tests",
         "type": "directory",
-        "children": [],
+        "children": [
+          {
+            "name": ".gitkeep",
+            "path": "tests/.gitkeep",
+            "type": "file",
+            "children": [],
+            "checkIds": [],
+            "missingCheckIds": [],
+            "existsInProjectMap": false,
+            "missingRequiredCheck": false,
+            "gitChanged": false,
+            "excluded": false
+          },
+          {
+            "name": "index.test.ts",
+            "path": "tests/index.test.ts",
+            "type": "file",
+            "children": [],
+            "checkIds": [],
+            "missingCheckIds": [],
+            "existsInProjectMap": false,
+            "missingRequiredCheck": false,
+            "gitChanged": false,
+            "excluded": false
+          }
+        ],
         "checkIds": [
           "p1-tests"
         ],
-        "missingCheckIds": [
-          "p1-tests"
-        ],
+        "missingCheckIds": [],
         "existsInProjectMap": true,
-        "missingRequiredCheck": true,
-        "gitChanged": false,
+        "missingRequiredCheck": false,
+        "gitChanged": true,
         "excluded": false
       },
       {
@@ -1974,6 +2019,18 @@
         "excluded": false
       },
       {
+        "name": ".eslintrc.json",
+        "path": ".eslintrc.json",
+        "type": "file",
+        "children": [],
+        "checkIds": [],
+        "missingCheckIds": [],
+        "existsInProjectMap": false,
+        "missingRequiredCheck": false,
+        "gitChanged": true,
+        "excluded": false
+      },
+      {
         "name": ".gitignore",
         "path": ".gitignore",
         "type": "file",
@@ -2036,6 +2093,18 @@
         "excluded": false
       },
       {
+        "name": "package-lock.json",
+        "path": "package-lock.json",
+        "type": "file",
+        "children": [],
+        "checkIds": [],
+        "missingCheckIds": [],
+        "existsInProjectMap": false,
+        "missingRequiredCheck": false,
+        "gitChanged": true,
+        "excluded": false
+      },
+      {
         "name": "package.json",
         "path": "package.json",
         "type": "file",
@@ -2046,7 +2115,7 @@
         "missingCheckIds": [],
         "existsInProjectMap": true,
         "missingRequiredCheck": false,
-        "gitChanged": false,
+        "gitChanged": true,
         "excluded": false
       },
       {
@@ -2069,12 +2138,10 @@
         "checkIds": [
           "p1-tsconfig"
         ],
-        "missingCheckIds": [
-          "p1-tsconfig"
-        ],
+        "missingCheckIds": [],
         "existsInProjectMap": true,
-        "missingRequiredCheck": true,
-        "gitChanged": false,
+        "missingRequiredCheck": false,
+        "gitChanged": true,
         "excluded": false
       }
     ],
@@ -2379,8 +2446,8 @@
       "type": "file",
       "required": true,
       "phaseId": "P1",
-      "exists": false,
-      "missingRequired": true,
+      "exists": true,
+      "missingRequired": false,
       "excluded": false
     },
     {
@@ -2390,8 +2457,8 @@
       "type": "directory",
       "required": true,
       "phaseId": "P1",
-      "exists": false,
-      "missingRequired": true,
+      "exists": true,
+      "missingRequired": false,
       "excluded": false
     },
     {
@@ -2401,8 +2468,8 @@
       "type": "directory",
       "required": true,
       "phaseId": "P1",
-      "exists": false,
-      "missingRequired": true,
+      "exists": true,
+      "missingRequired": false,
       "excluded": false
     },
     {
@@ -2727,14 +2794,14 @@
   ],
   "progress": {
     "totalChecklistProgress": {
-      "completed": 27,
+      "completed": 30,
       "total": 58,
-      "percent": 19
+      "percent": 26
     },
     "mainAppMvpProgress": {
-      "completed": 17,
+      "completed": 20,
       "total": 48,
-      "percent": 15
+      "percent": 22
     },
     "projectControlCenterProgress": {
       "completed": 10,
@@ -2752,18 +2819,18 @@
       "percent": 13
     }
   },
-  "totalChecklistProgress": 19,
-  "mainAppMvpProgress": 15,
+  "totalChecklistProgress": 26,
+  "mainAppMvpProgress": 22,
   "projectControlCenterProgress": 100,
   "codexReadiness": 100,
   "productionReadiness": 13,
   "summary": {
     "schemaVersion": 1,
-    "scannedAt": "2026-05-23T11:08:56.647Z",
-    "fileCount": 98,
-    "directoryCount": 25,
-    "existingCheckCount": 27,
-    "missingCheckCount": 31,
-    "changedFileCount": 7
+    "scannedAt": "2026-05-23T11:42:02.460Z",
+    "fileCount": 105,
+    "directoryCount": 27,
+    "existingCheckCount": 30,
+    "missingCheckCount": 28,
+    "changedFileCount": 13
   }
 }
