@@ -666,4 +666,4 @@ When implementing UI:
 3. use `performance.now()` through the Event Tracker for all client timing
 4. export raw logs for every module
 5. keep scoring independent from UI
-6. run typecheck, lint, tests, and build before claiming done
+6. run typecheck, lint, tests, and build before claiming donego
