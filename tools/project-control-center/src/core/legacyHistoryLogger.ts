@@ -3,6 +3,8 @@ import path from 'node:path';
 import type { HistoryEntry, ProjectSnapshot, WriteResult } from '../types/projectControlCenter.js';
 import { assertWritableControlCenterPath } from './safetyFilters.js';
 
+// Legacy JSONL writer kept for auditability. npm run scan now appends the concise
+// .project/scan-history.ndjson record through core/snapshots.ts.
 const HISTORY_PATH = '.project/project-control-center/history.jsonl';
 
 export function buildHistoryEntry(snapshot: ProjectSnapshot): HistoryEntry {

@@ -37,6 +37,11 @@ const status: RepoStatusSnapshot = {
     codexReadiness: { completed: 0, total: 1, percent: 0 },
     productionReadiness: { completed: 0, total: 1, percent: 0 }
   },
+  totalChecklistProgress: 50,
+  mainAppMvpProgress: 50,
+  projectControlCenterProgress: 100,
+  codexReadiness: 100,
+  productionReadiness: 0,
   summary: {
     schemaVersion: 1,
     scannedAt: "2026-05-22T00:00:00.000Z",

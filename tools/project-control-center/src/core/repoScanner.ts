@@ -96,6 +96,10 @@ function getExclusionReason(relativePath: string): string | null {
   return null;
 }
 
+function isExcludedRepoPath(relativePath: string): boolean {
+  return Boolean(getExclusionReason(relativePath));
+}
+
 async function pathExists(repoRoot: string, relativePath: string, type: CheckType): Promise<boolean> {
   if (getExclusionReason(relativePath)) {
     return false;
@@ -214,8 +218,13 @@ async function scanNode(
 
   if (type === "directory") {
     const entries = await fs.readdir(absolutePath, { withFileTypes: true });
+    const visibleEntries = entries.filter((entry) => {
+      const childPath = normalizeRepoPath(path.posix.join(normalized === "." ? "" : normalized, entry.name));
+      return !isExcludedRepoPath(childPath);
+    });
+
     node.children = await Promise.all(
-      entries
+      visibleEntries
         .sort((a, b) => {
           if (a.isDirectory() !== b.isDirectory()) {
             return a.isDirectory() ? -1 : 1;
@@ -289,6 +298,11 @@ export async function scanRepository(
     tree,
     checks,
     progress,
+    totalChecklistProgress: progress.totalChecklistProgress.percent,
+    mainAppMvpProgress: progress.mainAppMvpProgress.percent,
+    projectControlCenterProgress: progress.projectControlCenterProgress.percent,
+    codexReadiness: progress.codexReadiness.percent,
+    productionReadiness: progress.productionReadiness.percent,
     summary
   };
 }

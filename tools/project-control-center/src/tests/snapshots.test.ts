@@ -2,7 +2,7 @@ import fs from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
-import { appendToolError } from "../core/errors";
+import { appendToolError, toToolErrorRecord } from "../core/errors";
 import { isAllowedWritePath } from "../core/safePaths";
 import { appendScanHistory } from "../core/snapshots";
 import type { ScanSummary, ToolErrorRecord } from "../core/types";
@@ -56,5 +56,12 @@ describe("snapshot paths", () => {
     const lines = (await fs.readFile(errorPath, "utf8")).trim().split(/\r?\n/);
     expect(lines).toHaveLength(1);
     expect(JSON.parse(lines[0]) as ToolErrorRecord).toEqual(record);
+  });
+
+  it("sanitizes blocked paths before appending tool errors", () => {
+    const record = toToolErrorRecord("scan", new Error("failed"), ".env.local");
+
+    expect(record.path).toBe("[blocked]");
+    expect(record.message).toBe("failed");
   });
 });

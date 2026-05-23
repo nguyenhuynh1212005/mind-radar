@@ -78,6 +78,11 @@ export interface RepoStatusSnapshot {
   tree: RepoTreeNode;
   checks: CheckStatus[];
   progress: ProjectProgressMetrics;
+  totalChecklistProgress: number;
+  mainAppMvpProgress: number;
+  projectControlCenterProgress: number;
+  codexReadiness: number;
+  productionReadiness: number;
   summary: ScanSummary;
 }
 

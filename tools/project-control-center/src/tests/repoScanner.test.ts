@@ -88,9 +88,8 @@ describe("scanRepository", () => {
 
     expect(result.summary.existingCheckCount).toBe(1);
     expect(result.summary.missingCheckCount).toBe(1);
-    const nodeModules = result.tree.children.find((child) => child.path === "node_modules");
-    expect(nodeModules?.excluded).toBe(true);
-    expect(nodeModules?.children).toEqual([]);
+    expect(result.tree.children.find((child) => child.path === "node_modules")).toBeUndefined();
+    expect(JSON.stringify(result.tree)).not.toContain("node_modules/ignored.ts");
     expect(result.tree.children.find((child) => child.path === "tracked.ts")?.gitChanged).toBe(true);
   });
 
@@ -98,18 +97,33 @@ describe("scanRepository", () => {
     const repoRoot = await makeTempRepo();
     const mapPath = path.join(repoRoot, "project-map.json");
     await fs.writeFile(path.join(repoRoot, ".env"), "SECRET=value\n", "utf8");
+    await fs.writeFile(path.join(repoRoot, ".env.local"), "SECRET=value\n", "utf8");
     await fs.mkdir(path.join(repoRoot, "node_modules", "pkg"), { recursive: true });
     await fs.writeFile(path.join(repoRoot, "node_modules", "pkg", "index.ts"), "ignored\n", "utf8");
+    await fs.mkdir(path.join(repoRoot, "dist", "assets"), { recursive: true });
+    await fs.writeFile(path.join(repoRoot, "dist", "assets", "bundle.js"), "ignored\n", "utf8");
+    await fs.mkdir(path.join(repoRoot, "build", "cache"), { recursive: true });
+    await fs.writeFile(path.join(repoRoot, "build", "cache", "compiled.js"), "ignored\n", "utf8");
+    await fs.mkdir(path.join(repoRoot, "out", "cache"), { recursive: true });
+    await fs.writeFile(path.join(repoRoot, "out", "cache", "compiled.js"), "ignored\n", "utf8");
+    await fs.mkdir(path.join(repoRoot, ".git", "objects"), { recursive: true });
+    await fs.writeFile(path.join(repoRoot, ".git", "objects", "object"), "ignored\n", "utf8");
     await fs.writeFile(path.join(repoRoot, "logo.png"), "not a real png\n", "utf8");
     await fs.writeFile(mapPath, JSON.stringify(makeProjectMap()), "utf8");
 
     const result = await scanRepository(repoRoot, gitSummary, mapPath);
+    const serializedTree = JSON.stringify(result.tree);
 
     expect(result.summary.fileCount).toBe(1);
-    expect(result.tree.children.find((child) => child.path === ".env")?.excluded).toBe(true);
-    expect(result.tree.children.find((child) => child.path === "logo.png")?.excluded).toBe(true);
-    expect(result.tree.children.find((child) => child.path === "node_modules")?.children).toEqual([]);
-    expect(JSON.stringify(result.tree)).not.toContain("node_modules/pkg/index.ts");
+    for (const excludedPath of [".env", ".env.local", "logo.png", "node_modules", "dist", "build", "out", ".git"]) {
+      expect(result.tree.children.find((child) => child.path === excludedPath)).toBeUndefined();
+      expect(serializedTree).not.toContain(excludedPath);
+    }
+    expect(serializedTree).not.toContain("node_modules/pkg/index.ts");
+    expect(serializedTree).not.toContain("dist/assets/bundle.js");
+    expect(serializedTree).not.toContain("build/cache/compiled.js");
+    expect(serializedTree).not.toContain("out/cache/compiled.js");
+    expect(serializedTree).not.toContain(".git/objects/object");
   });
 
   it("reports missing required checks as check records and tree nodes", async () => {
@@ -215,6 +229,9 @@ describe("scanRepository", () => {
     expect(result.progress.totalChecklistProgress).toEqual({ completed: 2, total: 3, percent: 67 });
     expect(result.progress.mainAppMvpProgress).toEqual({ completed: 1, total: 2, percent: 50 });
     expect(result.progress.projectControlCenterProgress).toEqual({ completed: 1, total: 1, percent: 100 });
+    expect(result.totalChecklistProgress).toBe(67);
+    expect(result.mainAppMvpProgress).toBe(50);
+    expect(result.projectControlCenterProgress).toBe(100);
   });
 
   it("calculates Codex and production readiness separately", async () => {
@@ -239,5 +256,7 @@ describe("scanRepository", () => {
 
     expect(result.progress.codexReadiness).toEqual({ completed: 1, total: 2, percent: 50 });
     expect(result.progress.productionReadiness).toEqual({ completed: 1, total: 1, percent: 100 });
+    expect(result.codexReadiness).toBe(50);
+    expect(result.productionReadiness).toBe(100);
   });
 });

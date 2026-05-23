@@ -4,6 +4,9 @@ import { loadProjectMap } from './projectMap';
 import type { ProjectMap, ProjectMapCheck } from './types';
 import type { ProgressMetric, ProgressRatio, ProgressSummary } from '../types/projectControlCenter.js';
 
+// Legacy implementation kept for auditability. The active scan pipeline calculates
+// progress in repoScanner.ts from project-map.json and writes .project/status.snapshot.json.
+
 interface CheckResult {
   readonly phaseId: string;
   readonly exists: boolean;

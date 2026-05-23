@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "scannedAt": "2026-05-23T07:52:29.047Z",
+  "scannedAt": "2026-05-23T08:26:28.314Z",
   "tree": {
     "name": ".",
     "path": ".",
@@ -330,18 +330,6 @@
         "excluded": false
       },
       {
-        "name": ".git",
-        "path": ".git",
-        "type": "directory",
-        "children": [],
-        "checkIds": [],
-        "missingCheckIds": [],
-        "existsInProjectMap": false,
-        "missingRequiredCheck": false,
-        "gitChanged": false,
-        "excluded": true
-      },
-      {
         "name": ".project",
         "path": ".project",
         "type": "directory",
@@ -404,7 +392,7 @@
             "missingCheckIds": [],
             "existsInProjectMap": false,
             "missingRequiredCheck": false,
-            "gitChanged": false,
+            "gitChanged": true,
             "excluded": false
           },
           {
@@ -428,7 +416,7 @@
             "missingCheckIds": [],
             "existsInProjectMap": false,
             "missingRequiredCheck": false,
-            "gitChanged": false,
+            "gitChanged": true,
             "excluded": false
           },
           {
@@ -450,7 +438,7 @@
         "missingCheckIds": [],
         "existsInProjectMap": true,
         "missingRequiredCheck": false,
-        "gitChanged": false,
+        "gitChanged": true,
         "excluded": false
       },
       {
@@ -1144,30 +1132,6 @@
             "type": "directory",
             "children": [
               {
-                "name": "dist",
-                "path": "tools/project-control-center/dist",
-                "type": "directory",
-                "children": [],
-                "checkIds": [],
-                "missingCheckIds": [],
-                "existsInProjectMap": false,
-                "missingRequiredCheck": false,
-                "gitChanged": false,
-                "excluded": true
-              },
-              {
-                "name": "node_modules",
-                "path": "tools/project-control-center/node_modules",
-                "type": "directory",
-                "children": [],
-                "checkIds": [],
-                "missingCheckIds": [],
-                "existsInProjectMap": false,
-                "missingRequiredCheck": false,
-                "gitChanged": false,
-                "excluded": true
-              },
-              {
                 "name": "src",
                 "path": "tools/project-control-center/src",
                 "type": "directory",
@@ -1186,7 +1150,7 @@
                         "missingCheckIds": [],
                         "existsInProjectMap": false,
                         "missingRequiredCheck": false,
-                        "gitChanged": false,
+                        "gitChanged": true,
                         "excluded": false
                       }
                     ],
@@ -1194,7 +1158,7 @@
                     "missingCheckIds": [],
                     "existsInProjectMap": false,
                     "missingRequiredCheck": false,
-                    "gitChanged": false,
+                    "gitChanged": true,
                     "excluded": false
                   },
                   {
@@ -1263,27 +1227,27 @@
                         "excluded": false
                       },
                       {
-                        "name": "historyLogger.ts",
-                        "path": "tools/project-control-center/src/core/historyLogger.ts",
+                        "name": "legacyHistoryLogger.ts",
+                        "path": "tools/project-control-center/src/core/legacyHistoryLogger.ts",
                         "type": "file",
                         "children": [],
                         "checkIds": [],
                         "missingCheckIds": [],
                         "existsInProjectMap": false,
                         "missingRequiredCheck": false,
-                        "gitChanged": false,
+                        "gitChanged": true,
                         "excluded": false
                       },
                       {
-                        "name": "progressCalculator.ts",
-                        "path": "tools/project-control-center/src/core/progressCalculator.ts",
+                        "name": "legacyProgressCalculator.ts",
+                        "path": "tools/project-control-center/src/core/legacyProgressCalculator.ts",
                         "type": "file",
                         "children": [],
                         "checkIds": [],
                         "missingCheckIds": [],
                         "existsInProjectMap": false,
                         "missingRequiredCheck": false,
-                        "gitChanged": false,
+                        "gitChanged": true,
                         "excluded": false
                       },
                       {
@@ -1307,7 +1271,7 @@
                         "missingCheckIds": [],
                         "existsInProjectMap": false,
                         "missingRequiredCheck": false,
-                        "gitChanged": false,
+                        "gitChanged": true,
                         "excluded": false
                       },
                       {
@@ -1367,7 +1331,7 @@
                         "missingCheckIds": [],
                         "existsInProjectMap": false,
                         "missingRequiredCheck": false,
-                        "gitChanged": false,
+                        "gitChanged": true,
                         "excluded": false
                       }
                     ],
@@ -1375,7 +1339,7 @@
                     "missingCheckIds": [],
                     "existsInProjectMap": false,
                     "missingRequiredCheck": false,
-                    "gitChanged": false,
+                    "gitChanged": true,
                     "excluded": false
                   },
                   {
@@ -1477,7 +1441,7 @@
                         "missingCheckIds": [],
                         "existsInProjectMap": false,
                         "missingRequiredCheck": false,
-                        "gitChanged": false,
+                        "gitChanged": true,
                         "excluded": false
                       },
                       {
@@ -1513,7 +1477,7 @@
                         "missingCheckIds": [],
                         "existsInProjectMap": false,
                         "missingRequiredCheck": false,
-                        "gitChanged": false,
+                        "gitChanged": true,
                         "excluded": false
                       },
                       {
@@ -1537,7 +1501,7 @@
                         "missingCheckIds": [],
                         "existsInProjectMap": false,
                         "missingRequiredCheck": false,
-                        "gitChanged": false,
+                        "gitChanged": true,
                         "excluded": false
                       }
                     ],
@@ -1545,7 +1509,7 @@
                     "missingCheckIds": [],
                     "existsInProjectMap": false,
                     "missingRequiredCheck": false,
-                    "gitChanged": false,
+                    "gitChanged": true,
                     "excluded": false
                   },
                   {
@@ -1796,7 +1760,7 @@
                 "missingCheckIds": [],
                 "existsInProjectMap": false,
                 "missingRequiredCheck": false,
-                "gitChanged": false,
+                "gitChanged": true,
                 "excluded": false
               },
               {
@@ -1974,7 +1938,7 @@
             "missingCheckIds": [],
             "existsInProjectMap": true,
             "missingRequiredCheck": false,
-            "gitChanged": false,
+            "gitChanged": true,
             "excluded": false
           }
         ],
@@ -1982,7 +1946,7 @@
         "missingCheckIds": [],
         "existsInProjectMap": false,
         "missingRequiredCheck": false,
-        "gitChanged": false,
+        "gitChanged": true,
         "excluded": false
       },
       {
@@ -2096,7 +2060,7 @@
     "missingCheckIds": [],
     "existsInProjectMap": false,
     "missingRequiredCheck": false,
-    "gitChanged": false,
+    "gitChanged": true,
     "excluded": false
   },
   "checks": [
@@ -2766,13 +2730,18 @@
       "percent": 13
     }
   },
+  "totalChecklistProgress": 16,
+  "mainAppMvpProgress": 12,
+  "projectControlCenterProgress": 100,
+  "codexReadiness": 100,
+  "productionReadiness": 13,
   "summary": {
     "schemaVersion": 1,
-    "scannedAt": "2026-05-23T07:52:29.047Z",
+    "scannedAt": "2026-05-23T08:26:28.314Z",
     "fileCount": 95,
     "directoryCount": 25,
     "existingCheckCount": 26,
     "missingCheckCount": 32,
-    "changedFileCount": 0
+    "changedFileCount": 12
   }
 }
