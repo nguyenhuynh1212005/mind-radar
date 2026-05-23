@@ -19,7 +19,7 @@ Hệ thống sử dụng phương pháp kiểm tra sự tồn tại của các f
 | **P3** | 15% | Event Tracker & Khôi phục trạng thái Local | `src/core/tracking/` (`EventTracker.ts`, `focusTracking.ts`, `eventValidation.ts`) |
 | **P4** | 10% | Test Orchestrator & Đăng ký Module | `src/core/orchestrator/` (`TestOrchestrator.ts`, `moduleRegistry.ts`, `stateMachine.ts`) |
 | **P5** | 15% | Scoring Engine & Các Adapters chấm điểm | `src/core/scoring/` (`ScoringEngine.ts`, `dataQuality.ts`, `normalization.ts`, `profileAggregator.ts`) |
-| **P6** | 15% | Phát triển các Modules MVP (M2, M3, M5, M9) | `src/modules/` (`m2-inhibitory-control`, `m3-working-memory`, `m5-procedural-reasoning`, `m9-metacognition`) |
+| **P6** | 15% | Phát triển 11 Modules Đánh giá | `src/modules/` (`m1-...`, `m2-...`, ...) |
 | **P7** | 10% | Báo cáo, Xuất dữ liệu, QA & Kiểm thử | `src/report/`, `src/export/`, `docs/projectStatus.md`, `docs/CHATBOT_HANDOFF.md` |
 
 > [!NOTE]
@@ -66,7 +66,6 @@ diemmanh/
         ├── controlCenterSpec.md             # Đặc tả tính năng của Control Center
         ├── projectMap.md                    # Hướng dẫn này (Mô hình tiến độ)
         ├── project-map.json                 # Cấu hình checklist dạng máy đọc (JSON)
-        └── CODEX_PROMPTS.md                 # Các mẫu câu lệnh tối ưu cho Codex
 ```
 
 ---
@@ -114,7 +113,6 @@ Dưới đây là các tài liệu cấu hình chi tiết của từng file thà
         "tools/project-control-center/controlCenterSpec.md",
         "tools/project-control-center/projectMap.md",
         "tools/project-control-center/project-map.json",
-        "tools/project-control-center/CODEX_PROMPTS.md",
         ".agents/skills/project-control-center-builder/SKILL.md"
       ]
     },
@@ -177,13 +175,20 @@ Dưới đây là các tài liệu cấu hình chi tiết của từng file thà
     },
     {
       "id": "P6",
-      "name": "MVP modules M2, M3, M5, M9",
+      "name": "All 11 assessment modules",
       "weight": 15,
       "checks": [
+        "src/modules/m1-fluid-reasoning",
         "src/modules/m2-inhibitory-control",
         "src/modules/m3-working-memory",
+        "src/modules/m4-spatial-reasoning",
         "src/modules/m5-procedural-reasoning",
-        "src/modules/m9-metacognition"
+        "src/modules/m6-cognitive-flexibility",
+        "src/modules/m7-fast-preference",
+        "src/modules/m8-risk-taking",
+        "src/modules/m9-metacognition",
+        "src/modules/m10-problem-solving",
+        "src/modules/m11-verbal-reasoning"
       ]
     },
     {
@@ -210,10 +215,17 @@ Dưới đây là các tài liệu cấu hình chi tiết của từng file thà
       "tools/project-control-center/controlCenterSpec.md"
     ],
     "productionReadinessChecks": [
+      "src/modules/m1-fluid-reasoning",
       "src/modules/m2-inhibitory-control",
       "src/modules/m3-working-memory",
+      "src/modules/m4-spatial-reasoning",
       "src/modules/m5-procedural-reasoning",
+      "src/modules/m6-cognitive-flexibility",
+      "src/modules/m7-fast-preference",
+      "src/modules/m8-risk-taking",
       "src/modules/m9-metacognition",
+      "src/modules/m10-problem-solving",
+      "src/modules/m11-verbal-reasoning",
       "src/core/scoring/ScoringEngine.ts",
       "src/export/exportJson.ts",
       "src/export/exportCsv.ts",

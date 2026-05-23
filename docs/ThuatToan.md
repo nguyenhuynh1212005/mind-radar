@@ -774,7 +774,7 @@ $$\text{Interference Cost} = 800 - 500 = 300\text{ms}$$
 ## 18. Tiêu chuẩn Đóng gói Phiên bản MVP (Definition of Done for MVP)
 
 Hệ thống được coi là hoàn thiện và sẵn sàng thử nghiệm diện rộng khi đạt đầy đủ các cột mốc:
-1. Có ít nhất **03 module** nhận thức vận hành hoàn chỉnh từ giao diện UI đến hệ thống chấm điểm backend (`M2`, `M3`, `M5`).
+1. Có đầy đủ **11 module** nhận thức vận hành hoàn chỉnh từ giao diện UI đến hệ thống chấm điểm backend (`M1` đến `M11`).
 2. Mọi lượt chơi đều được Event Tracker ghi nhận và khôi phục (Reconstruct) chính xác chuỗi hành vi từ nhật ký.
 3. Tách biệt hoàn toàn `Scoring Engine` khỏi mã nguồn Frontend để đảm bảo tính an toàn của thuật toán chấm điểm.
 4. Báo cáo kết quả hiển thị sinh động qua **Radar Chart đa trục**, không tồn tại điểm số tổng kết luận tuyệt đối.

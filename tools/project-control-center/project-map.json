@@ -179,13 +179,6 @@
           "required": true
         },
         {
-          "id": "p05-codex-prompts",
-          "labelVi": "Mau prompt Codex",
-          "path": "tools/project-control-center/CODEX_PROMPTS.md",
-          "type": "file",
-          "required": true
-        },
-        {
           "id": "p05-skill",
           "labelVi": "Skill Project Control Center",
           "path": ".agents/skills/project-control-center-builder/SKILL.md",
@@ -385,9 +378,16 @@
     },
     {
       "id": "P6",
-      "name": "MVP modules M2, M3, M5, M9",
+      "name": "All 11 assessment modules",
       "weight": 15,
       "checks": [
+        {
+          "id": "p6-m1-module",
+          "labelVi": "Module M1 fluid reasoning",
+          "path": "src/modules/m1-fluid-reasoning",
+          "type": "directory",
+          "required": true
+        },
         {
           "id": "p6-m2-module",
           "labelVi": "Module M2 inhibitory control",
@@ -403,6 +403,13 @@
           "required": true
         },
         {
+          "id": "p6-m4-module",
+          "labelVi": "Module M4 spatial reasoning",
+          "path": "src/modules/m4-spatial-reasoning",
+          "type": "directory",
+          "required": true
+        },
+        {
           "id": "p6-m5-module",
           "labelVi": "Module M5 procedural reasoning",
           "path": "src/modules/m5-procedural-reasoning",
@@ -410,9 +417,44 @@
           "required": true
         },
         {
+          "id": "p6-m6-module",
+          "labelVi": "Module M6 cognitive flexibility",
+          "path": "src/modules/m6-cognitive-flexibility",
+          "type": "directory",
+          "required": true
+        },
+        {
+          "id": "p6-m7-module",
+          "labelVi": "Module M7 fast preference",
+          "path": "src/modules/m7-fast-preference",
+          "type": "directory",
+          "required": true
+        },
+        {
+          "id": "p6-m8-module",
+          "labelVi": "Module M8 risk taking",
+          "path": "src/modules/m8-risk-taking",
+          "type": "directory",
+          "required": true
+        },
+        {
           "id": "p6-m9-module",
           "labelVi": "Module M9 metacognition",
           "path": "src/modules/m9-metacognition",
+          "type": "directory",
+          "required": true
+        },
+        {
+          "id": "p6-m10-module",
+          "labelVi": "Module M10 problem solving",
+          "path": "src/modules/m10-problem-solving",
+          "type": "directory",
+          "required": true
+        },
+        {
+          "id": "p6-m11-module",
+          "labelVi": "Module M11 verbal reasoning",
+          "path": "src/modules/m11-verbal-reasoning",
           "type": "directory",
           "required": true
         }
@@ -515,6 +557,13 @@
     ],
     "productionReadinessChecks": [
       {
+        "id": "production-m1-module",
+        "labelVi": "Module M1 fluid reasoning",
+        "path": "src/modules/m1-fluid-reasoning",
+        "type": "directory",
+        "required": true
+      },
+      {
         "id": "production-m2-module",
         "labelVi": "Module M2 inhibitory control",
         "path": "src/modules/m2-inhibitory-control",
@@ -529,6 +578,13 @@
         "required": true
       },
       {
+        "id": "production-m4-module",
+        "labelVi": "Module M4 spatial reasoning",
+        "path": "src/modules/m4-spatial-reasoning",
+        "type": "directory",
+        "required": true
+      },
+      {
         "id": "production-m5-module",
         "labelVi": "Module M5 procedural reasoning",
         "path": "src/modules/m5-procedural-reasoning",
@@ -536,9 +592,44 @@
         "required": true
       },
       {
+        "id": "production-m6-module",
+        "labelVi": "Module M6 cognitive flexibility",
+        "path": "src/modules/m6-cognitive-flexibility",
+        "type": "directory",
+        "required": true
+      },
+      {
+        "id": "production-m7-module",
+        "labelVi": "Module M7 fast preference",
+        "path": "src/modules/m7-fast-preference",
+        "type": "directory",
+        "required": true
+      },
+      {
+        "id": "production-m8-module",
+        "labelVi": "Module M8 risk taking",
+        "path": "src/modules/m8-risk-taking",
+        "type": "directory",
+        "required": true
+      },
+      {
         "id": "production-m9-module",
         "labelVi": "Module M9 metacognition",
         "path": "src/modules/m9-metacognition",
+        "type": "directory",
+        "required": true
+      },
+      {
+        "id": "production-m10-module",
+        "labelVi": "Module M10 problem solving",
+        "path": "src/modules/m10-problem-solving",
+        "type": "directory",
+        "required": true
+      },
+      {
+        "id": "production-m11-module",
+        "labelVi": "Module M11 verbal reasoning",
+        "path": "src/modules/m11-verbal-reasoning",
         "type": "directory",
         "required": true
       },

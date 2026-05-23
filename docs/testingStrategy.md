@@ -14,7 +14,11 @@ For every scoring adapter:
 - export JSON compatibility
 - export CSV compatibility
 
-## MVP test targets
+## Module test targets
+
+M1:
+- fluid reasoning accuracy
+- speeded reasoning accuracy
 
 M2:
 - Stroop interference cost
@@ -25,11 +29,36 @@ M3:
 - backward span
 - manipulation cost
 
+M4:
+- mental rotation accuracy
+- spatial assembly accuracy
+
 M5:
 - Kendall Tau distance
 - planning latency
 - revision count
 
+M6:
+- trials to rule discovery
+- perseverative errors
+- switch cost
+
+M7:
+- approach rate
+- category consistency
+
+M8:
+- explosion rate
+- ambiguity tolerance
+
 M9:
 - calibration bias
 - calibration error
+
+M10:
+- problem decomposition score
+- causal reasoning score
+
+M11:
+- verbal abstraction accuracy
+- inference accuracy

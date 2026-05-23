@@ -274,7 +274,6 @@ async function collectContextBundleEntries(repoRoot: string): Promise<ContextArt
     "README.md",
     "DESIGN.md",
     "tools/project-control-center/AGENTS.md",
-    "tools/project-control-center/CODEX_PROMPTS.md",
     "tools/project-control-center/controlCenterSpec.md",
     "tools/project-control-center/README.md",
     "tools/project-control-center/project-map.json",
