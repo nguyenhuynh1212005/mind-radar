@@ -1,0 +1,14 @@
+{
+  "name": "@diemmanh/mind-radar",
+  "version": "0.1.0",
+  "description": "Mind Radar - Interactive Cognitive-Behavioral Profile Assessment",
+  "private": true,
+  "scripts": {
+    "pcc:install": "npm install --prefix tools/project-control-center",
+    "pcc:dev": "npm run dev --prefix tools/project-control-center",
+    "pcc:scan": "npm run scan --prefix tools/project-control-center",
+    "pcc:test": "npm run test --prefix tools/project-control-center",
+    "pcc:build": "npm run build --prefix tools/project-control-center",
+    "pcc:export": "npm run export:context --prefix tools/project-control-center"
+  }
+}

@@ -100,6 +100,22 @@ All schemas must be versioned.
 Use explicit types; avoid `any` unless unavoidable.
 Prefer deterministic tests over visual-only validation.
 
+## Project Control Center (PCC) Integration
+
+To maintain progress visibility and consistent AI collaboration, the project utilizes the **Project Control Center (PCC)** developer tool located under `tools/project-control-center`.
+
+- **Machine-readable roadmap:** All development checklist checks, weights, and phase files are defined in `tools/project-control-center/project-map.json`.
+- **Dynamic Status Scanning:** Before claiming any task or module complete, developers or AI agents must run:
+  ```bash
+  npm run pcc:scan
+  ```
+  This command will scan the repository and update `docs/projectStatus.md`, `docs/CHATBOT_HANDOFF.md`, and `.project/status.snapshot.json` with the latest objective progress indicators.
+- **AI Handoffs:** To hand off context to another session or AI agent, use:
+  ```bash
+  npm run pcc:export
+  ```
+  This generates `.ai/context-bundle.md` containing all relevant, sanitized codebase context (excluding secrets, node_modules, build output, and binary files).
+
 ## Required checks before claiming done
 
 Run:

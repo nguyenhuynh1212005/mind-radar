@@ -1,6 +1,6 @@
 # AI Context Bundle
 
-Generated: 2026-05-23T09:19:00.431Z
+Generated: 2026-05-23T10:32:40.058Z
 
 # Copyable Prompts
 
@@ -8,16 +8,15 @@ Generated: 2026-05-23T09:19:00.431Z
 
 # Project Control Center
 
-- Thoi diem scan: 2026-05-23T09:19:00.416Z
+- Thoi diem scan: 2026-05-23T10:32:40.036Z
 - Nhanh Git: main
 - Trang thai: co thay doi
-- Check hien co: 26
-- Check thieu: 32
+- Check hien co: 27
+- Check thieu: 31
 
 ## Check thieu
 
 - p0-docs-codex-tasks: docs/CODEX_TASKS.md
-- p1-package-json: package.json
 - p1-tsconfig: tsconfig.json
 - p1-src: src
 - p1-tests: tests
@@ -51,31 +50,12 @@ Generated: 2026-05-23T09:19:00.431Z
 
 ## Tep thay doi
 
-- .ai/code-index.json
-- .ai/context-bundle.md
-- .project/git-history.snapshot.json
 - .project/scan-history.ndjson
 - .project/status.snapshot.json
-- docs/CHATBOT_HANDOFF.md
-- docs/projectStatus.md
-- tools/project-control-center/index.html
-- tools/project-control-center/package.json
-- tools/project-control-center/src/app.ts
-- tools/project-control-center/src/core/constants.ts
-- tools/project-control-center/src/core/contextExport.ts
-- tools/project-control-center/src/core/gitStatus.ts
-- tools/project-control-center/src/core/snapshots.ts
-- tools/project-control-center/src/server/routes.ts
-- tools/project-control-center/src/tests/contextExport.test.ts
-- tools/project-control-center/src/tests/snapshots.test.ts
-- tools/project-control-center/src/ui/LogsPanel.ts
-- tools/project-control-center/src/ui/RepoTreePanel.ts
-- tools/project-control-center/src/ui/StatusPanel.ts
-- tools/project-control-center/src/ui/i18n.ts
-- tools/project-control-center/src/ui/main.ts
-- tools/project-control-center/vite.config.ts
-- tools/project-control-center/src/cli/exportContext.ts
-- tools/project-control-center/src/cli/gitSummary.ts
+- AGENTS.md
+- GEMINI.md
+- README.md
+- package.json
 
 ## gitDiffReview
 
@@ -91,61 +71,24 @@ Nhanh: main
 
 ## Unstaged
 
-- .ai/code-index.json
-- .ai/context-bundle.md
-- .project/git-history.snapshot.json
 - .project/scan-history.ndjson
 - .project/status.snapshot.json
-- docs/CHATBOT_HANDOFF.md
-- docs/projectStatus.md
-- tools/project-control-center/index.html
-- tools/project-control-center/package.json
-- tools/project-control-center/src/app.ts
-- tools/project-control-center/src/core/constants.ts
-- tools/project-control-center/src/core/contextExport.ts
-- tools/project-control-center/src/core/gitStatus.ts
-- tools/project-control-center/src/core/snapshots.ts
-- tools/project-control-center/src/server/routes.ts
-- tools/project-control-center/src/tests/contextExport.test.ts
-- tools/project-control-center/src/tests/snapshots.test.ts
-- tools/project-control-center/src/ui/LogsPanel.ts
-- tools/project-control-center/src/ui/RepoTreePanel.ts
-- tools/project-control-center/src/ui/StatusPanel.ts
-- tools/project-control-center/src/ui/i18n.ts
-- tools/project-control-center/src/ui/main.ts
-- tools/project-control-center/vite.config.ts
+- AGENTS.md
+- GEMINI.md
+- README.md
 
 ## Untracked
 
-- tools/project-control-center/src/cli/exportContext.ts
-- tools/project-control-center/src/cli/gitSummary.ts
+- package.json
 
 ## Diff summary
 
--  .ai/code-index.json                                |  608 ++++-
--  .ai/context-bundle.md                              | 2850 +++++++++++++++++++-
--  .project/git-history.snapshot.json                 |  126 +-
--  .project/scan-history.ndjson                       |    8 +
--  .project/status.snapshot.json                      |   90 +-
--  docs/CHATBOT_HANDOFF.md                            |  116 +-
--  docs/projectStatus.md                              |  140 +-
--  tools/project-control-center/index.html            |    1 +
--  tools/project-control-center/package.json          |    4 +-
--  tools/project-control-center/src/app.ts            |   10 +-
--  tools/project-control-center/src/core/constants.ts |    3 +
--  .../src/core/contextExport.ts                      |  333 ++-
--  tools/project-control-center/src/core/gitStatus.ts |   43 +-
--  tools/project-control-center/src/core/snapshots.ts |    8 +-
--  tools/project-control-center/src/server/routes.ts  |   28 +-
--  .../src/tests/contextExport.test.ts                |   55 +-
--  .../src/tests/snapshots.test.ts                    |   25 +-
--  tools/project-control-center/src/ui/LogsPanel.ts   |   29 +-
--  .../project-control-center/src/ui/RepoTreePanel.ts |   15 +-
--  tools/project-control-center/src/ui/StatusPanel.ts |   20 +-
--  tools/project-control-center/src/ui/i18n.ts        |  119 +-
--  tools/project-control-center/src/ui/main.ts        |   70 +-
--  tools/project-control-center/vite.config.ts        |   12 +
--  23 files changed, 4413 insertions(+), 300 deletions(-)
+-  .project/scan-history.ndjson  |   2 +
+-  .project/status.snapshot.json | 108 +++++++++++++++++++++---------------------
+-  AGENTS.md                     |  16 +++++++
+-  GEMINI.md                     |   1 +
+-  README.md                     |  27 +++++++++++
+-  5 files changed, 99 insertions(+), 55 deletions(-)
 
 ## nextCodexPrompt
 
@@ -157,7 +100,6 @@ Use project-map.json as the only machine-readable progress source.
 ## Priority missing checks
 
 - p0-docs-codex-tasks: docs/CODEX_TASKS.md
-- p1-package-json: package.json
 - p1-tsconfig: tsconfig.json
 - p1-src: src
 - p1-tests: tests
@@ -166,6 +108,7 @@ Use project-map.json as the only machine-readable progress source.
 - p2-events-contract: src/core/contracts/events.ts
 - p2-scoring-contract: src/core/contracts/scoring.ts
 - p2-report-contract: src/core/contracts/report.ts
+- p3-tracking-root: src/core/tracking
 
 ## architectureContext
 
@@ -183,31 +126,12 @@ AI exports live in .ai/.
 
 ## Tep thay doi
 
-- .ai/code-index.json
-- .ai/context-bundle.md
-- .project/git-history.snapshot.json
 - .project/scan-history.ndjson
 - .project/status.snapshot.json
-- docs/CHATBOT_HANDOFF.md
-- docs/projectStatus.md
-- tools/project-control-center/index.html
-- tools/project-control-center/package.json
-- tools/project-control-center/src/app.ts
-- tools/project-control-center/src/core/constants.ts
-- tools/project-control-center/src/core/contextExport.ts
-- tools/project-control-center/src/core/gitStatus.ts
-- tools/project-control-center/src/core/snapshots.ts
-- tools/project-control-center/src/server/routes.ts
-- tools/project-control-center/src/tests/contextExport.test.ts
-- tools/project-control-center/src/tests/snapshots.test.ts
-- tools/project-control-center/src/ui/LogsPanel.ts
-- tools/project-control-center/src/ui/RepoTreePanel.ts
-- tools/project-control-center/src/ui/StatusPanel.ts
-- tools/project-control-center/src/ui/i18n.ts
-- tools/project-control-center/src/ui/main.ts
-- tools/project-control-center/vite.config.ts
-- tools/project-control-center/src/cli/exportContext.ts
-- tools/project-control-center/src/cli/gitSummary.ts
+- AGENTS.md
+- GEMINI.md
+- README.md
+- package.json
 
 # Allowlisted Project Context
 
@@ -314,6 +238,22 @@ All scoring adapters must have unit tests.
 All schemas must be versioned.
 Use explicit types; avoid `any` unless unavoidable.
 Prefer deterministic tests over visual-only validation.
+
+## Project Control Center (PCC) Integration
+
+To maintain progress visibility and consistent AI collaboration, the project utilizes the **Project Control Center (PCC)** developer tool located under `tools/project-control-center`.
+
+- **Machine-readable roadmap:** All development checklist checks, weights, and phase files are defined in `tools/project-control-center/project-map.json`.
+- **Dynamic Status Scanning:** Before claiming any task or module complete, developers or AI agents must run:
+  ```bash
+  npm run pcc:scan
+  ```
+  This command will scan the repository and update `docs/projectStatus.md`, `docs/CHATBOT_HANDOFF.md`, and `.project/status.snapshot.json` with the latest objective progress indicators.
+- **AI Handoffs:** To hand off context to another session or AI agent, use:
+  ```bash
+  npm run pcc:export
+  ```
+  This generates `.ai/context-bundle.md` containing all relevant, sanitized codebase context (excluding secrets, node_modules, build output, and binary files).
 
 ## Required checks before claiming done
 
@@ -501,6 +441,7 @@ This application is a clinical cognitive-behavioral assessment tool. The UI must
 - [Giới thiệu & Triết lý cốt lõi](#-giới-thiệu--triết-lý-cốt-lõi)
 - [Kiến trúc Agent-First](#-kiến-trúc-agent-first-agentsmd--geminimd)
 - [Design System & Zero Cognitive Load](#-design-system--zero-cognitive-load-designmd)
+- [Project Control Center (PCC)](#-project-control-center-pcc-toolsproject-control-center)
 - [Bản đồ Hệ thống Modules Đánh giá](#-bản-đồ-hệ-thống-modules-đánh-giá)
 - [Khởi chạy Dự án (Getting Started)](#-khởi-chạy-dự-án-getting-started)
 - [Quy chuẩn Phát triển (Definition of Done)](#-quy-chuẩn-phát-triển-definition-of-done)
@@ -566,6 +507,32 @@ Tham khảo tài liệu hệ thống thiết kế chi tiết tại **[DESIGN.md]
 - **Bảng màu Clinical & High-Focus:** Chỉ sử dụng màu nền Canvas trắng (`#ffffff`) hoặc Surface xám nhạt (`#f7f7f7`) trong suốt quá trình làm bài test để giữ sự tập trung tối đa.
 - **Font chữ Monospace cho Số liệu:** Toàn bộ các thông số thay đổi liên tục (mili-giây, điểm số, đồng hồ đếm ngược) bắt buộc phải sử dụng font chữ Monospace (`JetBrains Mono` hoặc `Geist Mono`) nhằm ngăn chặn hiện tượng UI bị giật (layout shift).
 - **Hình học nghiêm túc:** Nút bấm và các thẻ sử dụng bo góc vừa phải (`rounded.md` - 8px), tuyệt đối không dùng thiết kế dạng kẹo dẻo hay viên thuốc (pill) để duy trì tính chuyên nghiệp, học thuật.
+
+---
+
+## ⬢ Project Control Center (PCC) (`tools/project-control-center`)
+
+**Project Control Center (PCC)** là một bộ công cụ dashboard và CLI chuyên biệt dành cho nhà phát triển để theo dõi tiến độ hoàn thành MVP, giám sát trạng thái Git, xuất ngữ cảnh làm việc cho AI (Codex/Gemini), và đồng bộ các tài liệu trạng thái dự án một cách tự động và nhất quán.
+
+Chi tiết về đặc tả kỹ thuật và kiến trúc của công cụ này có thể xem tại **[controlCenterSpec.md](tools/project-control-center/controlCenterSpec.md)**.
+
+### Các Tính năng cốt lõi:
+- **Đo lường tiến độ MVP tự động:** Phân tích cấu trúc thư mục thực tế của repository và đối chiếu với bản đồ kiểm soát tiến độ `project-map.json` để tính toán chính xác phần trăm hoàn thành theo trọng số.
+- **Đồng bộ hóa Tài liệu tiến độ:** Tự động tạo và cập nhật các file [projectStatus.md](docs/projectStatus.md) và [CHATBOT_HANDOFF.md](docs/CHATBOT_HANDOFF.md) mỗi khi thực hiện quét (scan) dự án.
+- **Xuất Ngữ cảnh AI an toàn (Context Exporters):** Tạo file bundle mã nguồn `.ai/context-bundle.md` và `.ai/code-index.json` loại bỏ hoàn toàn các file nhạy cảm (`.env`, `node_modules`, các file build, và file nhị phân) để phục vụ việc nạp ngữ cảnh nhanh cho AI.
+- **Giao diện Dashboard trực quan:** Cung cấp giao diện web cục bộ hiện đại giúp theo dõi trực quan và copy nhanh các mẫu prompt huấn luyện Codex/AI.
+
+### Khởi chạy PCC nhanh từ Thư mục gốc (Root Proxy Commands):
+Hệ thống đã tích hợp sẵn các script proxy tại file cấu hình thư mục gốc `package.json` để chạy nhanh công cụ:
+
+| Lệnh tại Root | Tác dụng |
+| :--- | :--- |
+| `npm run pcc:install` | Cài đặt các thư viện phụ thuộc của PCC |
+| `npm run pcc:scan` | Thực hiện quét toàn bộ repo và cập nhật các tài liệu báo cáo tiến độ |
+| `npm run pcc:dev` | Khởi chạy máy chủ giao diện Dashboard cục bộ tại `http://127.0.0.1:5174` |
+| `npm run pcc:test` | Khởi chạy bộ unit test tự động xác thực công cụ PCC |
+| `npm run pcc:build` | Xây dựng phiên bản build tĩnh của Dashboard |
+| `npm run pcc:export` | Xuất nhanh file context bundle `.ai/context-bundle.md` |
 
 ---
 
@@ -690,14 +657,14 @@ Module -> Orchestrator -> Profile Aggregator -> Report
 ```
 # Chatbot Handoff
 
-Generated: 2026-05-23T09:11:38.273Z
-Scan: 2026-05-23T09:11:38.256Z
+Generated: 2026-05-23T09:19:00.431Z
+Scan: 2026-05-23T09:19:00.416Z
 Git branch: main
 
 ## Handoff Prompt
 # Project Control Center
 
-- Thoi diem scan: 2026-05-23T09:11:38.256Z
+- Thoi diem scan: 2026-05-23T09:19:00.416Z
 - Nhanh Git: main
 - Trang thai: co thay doi
 - Check hien co: 26
@@ -1684,8 +1651,8 @@ Build a working assessment platform skeleton with 3 validated modules:
 ```
 # Project Status
 
-Generated: 2026-05-23T09:11:38.273Z
-Scan: 2026-05-23T09:11:38.256Z
+Generated: 2026-05-23T09:19:00.431Z
+Scan: 2026-05-23T09:19:00.416Z
 Git branch: main
 Git clean: no
 

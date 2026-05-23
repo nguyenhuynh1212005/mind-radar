@@ -1,22 +1,21 @@
 # Chatbot Handoff
 
-Generated: 2026-05-23T09:19:00.431Z
-Scan: 2026-05-23T09:19:00.416Z
+Generated: 2026-05-23T10:32:40.058Z
+Scan: 2026-05-23T10:32:40.036Z
 Git branch: main
 
 ## Handoff Prompt
 # Project Control Center
 
-- Thoi diem scan: 2026-05-23T09:19:00.416Z
+- Thoi diem scan: 2026-05-23T10:32:40.036Z
 - Nhanh Git: main
 - Trang thai: co thay doi
-- Check hien co: 26
-- Check thieu: 32
+- Check hien co: 27
+- Check thieu: 31
 
 ## Check thieu
 
 - p0-docs-codex-tasks: docs/CODEX_TASKS.md
-- p1-package-json: package.json
 - p1-tsconfig: tsconfig.json
 - p1-src: src
 - p1-tests: tests
@@ -50,31 +49,12 @@ Git branch: main
 
 ## Tep thay doi
 
-- .ai/code-index.json
-- .ai/context-bundle.md
-- .project/git-history.snapshot.json
 - .project/scan-history.ndjson
 - .project/status.snapshot.json
-- docs/CHATBOT_HANDOFF.md
-- docs/projectStatus.md
-- tools/project-control-center/index.html
-- tools/project-control-center/package.json
-- tools/project-control-center/src/app.ts
-- tools/project-control-center/src/core/constants.ts
-- tools/project-control-center/src/core/contextExport.ts
-- tools/project-control-center/src/core/gitStatus.ts
-- tools/project-control-center/src/core/snapshots.ts
-- tools/project-control-center/src/server/routes.ts
-- tools/project-control-center/src/tests/contextExport.test.ts
-- tools/project-control-center/src/tests/snapshots.test.ts
-- tools/project-control-center/src/ui/LogsPanel.ts
-- tools/project-control-center/src/ui/RepoTreePanel.ts
-- tools/project-control-center/src/ui/StatusPanel.ts
-- tools/project-control-center/src/ui/i18n.ts
-- tools/project-control-center/src/ui/main.ts
-- tools/project-control-center/vite.config.ts
-- tools/project-control-center/src/cli/exportContext.ts
-- tools/project-control-center/src/cli/gitSummary.ts
+- AGENTS.md
+- GEMINI.md
+- README.md
+- package.json
 
 ## Next Codex Prompt
 Use the project-control-center-builder skill.
@@ -85,7 +65,6 @@ Use project-map.json as the only machine-readable progress source.
 ## Priority missing checks
 
 - p0-docs-codex-tasks: docs/CODEX_TASKS.md
-- p1-package-json: package.json
 - p1-tsconfig: tsconfig.json
 - p1-src: src
 - p1-tests: tests
@@ -94,3 +73,4 @@ Use project-map.json as the only machine-readable progress source.
 - p2-events-contract: src/core/contracts/events.ts
 - p2-scoring-contract: src/core/contracts/scoring.ts
 - p2-report-contract: src/core/contracts/report.ts
+- p3-tracking-root: src/core/tracking

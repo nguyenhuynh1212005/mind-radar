@@ -15,6 +15,7 @@
 - [Giới thiệu & Triết lý cốt lõi](#-giới-thiệu--triết-lý-cốt-lõi)
 - [Kiến trúc Agent-First](#-kiến-trúc-agent-first-agentsmd--geminimd)
 - [Design System & Zero Cognitive Load](#-design-system--zero-cognitive-load-designmd)
+- [Project Control Center (PCC)](#-project-control-center-pcc-toolsproject-control-center)
 - [Bản đồ Hệ thống Modules Đánh giá](#-bản-đồ-hệ-thống-modules-đánh-giá)
 - [Khởi chạy Dự án (Getting Started)](#-khởi-chạy-dự-án-getting-started)
 - [Quy chuẩn Phát triển (Definition of Done)](#-quy-chuẩn-phát-triển-definition-of-done)
@@ -80,6 +81,32 @@ Tham khảo tài liệu hệ thống thiết kế chi tiết tại **[DESIGN.md]
 - **Bảng màu Clinical & High-Focus:** Chỉ sử dụng màu nền Canvas trắng (`#ffffff`) hoặc Surface xám nhạt (`#f7f7f7`) trong suốt quá trình làm bài test để giữ sự tập trung tối đa.
 - **Font chữ Monospace cho Số liệu:** Toàn bộ các thông số thay đổi liên tục (mili-giây, điểm số, đồng hồ đếm ngược) bắt buộc phải sử dụng font chữ Monospace (`JetBrains Mono` hoặc `Geist Mono`) nhằm ngăn chặn hiện tượng UI bị giật (layout shift).
 - **Hình học nghiêm túc:** Nút bấm và các thẻ sử dụng bo góc vừa phải (`rounded.md` - 8px), tuyệt đối không dùng thiết kế dạng kẹo dẻo hay viên thuốc (pill) để duy trì tính chuyên nghiệp, học thuật.
+
+---
+
+## ⬢ Project Control Center (PCC) (`tools/project-control-center`)
+
+**Project Control Center (PCC)** là một bộ công cụ dashboard và CLI chuyên biệt dành cho nhà phát triển để theo dõi tiến độ hoàn thành MVP, giám sát trạng thái Git, xuất ngữ cảnh làm việc cho AI (Codex/Gemini), và đồng bộ các tài liệu trạng thái dự án một cách tự động và nhất quán.
+
+Chi tiết về đặc tả kỹ thuật và kiến trúc của công cụ này có thể xem tại **[controlCenterSpec.md](tools/project-control-center/controlCenterSpec.md)**.
+
+### Các Tính năng cốt lõi:
+- **Đo lường tiến độ MVP tự động:** Phân tích cấu trúc thư mục thực tế của repository và đối chiếu với bản đồ kiểm soát tiến độ `project-map.json` để tính toán chính xác phần trăm hoàn thành theo trọng số.
+- **Đồng bộ hóa Tài liệu tiến độ:** Tự động tạo và cập nhật các file [projectStatus.md](docs/projectStatus.md) và [CHATBOT_HANDOFF.md](docs/CHATBOT_HANDOFF.md) mỗi khi thực hiện quét (scan) dự án.
+- **Xuất Ngữ cảnh AI an toàn (Context Exporters):** Tạo file bundle mã nguồn `.ai/context-bundle.md` và `.ai/code-index.json` loại bỏ hoàn toàn các file nhạy cảm (`.env`, `node_modules`, các file build, và file nhị phân) để phục vụ việc nạp ngữ cảnh nhanh cho AI.
+- **Giao diện Dashboard trực quan:** Cung cấp giao diện web cục bộ hiện đại giúp theo dõi trực quan và copy nhanh các mẫu prompt huấn luyện Codex/AI.
+
+### Khởi chạy PCC nhanh từ Thư mục gốc (Root Proxy Commands):
+Hệ thống đã tích hợp sẵn các script proxy tại file cấu hình thư mục gốc `package.json` để chạy nhanh công cụ:
+
+| Lệnh tại Root | Tác dụng |
+| :--- | :--- |
+| `npm run pcc:install` | Cài đặt các thư viện phụ thuộc của PCC |
+| `npm run pcc:scan` | Thực hiện quét toàn bộ repo và cập nhật các tài liệu báo cáo tiến độ |
+| `npm run pcc:dev` | Khởi chạy máy chủ giao diện Dashboard cục bộ tại `http://127.0.0.1:5174` |
+| `npm run pcc:test` | Khởi chạy bộ unit test tự động xác thực công cụ PCC |
+| `npm run pcc:build` | Xây dựng phiên bản build tĩnh của Dashboard |
+| `npm run pcc:export` | Xuất nhanh file context bundle `.ai/context-bundle.md` |
 
 ---
 
