@@ -1,13 +1,13 @@
 # Chatbot Handoff
 
-Generated: 2026-05-23T10:52:26.716Z
-Scan: 2026-05-23T10:52:26.699Z
+Generated: 2026-05-23T11:08:56.674Z
+Scan: 2026-05-23T11:08:56.647Z
 Git branch: main
 
 ## Handoff Prompt
 # Project Control Center
 
-- Thoi diem scan: 2026-05-23T10:52:26.699Z
+- Thoi diem scan: 2026-05-23T11:08:56.647Z
 - Nhanh Git: main
 - Trang thai: co thay doi
 - Check hien co: 27
@@ -56,9 +56,6 @@ Git branch: main
 - .project/status.snapshot.json
 - docs/CHATBOT_HANDOFF.md
 - docs/projectStatus.md
-- tools/project-control-center/src/styles.css
-- tools/project-control-center/src/ui/AiContextExportPanel.ts
-- tools/project-control-center/src/ui/i18n.ts
 
 ## Next Codex Prompt
 Use the project-control-center-builder skill.

@@ -1,6 +1,6 @@
 # AI Context Bundle
 
-Generated: 2026-05-23T10:52:26.716Z
+Generated: 2026-05-23T11:08:56.674Z
 
 # Copyable Prompts
 
@@ -8,7 +8,7 @@ Generated: 2026-05-23T10:52:26.716Z
 
 # Project Control Center
 
-- Thoi diem scan: 2026-05-23T10:52:26.699Z
+- Thoi diem scan: 2026-05-23T11:08:56.647Z
 - Nhanh Git: main
 - Trang thai: co thay doi
 - Check hien co: 27
@@ -57,9 +57,6 @@ Generated: 2026-05-23T10:52:26.716Z
 - .project/status.snapshot.json
 - docs/CHATBOT_HANDOFF.md
 - docs/projectStatus.md
-- tools/project-control-center/src/styles.css
-- tools/project-control-center/src/ui/AiContextExportPanel.ts
-- tools/project-control-center/src/ui/i18n.ts
 
 ## gitDiffReview
 
@@ -71,6 +68,10 @@ Nhanh: main
 
 ## Staged
 
+- Khong co
+
+## Unstaged
+
 - .ai/code-index.json
 - .ai/context-bundle.md
 - .project/git-history.snapshot.json
@@ -79,36 +80,20 @@ Nhanh: main
 - docs/CHATBOT_HANDOFF.md
 - docs/projectStatus.md
 
-## Unstaged
-
-- .project/git-history.snapshot.json
-- .project/scan-history.ndjson
-- .project/status.snapshot.json
-- tools/project-control-center/src/styles.css
-- tools/project-control-center/src/ui/AiContextExportPanel.ts
-- tools/project-control-center/src/ui/i18n.ts
-
 ## Untracked
 
 - Khong co
 
 ## Diff summary
 
--  .ai/code-index.json                |   2 +-
--  .ai/context-bundle.md              |  86 +++++++++++++-----------------
--  .project/git-history.snapshot.json | 105 +++++++++----------------------------
--  .project/scan-history.ndjson       |  27 ++++++++++
--  .project/status.snapshot.json      |  28 +++++-----
--  docs/CHATBOT_HANDOFF.md            |  15 +++---
--  docs/projectStatus.md              |   4 +-
--  7 files changed, 114 insertions(+), 153 deletions(-)
--  .project/git-history.snapshot.json                 | 27 ++++++--
--  .project/scan-history.ndjson                       |  3 +
--  .project/status.snapshot.json                      | 20 +++---
--  tools/project-control-center/src/styles.css        | 77 ++++++++++++++++++++++
--  .../src/ui/AiContextExportPanel.ts                 | 53 +++++++++++++--
--  tools/project-control-center/src/ui/i18n.ts        | 10 +++
--  6 files changed, 168 insertions(+), 22 deletions(-)
+-  .ai/code-index.json                |  2 +-
+-  .ai/context-bundle.md              | 56 +++++++++++++-------------------------
+-  .project/git-history.snapshot.json | 53 +++++++++++++-----------------------
+-  .project/scan-history.ndjson       | 12 ++++++++
+-  .project/status.snapshot.json      | 20 +++++++-------
+-  docs/CHATBOT_HANDOFF.md            |  9 ++----
+-  docs/projectStatus.md              |  4 +--
+-  7 files changed, 66 insertions(+), 90 deletions(-)
 
 ## nextCodexPrompt
 
@@ -153,9 +138,6 @@ AI exports live in .ai/.
 - .project/status.snapshot.json
 - docs/CHATBOT_HANDOFF.md
 - docs/projectStatus.md
-- tools/project-control-center/src/styles.css
-- tools/project-control-center/src/ui/AiContextExportPanel.ts
-- tools/project-control-center/src/ui/i18n.ts
 
 # Allowlisted Project Context
 
@@ -681,14 +663,14 @@ Module -> Orchestrator -> Profile Aggregator -> Report
 ```
 # Chatbot Handoff
 
-Generated: 2026-05-23T10:38:53.780Z
-Scan: 2026-05-23T10:38:53.749Z
+Generated: 2026-05-23T11:08:56.169Z
+Scan: 2026-05-23T11:08:56.141Z
 Git branch: main
 
 ## Handoff Prompt
 # Project Control Center
 
-- Thoi diem scan: 2026-05-23T10:38:53.749Z
+- Thoi diem scan: 2026-05-23T11:08:56.141Z
 - Nhanh Git: main
 - Trang thai: co thay doi
 - Check hien co: 27
@@ -1656,8 +1638,8 @@ Build a working assessment platform skeleton with 3 validated modules:
 ```
 # Project Status
 
-Generated: 2026-05-23T10:38:53.780Z
-Scan: 2026-05-23T10:38:53.749Z
+Generated: 2026-05-23T11:08:56.169Z
+Scan: 2026-05-23T11:08:56.141Z
 Git branch: main
 Git clean: no
 

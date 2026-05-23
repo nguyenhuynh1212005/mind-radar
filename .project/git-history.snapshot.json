@@ -1,9 +1,10 @@
 {
   "schemaVersion": 1,
-  "capturedAt": "2026-05-23T10:51:06.648Z",
+  "capturedAt": "2026-05-23T11:08:56.630Z",
   "branch": "main",
   "isClean": false,
-  "stagedFiles": [
+  "stagedFiles": [],
+  "unstagedFiles": [
     ".ai/code-index.json",
     ".ai/context-bundle.md",
     ".project/git-history.snapshot.json",
@@ -11,13 +12,6 @@
     ".project/status.snapshot.json",
     "docs/CHATBOT_HANDOFF.md",
     "docs/projectStatus.md"
-  ],
-  "unstagedFiles": [
-    ".project/scan-history.ndjson",
-    ".project/status.snapshot.json",
-    "tools/project-control-center/src/styles.css",
-    "tools/project-control-center/src/ui/AiContextExportPanel.ts",
-    "tools/project-control-center/src/ui/i18n.ts"
   ],
   "untrackedFiles": [],
   "changedFiles": [
@@ -27,12 +21,16 @@
     ".project/scan-history.ndjson",
     ".project/status.snapshot.json",
     "docs/CHATBOT_HANDOFF.md",
-    "docs/projectStatus.md",
-    "tools/project-control-center/src/styles.css",
-    "tools/project-control-center/src/ui/AiContextExportPanel.ts",
-    "tools/project-control-center/src/ui/i18n.ts"
+    "docs/projectStatus.md"
   ],
   "lastCommits": [
+    {
+      "hash": "f9cdf4087a099c696d9531b46a9ea8fc5f9a3272",
+      "shortHash": "f9cdf40",
+      "author": "nguyenhuynh1212005",
+      "date": "2026-05-23T17:52:59+07:00",
+      "subject": "style(pcc): remove emojis and streamline AI export panel UI into compact layout"
+    },
     {
       "hash": "8cf489894a46f59908bea618a71a53c134e5d036",
       "shortHash": "8cf4898",
@@ -60,29 +58,16 @@
       "author": "nguyenhuynh1212005",
       "date": "2026-05-23T15:09:32+07:00",
       "subject": "chore: initialize project scan metadata and history files"
-    },
-    {
-      "hash": "fcc870aef64d5b038ace281c347cfdd1d589a2fa",
-      "shortHash": "fcc870a",
-      "author": "nguyenhuynh1212005",
-      "date": "2026-05-22T22:01:56+07:00",
-      "subject": "feat: initialize project control center tool (step 3/6) with repository scanning, git monitoring, and context management capabilities"
     }
   ],
   "diffSummary": [
-    " .ai/code-index.json                |   2 +-",
-    " .ai/context-bundle.md              |  86 +++++++++++++-----------------",
-    " .project/git-history.snapshot.json | 105 +++++++++----------------------------",
-    " .project/scan-history.ndjson       |  27 ++++++++++",
-    " .project/status.snapshot.json      |  28 +++++-----",
-    " docs/CHATBOT_HANDOFF.md            |  15 +++---",
-    " docs/projectStatus.md              |   4 +-",
-    " 7 files changed, 114 insertions(+), 153 deletions(-)",
-    " .project/scan-history.ndjson                       |  1 +",
-    " .project/status.snapshot.json                      | 20 +++---",
-    " tools/project-control-center/src/styles.css        | 82 ++++++++++++++++++++++",
-    " .../src/ui/AiContextExportPanel.ts                 | 62 ++++++++++++++--",
-    " tools/project-control-center/src/ui/i18n.ts        | 10 +++",
-    " 5 files changed, 159 insertions(+), 16 deletions(-)"
+    " .ai/code-index.json                |  2 +-",
+    " .ai/context-bundle.md              | 56 +++++++++++++-------------------------",
+    " .project/git-history.snapshot.json | 53 +++++++++++++-----------------------",
+    " .project/scan-history.ndjson       | 12 ++++++++",
+    " .project/status.snapshot.json      | 20 +++++++-------",
+    " docs/CHATBOT_HANDOFF.md            |  9 ++----",
+    " docs/projectStatus.md              |  4 +--",
+    " 7 files changed, 66 insertions(+), 90 deletions(-)"
   ]
 }
